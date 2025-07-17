@@ -9,26 +9,48 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const counters = document.querySelectorAll(".countNumber");
-    counters.forEach(counter => {
-      const target = parseInt(counter.innerText.replace(/[^\d]/g, ""), 10);
-      const start = target > 100 ? Math.floor(target / 3) : 0;
-      let count = start;
-      const duration = 2000;
-      const steps = target - start;
-      const stepTime = Math.max(Math.floor(duration / steps), 10);
-      const updateCount = () => {
-        count += 50;
-        counter.innerText = count;
-        if (count < target) {
-          setTimeout(updateCount, stepTime);
-        } else {
-          counter.innerText = target;
+    const countupContainer = document.querySelector(".number_countup");
+    let counted = false;
+
+    function isInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom >= 0;
+    }
+
+    function animateCount(el, target) {
+      let start = 0;
+      let duration = 2000; // 2 seconds
+      let startTime = null;
+
+      function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const progress = timestamp - startTime;
+        const current = Math.min(Math.floor(progress / duration * target), target);
+        el.innerText = current.toLocaleString();
+
+        if (current < target) {
+          requestAnimationFrame(step);
         }
-      };
-      updateCount();
-    });
+      }
+
+      requestAnimationFrame(step);
+    }
+
+    function startCountUp() {
+      if (!counted && isInViewport(countupContainer)) {
+        counters.forEach(counter => {
+          const target = parseInt(counter.innerText.replace(/[^0-9]/g, ""));
+          animateCount(counter, target);
+        });
+        counted = true;
+      }
+    }
+
+    window.addEventListener("scroll", startCountUp);
+    startCountUp(); // In case it's already in view on load
   });
 </script>
+
 
 {%- style -%}
   .number_countup.countup_{{ section.id }}{{ block.id }} {
