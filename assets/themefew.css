@@ -85,7 +85,7 @@ nav.header__inline-menu {
   .multirow button.shopify-payment-button__button--unbranded {
     min-width: unset !important;
     min-height: unset !important;
-    max-width: 350px;
+    max-width: 440px;
     width: 100%;
     line-height: 40px !important;
   } 
