@@ -758,12 +758,23 @@
         "row_ce4Eyx": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/f.png",
+            "image": "shopify://shop_images/imgi_50_3DHoodie.gif",
             "caption": "",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "✦ 3D Products",
+            "text": "<p>Enhance your product visuals with 3D images. Perfect for showcasing your items or promoting new releases on social media, we can create detailed 3D images of hoodies, tees, crewnecks, box covers, bottles, and more. <br/><br/>Expect delivery within 2-3 business days.</p>",
+            "button_label": "Place An Order",
+            "button_link": "#"
+          }
+        },
+        "row_pLiArx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/d.gif",
+            "caption": "",
+            "heading": "✦ 3D Logos",
+            "text": "<p>Need something unique? If our themes aren't quite right, we can build your Shopify site from scratch. Turnaround times vary depending on the project, ensuring we meet your specific needs.</p>",
+            "button_label": "Place An Order",
+            "button_link": "#"
           }
         }
       },
@@ -771,7 +782,8 @@
         "row_YjLU93",
         "row_ffiNx6",
         "row_YY6jqk",
-        "row_ce4Eyx"
+        "row_ce4Eyx",
+        "row_pLiArx"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -786,102 +798,6 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "row_color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_gLx84p": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Y9giwF": {
-          "type": "heading",
-          "settings": {
-            "heading": "✦ Custom Development",
-            "heading_size": "h0"
-          }
-        },
-        "text_MVReaK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Need something unique? If our themes aren't quite right, we can build your Shopify site from scratch. Turnaround times vary depending on the project, ensuring we meet your specific needs.</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_dNENAJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "How it works",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Y9giwF",
-        "text_MVReaK",
-        "button_dNENAJ"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_6U6Cne": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_iqAPTN": {
-          "type": "heading",
-          "settings": {
-            "heading": "✦ 3D Logos",
-            "heading_size": "h0"
-          }
-        },
-        "text_TCyVMd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Need something unique? If our themes aren't quite right, we can build your Shopify site from scratch. Turnaround times vary depending on the project, ensuring we meet your specific needs.</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_EKHBHi": {
-          "type": "button",
-          "settings": {
-            "button_label": "How it works",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_iqAPTN",
-        "text_TCyVMd",
-        "button_EKHBHi"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/d.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1110,8 +1026,6 @@
     "review_slider_PUChrA",
     "rich_text_iLBjRL",
     "multirow_CUBMeJ",
-    "image_with_text_gLx84p",
-    "image_with_text_6U6Cne",
     "custom_section_ew6pEJ"
   ]
 }
