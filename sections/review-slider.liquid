@@ -27,6 +27,9 @@
       align-items: flex-start;
       justify-content: center;
       min-height: 450px;
+      @media(max-width:768px){
+        padding: 10px;
+      }
   }
   .section-{{ section.id }}-padding .nav_area {
     position: absolute;
@@ -45,7 +48,7 @@
   }
   .section-{{ section.id }}-padding .nav_area h2{
     margin: 0;
-    font-size: clamp(24px, 3vw, 38px);
+    font-size: clamp(20px, 3vw, 38px);
     font-weight: 700;
     align-self: center;
   }
