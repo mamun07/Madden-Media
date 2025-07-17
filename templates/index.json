@@ -889,11 +889,11 @@
               "type": "column",
               "name": "Column",
               "settings": {
-                "use_bg": false,
-                "color_scheme": "",
+                "use_bg": true,
+                "color_scheme": "scheme-5",
                 "url": "",
                 "alignment": "center",
-                "show_border": false
+                "show_border": true
               },
               "blocks": {
                 "image_Ai9QJe": {
@@ -902,7 +902,7 @@
                   "settings": {
                     "image": "shopify://shop_images/1_1.png",
                     "image_width": 40,
-                    "padding_top": 10,
+                    "padding_top": 50,
                     "padding_bottom": 10
                   },
                   "blocks": {}
@@ -911,9 +911,9 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "text": "<h2>Download Free <br/>Shopify Setup Guide</h2>",
                     "padding_top": 10,
-                    "padding_bottom": 10
+                    "padding_bottom": 50
                   },
                   "blocks": {}
                 }
@@ -927,11 +927,11 @@
               "type": "column",
               "name": "Column",
               "settings": {
-                "use_bg": false,
-                "color_scheme": "",
+                "use_bg": true,
+                "color_scheme": "scheme-5",
                 "url": "",
                 "alignment": "center",
-                "show_border": false
+                "show_border": true
               },
               "blocks": {
                 "image_KNzfBP": {
@@ -940,7 +940,7 @@
                   "settings": {
                     "image": "shopify://shop_images/1_1.webp",
                     "image_width": 40,
-                    "padding_top": 10,
+                    "padding_top": 50,
                     "padding_bottom": 10
                   },
                   "blocks": {}
@@ -949,9 +949,9 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "text": "<h2>Get Shopify For $1</h2>",
                     "padding_top": 10,
-                    "padding_bottom": 10
+                    "padding_bottom": 50
                   },
                   "blocks": {}
                 }
@@ -966,7 +966,7 @@
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "",
+                "color_scheme": "scheme-5",
                 "url": "",
                 "alignment": "center",
                 "show_border": true
@@ -978,7 +978,7 @@
                   "settings": {
                     "image": "shopify://shop_images/1_2.png",
                     "image_width": 40,
-                    "padding_top": 10,
+                    "padding_top": 50,
                     "padding_bottom": 10
                   },
                   "blocks": {}
@@ -987,9 +987,9 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "text": "<h2>Join Us On Discord</h2>",
                     "padding_top": 10,
-                    "padding_bottom": 10
+                    "padding_bottom": 50
                   },
                   "blocks": {}
                 }
