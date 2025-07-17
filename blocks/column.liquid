@@ -6,17 +6,17 @@
 
 {%- style -%}
   {% if block.settings.show_border == true %}
-    .col_{{ section.id }}{{ block.id }} > a{
+    .grid__item.col_{{ section.id }}{{ block.id }} > a{
       color: rgb(var(--color-foreground));
       text-decoration: none;
     }
-    .col_{{ section.id }}{{ block.id }} {
+    .grid__item.col_{{ section.id }}{{ block.id }} {
       border: 1px solid #363636;
       padding: 20px;
       border-radius: 8px;
       transition: all 0.3s;
     }
-    .col_{{ section.id }}{{ block.id }}:hover {
+    .grid__item.col_{{ section.id }}{{ block.id }}:hover {
       border: 2px solid #fff;
     }
   {% endif %}
