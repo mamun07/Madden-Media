@@ -881,11 +881,79 @@
           "type": "row",
           "name": "Row",
           "settings": {
-            "row_desktop": "3",
+            "row_desktop": "2",
             "row_mobile": "1"
           },
           "blocks": {
             "column_cgGcRV": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-5",
+                "url": "#",
+                "alignment": "center",
+                "show_border": true
+              },
+              "blocks": {
+                "title_emDnXt": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Join Our Freebies Mailing List",
+                    "heading_size": "h1",
+                    "padding_top": 100,
+                    "padding_bottom": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "title_emDnXt"
+              ]
+            },
+            "column_VjHCPM": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-5",
+                "url": "#",
+                "alignment": "center",
+                "show_border": true
+              },
+              "blocks": {
+                "title_yiyDji": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Watch Tutorials",
+                    "heading_size": "h1",
+                    "padding_top": 100,
+                    "padding_bottom": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "title_yiyDji"
+              ]
+            }
+          },
+          "block_order": [
+            "column_cgGcRV",
+            "column_VjHCPM"
+          ]
+        },
+        "row_wkQhcP": {
+          "type": "row",
+          "name": "Row",
+          "settings": {
+            "row_desktop": "3",
+            "row_mobile": "1"
+          },
+          "blocks": {
+            "column_FW6Jbq": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -896,7 +964,7 @@
                 "show_border": true
               },
               "blocks": {
-                "image_Ai9QJe": {
+                "image_mir8qC": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
@@ -907,7 +975,7 @@
                   },
                   "blocks": {}
                 },
-                "text_48rAR9": {
+                "text_at48XY": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -919,11 +987,11 @@
                 }
               },
               "block_order": [
-                "image_Ai9QJe",
-                "text_48rAR9"
+                "image_mir8qC",
+                "text_at48XY"
               ]
             },
-            "column_znM7yL": {
+            "column_pwnb4n": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -934,7 +1002,7 @@
                 "show_border": true
               },
               "blocks": {
-                "image_KNzfBP": {
+                "image_XXrYNW": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
@@ -945,7 +1013,7 @@
                   },
                   "blocks": {}
                 },
-                "text_6FaXcp": {
+                "text_LejLU7": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -957,11 +1025,11 @@
                 }
               },
               "block_order": [
-                "image_KNzfBP",
-                "text_6FaXcp"
+                "image_XXrYNW",
+                "text_LejLU7"
               ]
             },
-            "column_CVJqdj": {
+            "column_ddk6eq": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -972,7 +1040,7 @@
                 "show_border": true
               },
               "blocks": {
-                "image_JkzR7b": {
+                "image_RCBxcm": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
@@ -983,7 +1051,7 @@
                   },
                   "blocks": {}
                 },
-                "text_ABWEAy": {
+                "text_fpFNzq": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -995,20 +1063,21 @@
                 }
               },
               "block_order": [
-                "image_JkzR7b",
-                "text_ABWEAy"
+                "image_RCBxcm",
+                "text_fpFNzq"
               ]
             }
           },
           "block_order": [
-            "column_cgGcRV",
-            "column_znM7yL",
-            "column_CVJqdj"
+            "column_FW6Jbq",
+            "column_pwnb4n",
+            "column_ddk6eq"
           ]
         }
       },
       "block_order": [
-        "row_qixLBC"
+        "row_qixLBC",
+        "row_wkQhcP"
       ],
       "name": "Custom Section",
       "settings": {
