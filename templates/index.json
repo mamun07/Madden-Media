@@ -854,8 +854,8 @@
                   "settings": {
                     "heading": "Join Our Freebies Mailing List",
                     "heading_size": "h1",
-                    "padding_top": 100,
-                    "padding_bottom": 100
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 }
@@ -881,8 +881,8 @@
                   "settings": {
                     "heading": "Watch Tutorials",
                     "heading_size": "h1",
-                    "padding_top": 100,
-                    "padding_bottom": 100
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 }
