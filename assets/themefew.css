@@ -79,6 +79,16 @@ nav.header__inline-menu {
   .grid__item.center.col_template--19580588130530__custom_section_ew6pEJAOEQ5SFZpTGRBWTdCT__column_VjHCPM.color-scheme-5 {
     width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
   }  
+  .multirow .button, 
+  .multirow .shopify-challenge__button, 
+  .multirow .customer button, 
+  .multirow button.shopify-payment-button__button--unbranded {
+    min-width: unset !important;
+    min-height: unset !important;
+    max-width: 350px;
+    width: 100%;
+    line-height: 40px !important;
+  } 
 }
 
 
