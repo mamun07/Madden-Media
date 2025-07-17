@@ -1,6 +1,18 @@
-<div class="grid grid--{{ block.settings.row_mobile }}-col grid--{{ block.settings.row_desktop }}-col-tablet">
+<div class="grid grid--{{ block.settings.row_mobile }}-col grid--{{ block.settings.row_desktop }}-col-tablet row_{{ section.id }}{{ block.id }}">
   {% content_for 'blocks' %}
 </div>
+
+{%  style  %} 
+{% if block.settings.all_center == true %}
+  .grid.row_{{ section.id }}{{ block.id }} .grid__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  {% endif %}
+{% endstyle %}
+
 
 {% schema %}
   {
@@ -55,6 +67,12 @@
         ],
         "default": "1",
         "label": "Mobile Row"
+      },
+      {
+        "type": "checkbox",
+        "id": "all_center",
+        "label": "All Center",
+        "default": false
       }
     ],
     "presets": [{"name": "Row"}],
