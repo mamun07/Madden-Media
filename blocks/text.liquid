@@ -1,0 +1,58 @@
+{% if block.settings.text != blank %}
+  <div class="content_area text_{{ section.id }}{{ block.id }}">
+    {{ block.settings.text }}
+  </div>
+{% endif %}
+
+{%- style -%}
+  .content_area.text_{{ section.id }}{{ block.id }} {
+    padding-top: {{ block.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .content_area.text_{{ section.id }}{{ block.id }} * {
+    color: rgb(var(--color-foreground));
+  }
+
+  @media screen and (min-width: 750px) {
+    .content_area.text_{{ section.id }}{{ block.id }} {
+      padding-top: {{ block.settings.padding_top }}px;
+      padding-bottom: {{ block.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% schema %}
+  {
+    "name": "Text",
+    "tag": null,
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "text",
+        "default": "t:sections.rich-text.blocks.text.settings.text.default",
+        "label": "Text",
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 10
+      }
+    ],
+    "presets": [{"name": "Text"}]
+  }
+{% endschema %}

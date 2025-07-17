@@ -1,0 +1,112 @@
+<div class="button_area button_{{ section.id }}{{ block.id }}">
+  {% render 'button', btn_label: block.settings.btn_label, btn_link: block.settings.btn_link, color: block.settings.color_scheme_1, class: "learn_more" %}
+  {% render 'button', btn_label: block.settings.btn_label_1, btn_link: block.settings.btn_link_1, color: block.settings.color_scheme_2, class: "buy_more" %}
+</div>
+
+<style>
+
+</style>
+
+{%- style -%}
+  .button_area.button_{{ section.id }}{{ block.id }} {
+    padding-top: {{ block.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .button_area.button_{{ section.id }}{{ block.id }} {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .button_area.button_{{ section.id }}{{ block.id }} a.custom_btn {
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    line-height: normal;
+    border: 1px solid;
+    display: inline-block;
+    width: max-content;
+    height: auto;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: all .2s;
+  }
+  .button_area.button_{{ section.id }}{{ block.id }} .learn_more:hover{
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-button-text))
+  }
+  .button_area.button_{{ section.id }}{{ block.id }} .buy_more:hover{
+    background: green;
+    color: rgb(var(--color-button-text));
+    border-color: green;
+  }
+  @media screen and (min-width: 750px) {
+    .button_area.button_{{ section.id }}{{ block.id }} {
+      padding-top: {{ block.settings.padding_top }}px;
+      padding-bottom: {{ block.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% schema %}
+  {
+    "name": "Button",
+    "tag": null,
+    "settings": [
+      {
+        "type": "text",
+        "id": "btn_label",
+        "label": "Button Label",
+        "default": "Button"
+      },
+      {
+        "type": "text",
+        "id": "btn_link",
+        "label": "Button link"
+      },
+      {
+          "type": "color_scheme",
+          "id": "color_scheme_1",
+          "default": "scheme_1",
+          "label": "Button Color"
+      },
+      {
+        "type": "text",
+        "id": "btn_label_1",
+        "label": "Button Label",
+        "default": "Button"
+      },
+      {
+        "type": "text",
+        "id": "btn_link_1",
+        "label": "Button link"
+      },
+      {
+          "type": "color_scheme",
+          "id": "color_scheme_2",
+          "default": "scheme_2",
+          "label": "Button Color"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 10
+      }
+    ],
+    "presets": [{"name": "Button"}]
+  }
+{% endschema %}

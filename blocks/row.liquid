@@ -1,0 +1,62 @@
+<div class="grid grid--{{ block.settings.row_mobile }}-col grid--{{ block.settings.row_desktop }}-col-tablet">
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+  {
+    "name": "Row",
+    "tag": null,
+    "blocks": [{"type": "column"}],
+    "settings": [
+      {
+        "type": "select",
+        "id": "row_desktop",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          }
+        ],
+        "default": "3",
+        "label": "Desktop Row"
+      },    
+      {
+        "type": "select",
+        "id": "row_mobile",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          }
+        ],
+        "default": "1",
+        "label": "Mobile Row"
+      }
+    ],
+    "presets": [{"name": "Row"}],
+  }
+{% endschema %}
