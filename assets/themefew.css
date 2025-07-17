@@ -69,7 +69,9 @@ nav.header__inline-menu {
   font-size: 24px;
 }
 
-
+.multirow .media > img {
+  object-fit: contain;
+}
 @media(min-width: 1024px){
   .grid__item.center.col_template--19580588130530__custom_section_ew6pEJANW5qL0JUMkI3Rlp1R__column_cgGcRV.color-scheme-5 {
     width: calc(66.66% - var(--grid-desktop-horizontal-spacing) / 2);
