@@ -1,4 +1,4 @@
-<div class="grid__item {{ block.settings.alignment }} col_{{ section.id }}{{ block.id }}">
+<div class="grid__item {{ block.settings.alignment }} col_{{ section.id }}{{ block.id }} {% if block.settings.use_bg == true %} color-{{block.settings.color_scheme}} {% endif %}">
   {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
     {% content_for 'blocks' %}
   {% if block.settings.url != blank %}</a>{% endif %}
@@ -29,6 +29,19 @@
     "tag": null,
     "blocks": [{"type": "@theme"},{"type": "@app"}],
     "settings": [
+      {
+         "type": "checkbox",
+         "id": "use_bg",
+         "label": "Use Background Color",
+         "default": false
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1",
+        "visible_if": "{{block.settings.use_bg}}"
+      },
       {
          "type": "url",
          "id": "url",
