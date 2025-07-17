@@ -90,6 +90,9 @@
   padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
   position: relative;
   z-index: 1;
+  @media(max-width: 768px){
+    padding: 4rem calc(1rem / var(--font-body-scale)) 5rem;
+  }
 }
 
 .image-with-text .grid__item::after {
