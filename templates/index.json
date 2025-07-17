@@ -746,10 +746,10 @@
             "text": "<p>Pick an OpenSpaces theme, and we'll efficiently install it on your Shopify account, creating the perfect canvas for you to start customizing within<br/>1-2 business days.</p>",
             "button_label": "Request An Installation",
             "button_link": "#",
-            "light": false,
+            "light": true,
             "button_label1": "How It Works",
             "button_link1": "#",
-            "light1": true
+            "light1": false
           }
         },
         "row_YY6jqk": {
