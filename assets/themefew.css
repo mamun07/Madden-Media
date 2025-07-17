@@ -94,6 +94,9 @@ nav.header__inline-menu {
   } 
 }
 @media(max-width: 1024px){
+  section#shopify-section-template--19580588130530__custom_section_ew6pEJ .content_area{
+    padding: 0;
+  }
   section#shopify-section-template--19580588130530__custom_section_ew6pEJ h2{
     font-size: 18px;
     padding: 20px 0;
