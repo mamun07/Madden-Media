@@ -17,7 +17,7 @@
       const steps = target - start;
       const stepTime = Math.max(Math.floor(duration / steps), 10);
       const updateCount = () => {
-        count += 20;
+        count += 50;
         counter.innerText = count;
         if (count < target) {
           setTimeout(updateCount, stepTime);
