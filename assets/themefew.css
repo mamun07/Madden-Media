@@ -75,9 +75,11 @@ nav.header__inline-menu {
 @media(min-width: 1024px){
   .grid__item.center.col_template--19580588130530__custom_section_ew6pEJANW5qL0JUMkI3Rlp1R__column_cgGcRV.color-scheme-5 {
     width: calc(66.66% - var(--grid-desktop-horizontal-spacing) / 2);
+    aspect-ratio: 16 / 7;
   }
   .grid__item.center.col_template--19580588130530__custom_section_ew6pEJAOEQ5SFZpTGRBWTdCT__column_VjHCPM.color-scheme-5 {
     width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
+    aspect-ratio: 16 / 7;
   }  
   .multirow .button, 
   .multirow .shopify-challenge__button, 
