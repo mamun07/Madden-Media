@@ -71,10 +71,10 @@ nav.header__inline-menu {
 
 
 @media(min-width: 1024px){
-  .grid__item.center.col_template--19580593996002__custom_section_ydmagCAd3FkbDlZdlhBOGhqW__column_c6fccH.color-scheme-4714cc70-87a5-42d0-9954-23b0fe5e8ff9 {
+  .grid__item.center.col_template--19580588130530__custom_section_ew6pEJANW5qL0JUMkI3Rlp1R__column_cgGcRV.color-scheme-5 {
     width: calc(66.66% - var(--grid-desktop-horizontal-spacing) / 2);
   }
-  .grid__item.center.col_template--19580593996002__custom_section_ydmagCANVphcGVWb01wWW12d__column_FmLT8N.color-scheme-4714cc70-87a5-42d0-9954-23b0fe5e8ff9 {
+  .grid__item.center.col_template--19580588130530__custom_section_ew6pEJAOEQ5SFZpTGRBWTdCT__column_VjHCPM.color-scheme-5 {
     width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
   }  
 }
