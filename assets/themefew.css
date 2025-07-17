@@ -94,6 +94,9 @@ nav.header__inline-menu {
   } 
 }
 @media(max-width: 1024px){
+  section#shopify-section-template--19580588130530__custom_section_ew6pEJ .grid{
+    row-gap: 20px;
+  }
   section#shopify-section-template--19580588130530__custom_section_ew6pEJ .content_area{
     padding: 0;
   }
