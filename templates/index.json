@@ -788,7 +788,7 @@
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "image_layout": "alternate-right",
         "heading_size": "h0",
         "text_style": "subtitle",
