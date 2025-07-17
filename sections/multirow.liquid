@@ -94,7 +94,7 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button button--{{ section.settings.button_style }}"
+                  class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
                 >
                   {{ block.settings.button_label | escape }}
                 </a>
@@ -106,7 +106,7 @@
                   {% else %}
                     href="{{ block.settings.button_link1 }}"
                   {% endif %}
-                  class="button button--secondary"
+                  class="button button--secondary {% if block.settings.light1 == true%}light{% endif %}"
                 >
                   {{ block.settings.button_label1 | escape }}
                 </a>
@@ -405,6 +405,12 @@
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
         },
         {
+          "type": "checkbox",
+          "id": "light",
+          "label": "Light Button",
+          "default": false
+        },
+        {
           "type": "text",
           "id": "button_label1",
           "label": "t:sections.multirow.blocks.row.settings.button_label.label", 
@@ -414,6 +420,12 @@
           "type": "url",
           "id": "button_link1",
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "light1",
+          "label": "Light Button",
+          "default": true
         }
       ]
     }
