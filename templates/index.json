@@ -165,7 +165,8 @@
           "name": "Row",
           "settings": {
             "row_desktop": "3",
-            "row_mobile": "1"
+            "row_mobile": "1",
+            "all_center": false
           },
           "blocks": {
             "column_yMefbA": {
@@ -459,7 +460,8 @@
           "name": "Row",
           "settings": {
             "row_desktop": "3",
-            "row_mobile": "1"
+            "row_mobile": "1",
+            "all_center": false
           },
           "blocks": {
             "column_4CCLpV": {
@@ -499,7 +501,8 @@
           "name": "Row",
           "settings": {
             "row_desktop": "3",
-            "row_mobile": "1"
+            "row_mobile": "1",
+            "all_center": false
           },
           "blocks": {
             "column_FNdRYY": {
@@ -830,7 +833,8 @@
           "name": "Row",
           "settings": {
             "row_desktop": "2",
-            "row_mobile": "1"
+            "row_mobile": "1",
+            "all_center": true
           },
           "blocks": {
             "column_cgGcRV": {
@@ -898,7 +902,8 @@
           "name": "Row",
           "settings": {
             "row_desktop": "3",
-            "row_mobile": "1"
+            "row_mobile": "1",
+            "all_center": true
           },
           "blocks": {
             "column_FW6Jbq": {
