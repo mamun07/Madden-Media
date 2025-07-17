@@ -13,7 +13,7 @@
     padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
   .image_area.image_{{ section.id }}{{ block.id }} img{
-    max-width: 100%;
+    max-width: {{block.settings.image_width}}%;
     height: auto;
     display: inline-block;
   }
@@ -34,6 +34,16 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "image_width",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Image Width",
+        "default": 100
       },
       {
         "type": "range",
