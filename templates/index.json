@@ -479,16 +479,28 @@
                   "type": "title",
                   "name": "Title",
                   "settings": {
-                    "heading": "Trusted By 5000+ Brands Worldwide",
+                    "heading": "<strong>Trusted By 5000+</strong>",
                     "heading_size": "hxxl",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
                   "blocks": {}
+                },
+                "title_QMbyVq": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "<strong>Brands Worldwide</strong>",
+                    "heading_size": "hxxl",
+                    "padding_top": 0,
+                    "padding_bottom": 50
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "title_kpQNkX"
+                "title_kpQNkX",
+                "title_QMbyVq"
               ]
             }
           },
@@ -521,9 +533,9 @@
                   "name": "Number Countup",
                   "settings": {
                     "countup_number_before": "",
-                    "countup_number": "",
+                    "countup_number": "3351",
                     "countup_number_after": "",
-                    "heading_size": "h1",
+                    "heading_size": "h0",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -533,7 +545,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your</p>",
+                    "text": "<p>Stores Using OpenSpaces Themes</p>",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -560,10 +572,10 @@
                   "type": "number-countup",
                   "name": "Number Countup",
                   "settings": {
-                    "countup_number_before": "",
-                    "countup_number": "",
-                    "countup_number_after": "",
-                    "heading_size": "h1",
+                    "countup_number_before": "$",
+                    "countup_number": "12,000,223",
+                    "countup_number_after": "+",
+                    "heading_size": "h0",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -573,7 +585,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your</p>",
+                    "text": "<p>Client Revenue Generated</p>",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -601,9 +613,9 @@
                   "name": "Number Countup",
                   "settings": {
                     "countup_number_before": "",
-                    "countup_number": "",
-                    "countup_number_after": "",
-                    "heading_size": "h1",
+                    "countup_number": "96",
+                    "countup_number_after": "%",
+                    "heading_size": "h0",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -613,7 +625,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your</p>",
+                    "text": "<p>Satisfaction Rate</p>",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
