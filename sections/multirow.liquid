@@ -109,7 +109,7 @@
                   {% else %}
                     href="{{ block.settings.button_link1 }}"
                   {% endif %}
-                  class="button button--secondary {% if block.settings.light1 == true%}light{% endif %}"
+                  class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}"
                 >
                   {{ block.settings.button_label1 | escape }}
                 </a>
