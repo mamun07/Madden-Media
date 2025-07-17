@@ -15,7 +15,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<hr/>\n</div>",
+        "custom_liquid": "<div class=\"page-width\">\n<hr style=\"margin:0\"/>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
