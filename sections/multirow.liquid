@@ -99,6 +99,18 @@
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+              {%- if block.settings.button_label1 != blank -%}
+                <a
+                  {% if block.settings.button_link1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link1 }}"
+                  {% endif %}
+                  class="button button--secondary"
+                >
+                  {{ block.settings.button_label1 | escape }}
+                </a>
+              {%- endif -%}
             </div>
           </div>
         </div>
@@ -390,6 +402,17 @@
         {
           "type": "url",
           "id": "button_link",
+          "label": "t:sections.multirow.blocks.row.settings.button_link.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label1",
+          "label": "t:sections.multirow.blocks.row.settings.button_label.label", 
+          "info": "t:sections.multirow.blocks.row.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link1",
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
         }
       ]
