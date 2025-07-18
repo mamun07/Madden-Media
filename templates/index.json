@@ -219,7 +219,7 @@
                     "btn_link": "#",
                     "color_scheme_1": "scheme-2",
                     "btn_label_1": "Buy Now",
-                    "btn_link_1": "#",
+                    "btn_link_1": "shopify://products/ghost-interactive-2",
                     "color_scheme_2": "scheme-1",
                     "padding_top": 25,
                     "padding_bottom": 25
