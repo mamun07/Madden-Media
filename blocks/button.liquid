@@ -3,9 +3,6 @@
   {% render 'button', btn_label: block.settings.btn_label_1, btn_link: block.settings.btn_link_1, color: block.settings.color_scheme_2, class: "buy_more" %}
 </div>
 
-<style>
-
-</style>
 
 {%- style -%}
   .button_area.button_{{ section.id }}{{ block.id }} {
@@ -59,7 +56,7 @@
         "default": "Button"
       },
       {
-        "type": "text",
+        "type": "url",
         "id": "btn_link",
         "label": "Button link"
       },
@@ -76,7 +73,7 @@
         "default": "Button"
       },
       {
-        "type": "text",
+        "type": "url",
         "id": "btn_link_1",
         "label": "Button link"
       },
