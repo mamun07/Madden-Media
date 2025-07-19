@@ -45,31 +45,32 @@
             "show_gift_card_recipient": true
           }
         },
-        "collapsible_tab_3J7RA7": {
-          "type": "collapsible_tab",
+        "text_DY9Pnm": {
+          "type": "text",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
+            "text": "✅ Payment Plans Available",
+            "text_style": "body"
           }
         },
-        "collapsible_tab_wQ8qkj": {
-          "type": "collapsible_tab",
+        "text_EiEkH9": {
+          "type": "text",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
+            "text": "✅ Downloads Sent Instantly",
+            "text_style": "body"
           }
         },
-        "collapsible_tab_RME8FK": {
-          "type": "collapsible_tab",
+        "text_QtE8ze": {
+          "type": "text",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
+            "text": "✅ Members-Only Discord Invite",
+            "text_style": "body"
+          }
+        },
+        "text_ARmw3t": {
+          "type": "text",
+          "settings": {
+            "text": "✅ Free Updates and Support",
+            "text_style": "body"
           }
         }
       },
@@ -80,9 +81,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "collapsible_tab_3J7RA7",
-        "collapsible_tab_wQ8qkj",
-        "collapsible_tab_RME8FK"
+        "text_DY9Pnm",
+        "text_EiEkH9",
+        "text_QtE8ze",
+        "text_ARmw3t"
       ],
       "settings": {
         "enable_sticky_info": true,
