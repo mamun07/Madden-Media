@@ -12,7 +12,10 @@
   .content_area.text_{{ section.id }}{{ block.id }} * {
     color: rgb(var(--color-foreground));
   }
-
+  .content_area.text_{{ section.id }}{{ block.id }} .content_area ul {
+      padding: 0;
+      list-style: none;
+  }
   @media screen and (min-width: 750px) {
     .content_area.text_{{ section.id }}{{ block.id }} {
       padding-top: {{ block.settings.padding_top }}px;
