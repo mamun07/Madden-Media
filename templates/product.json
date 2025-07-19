@@ -146,6 +146,12 @@
             "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
             "page": ""
           }
+        },
+        "share_zgxBDQ": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -167,7 +173,8 @@
         "collapsible_tab_xCGfdN",
         "collapsible_tab_HxMcxj",
         "collapsible_tab_apywzV",
-        "collapsible_tab_hXQeVm"
+        "collapsible_tab_hXQeVm",
+        "share_zgxBDQ"
       ],
       "settings": {
         "enable_sticky_info": true,
