@@ -525,6 +525,45 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_ccKg4Q": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9E3MJX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Password Page",
+            "heading_size": "h1"
+          }
+        },
+        "text_e6MJGe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fully customize your password page with: background videos, music players, countdown timers, and both Email/SMS signup forms</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9E3MJX",
+        "text_e6MJGe"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_1_Screenshot_2025-06-19_at_6.16.05_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -567,6 +606,7 @@
     "rich_text_3hFThf",
     "image_with_text_dRnHMF",
     "image_with_text_wbyKBQ",
+    "image_with_text_ccKg4Q",
     "17529548762c0bafb7",
     "related-products"
   ]
