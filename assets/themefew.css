@@ -524,8 +524,10 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
   animation: counterGlow 2s ease-in-out infinite;
 }
 
+
 .installation-progress {
-  width: 100%;
+    width: 100%;
+    margin-top: 10px !important;
 }
 
 .installation-widget .progress-bar {
