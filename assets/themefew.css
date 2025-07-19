@@ -273,6 +273,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	z-index: 1 !important;
 	cursor: pointer !important;
 	transition: all .3s ease !important;
+    border: 1px solid #f2f2f11a !important;
 }
 .product__accordion .summary__title {
 	display: flex !important;
@@ -281,7 +282,6 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	flex: 1 !important;
 	position: relative !important;
 	z-index: 1 !important;
-    border: 1px solid #f2f2f11a !important;
 }
 
 
