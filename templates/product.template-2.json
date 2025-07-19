@@ -416,6 +416,76 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_3hFThf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bek96f": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Popular Features</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_4mMT3c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are the most popular Plain Jane features</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bek96f",
+        "text_4mMT3c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_dRnHMF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tDxFKx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enter Pages",
+            "heading_size": "h1"
+          }
+        },
+        "text_EBUwjD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose from multiple Enter Page styles that best align with your brand.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tDxFKx",
+        "text_EBUwjD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_48_Screenshot_2025-06-19_at_9.36.10_PM_47e3849e-91ff-4ec2-af68-e4f6e364c5f7.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -455,6 +525,8 @@
     "main",
     "custom_section_8WBKhR",
     "collapsible_content_JkLmx6",
+    "rich_text_3hFThf",
+    "image_with_text_dRnHMF",
     "17529548762c0bafb7",
     "related-products"
   ]
