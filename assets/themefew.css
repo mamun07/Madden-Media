@@ -289,7 +289,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	box-shadow: 0 0 0 1px #ffffff0d,0 4px 15px #0000001a !important;
 }
 
-.accordion summary {
+.accordion {
 	position: relative;
 	margin-bottom: 1rem;
 	background: rgba(0, 0, 0, 0.15);
@@ -301,17 +301,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 8px 32px rgba(0, 0, 0, 0.12), 0 0 40px rgba(255, 255, 255, 0.02);
 }
-.accordion {
-	position: relative;
-	padding: 1.5rem 1.75rem 1.5rem 1.5rem;
-	cursor: pointer;
-	user-select: none;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	transition: all 0.3s ease;
-	z-index: 1;
-}
+
 
 
 
