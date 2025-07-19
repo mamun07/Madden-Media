@@ -492,14 +492,14 @@
         "heading_QrceWH": {
           "type": "heading",
           "settings": {
-            "heading": "Enter Pages",
+            "heading": "Homepage",
             "heading_size": "h1"
           }
         },
         "text_9AMgJT": {
           "type": "text",
           "settings": {
-            "text": "<p>Choose from multiple Enter Page styles that best align with your brand.</p>",
+            "text": "<p>Not a fan of the \"Enter\" page? Skip it entirely for a full scroll Homepage or go right to your collection of products.</p><p>The choice is yours.</p>",
             "text_style": "body"
           }
         }
