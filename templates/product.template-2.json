@@ -603,6 +603,45 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_zyPemq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Dc9Th8": {
+          "type": "heading",
+          "settings": {
+            "heading": "AR Viewer",
+            "heading_size": "h1"
+          }
+        },
+        "text_cT9XQy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose between two product page styles built for conversions right out of the gate. Select whichever resonates with your brand most.</p><p>1. Supreme Style</p><p>2. Showcase Style</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dc9Th8",
+        "text_cT9XQy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_45_Ar-Clip_Pt1.webp",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -647,6 +686,7 @@
     "image_with_text_wbyKBQ",
     "image_with_text_ccKg4Q",
     "image_with_text_KRnPHH",
+    "image_with_text_zyPemq",
     "17529548762c0bafb7",
     "related-products"
   ]
