@@ -260,6 +260,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     letter-spacing: .3rem!important;
     line-height: 1.2!important;
     text-align: center!important;
+    border: var(--variant-pills-border-width) solid rgb(255 255 255 / 18%) !important;
 }
 
 
