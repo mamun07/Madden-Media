@@ -20,6 +20,18 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "icon_with_text_JEzg8h": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "heading_1": "14-Day Guarantee",
+            "icon_2": "return",
+            "heading_2": "Free Installation",
+            "icon_3": "truck",
+            "heading_3": "AI-Background Generator Included"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -154,6 +166,7 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_KDjD7x",
+        "icon_with_text_JEzg8h",
         "price",
         "variant_picker",
         "quantity_selector",
