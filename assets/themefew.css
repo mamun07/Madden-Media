@@ -595,6 +595,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     box-shadow: inset 0 2px 4px #0000004d!important;
     position: relative!important;
 }
+.icon-with-text span.h4.inline-richtext {
+    width: 100%;
+}
 .icon-with-text span.h4.inline-richtext * {
     margin: 0;
 }
