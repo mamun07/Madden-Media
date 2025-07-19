@@ -42,25 +42,25 @@
 >
   {%- unless heading_1_empty -%}
     <li class="icon-with-text__item">
-    {% if block.settings.svg_1 != blank %}
-      {{ block.settings.svg_1 }}
-    {% else %}
-      {%- if block.settings.image_1 == null -%}
-        {%- render 'icon-accordion', icon: block.settings.icon_1 -%}
-      {%- else -%}
-        <img
-          src="{{ block.settings.image_1 | image_url }}"
-          {% if block.settings.image_1.alt != blank %}
-            alt="{{ block.settings.image_1.alt | escape }}"
-          {% else %}
-            role="presentation"
-          {% endif %}
-          height="auto"
-          width="auto"
-          loading="lazy"
-        >
-      {%- endif -%}
-    {% endif %}
+      {% if block.settings.svg_1 != blank %}
+        {{ block.settings.svg_1 }}
+      {% else %}
+        {%- if block.settings.image_1 == null -%}
+          {%- render 'icon-accordion', icon: block.settings.icon_1 -%}
+        {%- else -%}
+          <img
+            src="{{ block.settings.image_1 | image_url }}"
+            {% if block.settings.image_1.alt != blank %}
+              alt="{{ block.settings.image_1.alt | escape }}"
+            {% else %}
+              role="presentation"
+            {% endif %}
+            height="auto"
+            width="auto"
+            loading="lazy"
+          >
+        {%- endif -%}
+      {% endif %}
       <span class="h4 inline-richtext">
         {{- block.settings.heading_1 -}}
       </span>
@@ -68,20 +68,24 @@
   {%- endunless -%}
   {%- unless heading_2_empty -%}
     <li class="icon-with-text__item">
-      {%- if block.settings.image_2 == null -%}
-        {% render 'icon-accordion', icon: block.settings.icon_2 -%}
-      {%- else -%}
-        <img
-          src="{{ block.settings.image_2 | image_url }}"
-          {% if block.settings.image_2.alt != blank %}
-            alt="{{ block.settings.image_2.alt | escape }}"
-          {% else %}
-            role="presentation"
-          {% endif %}
-          height="auto"
-          width="auto"
-          loading="lazy"
-        >
+      {% if block.settings.svg_2 != blank %}
+        {{ block.settings.svg_2 }}
+      {% else %}
+        {%- if block.settings.image_2 == null -%}
+          {% render 'icon-accordion', icon: block.settings.icon_2 -%}
+        {%- else -%}
+          <img
+            src="{{ block.settings.image_2 | image_url }}"
+            {% if block.settings.image_2.alt != blank %}
+              alt="{{ block.settings.image_2.alt | escape }}"
+            {% else %}
+              role="presentation"
+            {% endif %}
+            height="auto"
+            width="auto"
+            loading="lazy"
+          >
+        {%- endif -%}
       {%- endif -%}
       <span class="h4 inline-richtext">
         {{- block.settings.heading_2 -}}
@@ -90,20 +94,24 @@
   {%- endunless -%}
   {%- unless heading_3_empty -%}
     <li class="icon-with-text__item">
-      {%- if block.settings.image_3 == null -%}
-        {% render 'icon-accordion', icon: block.settings.icon_3 -%}
-      {%- else -%}
-        <img
-          src="{{ block.settings.image_3 | image_url }}"
-          {% if block.settings.image_3.alt != blank %}
-            alt="{{ block.settings.image_3.alt | escape }}"
-          {% else %}
-            role="presentation"
-          {% endif %}
-          height="auto"
-          width="auto"
-          loading="lazy"
-        >
+      {% if block.settings.svg_3 != blank %}
+        {{ block.settings.svg_3 }}
+      {% else %}
+        {%- if block.settings.image_3 == null -%}
+          {% render 'icon-accordion', icon: block.settings.icon_3 -%}
+        {%- else -%}
+          <img
+            src="{{ block.settings.image_3 | image_url }}"
+            {% if block.settings.image_3.alt != blank %}
+              alt="{{ block.settings.image_3.alt | escape }}"
+            {% else %}
+              role="presentation"
+            {% endif %}
+            height="auto"
+            width="auto"
+            loading="lazy"
+          >
+        {%- endif -%}
       {%- endif -%}
       <span class="h4 inline-richtext">
         {{- block.settings.heading_3 -}}
