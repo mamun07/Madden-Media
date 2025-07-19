@@ -119,7 +119,24 @@ nav.header__inline-menu {
 
 
 
-
+button[name="add"], 
+.product-form__cart .button, 
+.main-cart .button[name="add"], 
+.cart-drawer .cart__checkout-button {
+	background: #000000e6 !important;
+	background-color: #000000e6 !important;
+	backdrop-filter: blur(25px);
+	-webkit-backdrop-filter: blur(25px);
+	border: 2px solid rgba(255,255,255,.4) !important;
+	border-radius: 16px !important;
+	color: #fff !important;
+	font-weight: 700 !important;
+	text-shadow: 0 0 15px rgba(255,255,255,.8),0 0 30px rgba(255,255,255,.5),0 2px 4px rgba(0,0,0,.3) !important;
+	transition: all .4s cubic-bezier(.4,0,.2,1) !important;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 0 1px #ffffff4d,0 0 30px #fff6,0 0 60px #fff3,0 8px 32px #0000004d,inset 0 1px #fff3 !important;
+}
 
 button[name="add"]::after, 
 .product-form__cart .button::after, 
