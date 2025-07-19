@@ -379,9 +379,9 @@
         "collapsible_row_mLKGTh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does your Shopify theme work?",
+            "heading": "Can I use 1 license in multiple Shopify stores?",
             "icon": "none",
-            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "row_content": "<p>No, each license is valid for one Shopify store. If you want to use it in multiple stores, you need to purchase another license.</p>",
             "page": ""
           }
         },
