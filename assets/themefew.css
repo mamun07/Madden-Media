@@ -235,8 +235,19 @@ button[name="add"]:active,
 
 
 
-
-
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    background: blue;
+}
+.button:after, 
+.shopify-challenge__button:after, 
+.customer button:after, 
+.button:before, 
+.shopify-challenge__button:before, 
+.customer button:before, 
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button__button--unbranded:after {
+    box-shadow: none;
+}
 
 
 
