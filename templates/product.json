@@ -124,7 +124,25 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "View Demo",
-            "icon": "star",
+            "icon": "chat_bubble",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_apywzV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "question_mark",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_hXQeVm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "question_mark",
             "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
             "page": ""
           }
@@ -147,7 +165,9 @@
         "collapsible_tab_fxCcTa",
         "collapsible_tab_ycTPb8",
         "collapsible_tab_xCGfdN",
-        "collapsible_tab_HxMcxj"
+        "collapsible_tab_HxMcxj",
+        "collapsible_tab_apywzV",
+        "collapsible_tab_hXQeVm"
       ],
       "settings": {
         "enable_sticky_info": true,
