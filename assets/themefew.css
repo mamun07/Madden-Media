@@ -290,7 +290,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 
 .collapsible-content .accordion {
-    margin-top: 12px;
+    margin-top: 12px !important;
 }
 .accordion {
 	position: relative;
