@@ -83,6 +83,15 @@
         "description_ikCxqj": {
           "type": "description",
           "settings": {}
+        },
+        "collapsible_tab_ibECRX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "star",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -97,7 +106,8 @@
         "text_QtE8ze",
         "text_ARmw3t",
         "text_MYBpwh",
-        "description_ikCxqj"
+        "description_ikCxqj",
+        "collapsible_tab_ibECRX"
       ],
       "settings": {
         "enable_sticky_info": true,
