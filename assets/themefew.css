@@ -586,10 +586,10 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 .ai-icon svg {
   filter: drop-shadow(0 0 8px rgba(64, 224, 208, 0.5));
 }
-span.h4.inline-richtext * {
+.icon-with-text span.h4.inline-richtext * {
     margin: 0;
 }
-span.h4.inline-richtext p {
+.icon-with-text span.h4.inline-richtext p {
     font-size: 11px;
 }
 @keyframes ai-pulse {
