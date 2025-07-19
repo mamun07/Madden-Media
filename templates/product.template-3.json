@@ -20,6 +20,10 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
         "icon_with_text_JEzg8h": {
           "type": "icon-with-text",
           "settings": {
@@ -37,10 +41,6 @@
             "svg_3": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                         <path d=\"M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z\" fill=\"currentColor\"></path>\n                         <path d=\"M8 14L12 18L16 14\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                         <circle cx=\"6\" cy=\"6\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"18\" cy=\"6\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"6\" cy=\"18\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"18\" cy=\"18\" r=\"1\" fill=\"currentColor\"></circle>\n                       </svg>",
             "heading_3": "<h3>AI-Background Generator Included</h3><p>Generate stunning AI backgrounds instantly with our built-in tool.</p>"
           }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -172,8 +172,8 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_KDjD7x",
-        "icon_with_text_JEzg8h",
         "price",
+        "icon_with_text_JEzg8h",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
