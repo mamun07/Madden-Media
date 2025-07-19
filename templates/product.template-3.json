@@ -447,6 +447,37 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_MVCAiG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JjRMzQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "AI-Background Generator",
+            "heading_size": "hxl"
+          }
+        },
+        "text_GdfQyk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use our custom AI-Background Generator to help create scenes for your Interactive pages. A link to access will be included with all orders.</p><p>Check out how it works 👇🏾</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JjRMzQ",
+        "text_GdfQyk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -487,6 +518,7 @@
     "custom_section_8WBKhR",
     "rich_text_ADELxB",
     "collapsible_content_JkLmx6",
+    "rich_text_MVCAiG",
     "17529548762c0bafb7",
     "related-products"
   ]
