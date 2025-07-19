@@ -344,4 +344,18 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     overflow: hidden;
     transition: all .4s cubic-bezier(.4,0,.2,1);
 }
+.icon-with-text__item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg,#22c55e1a,#3b82f61a,#9333ea1a,#ec48991a,#22c55e1a);
+    background-size: 400% 400%;
+    border-radius: 20px;
+    z-index: -1;
+    animation: guaranteeGlow 6s ease-in-out infinite;
+    pointer-events: none;
+}
 
