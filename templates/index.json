@@ -175,7 +175,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections",
+                "url": "shopify://products/ghost-interactive-2",
                 "alignment": "left",
                 "show_border": true
               },
@@ -263,7 +263,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections",
+                "url": "shopify://products/ghost-interactive",
                 "alignment": "left",
                 "show_border": true
               },
@@ -351,7 +351,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections",
+                "url": "shopify://products/ghost",
                 "alignment": "left",
                 "show_border": true
               },
