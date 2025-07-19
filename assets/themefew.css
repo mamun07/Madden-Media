@@ -119,55 +119,118 @@ nav.header__inline-menu {
 
 
 
-button[name="add"], 
-.product-form__cart .button, 
-.main-cart .button[name="add"], 
+
+/* Dark Metallic Buttons with Shine Effect - Only Add to Cart & Main Checkout */
+button[name="add"],
+.product-form__cart .button,
+.main-cart .button[name="add"],
 .cart-drawer .cart__checkout-button {
-	background: #000000e6 !important;
-	background-color: #000000e6 !important;
-	backdrop-filter: blur(25px);
-	-webkit-backdrop-filter: blur(25px);
-	border: 2px solid rgba(255,255,255,.4) !important;
-	border-radius: 16px !important;
-	color: #fff !important;
-	font-weight: 700 !important;
-	text-shadow: 0 0 15px rgba(255,255,255,.8),0 0 30px rgba(255,255,255,.5),0 2px 4px rgba(0,0,0,.3) !important;
-	transition: all .4s cubic-bezier(.4,0,.2,1) !important;
-	position: relative;
-	overflow: hidden;
-	box-shadow: 0 0 0 1px #ffffff4d,0 0 30px #fff6,0 0 60px #fff3,0 8px 32px #0000004d,inset 0 1px #fff3 !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 16px !important;
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8),
+               0 0 30px rgba(255, 255, 255, 0.5),
+               0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3),
+              0 0 30px rgba(255, 255, 255, 0.4),
+              0 0 60px rgba(255, 255, 255, 0.2),
+              0 8px 32px rgba(0, 0, 0, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
 }
 
-button[name="add"]::after, 
-.product-form__cart .button::after, 
-.main-cart .button[name="add"]::after, 
-.cart-drawer .cart__checkout-button::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: linear-gradient(135deg,rgba(255,255,255,.4) 0%,transparent 30%,transparent 70%,rgba(0,0,0,.2) 100%);
-	border-radius: 16px;
-	z-index: 0;
-	pointer-events: none;
+button[name="add"]:before,
+.product-form__cart .button:before,
+.main-cart .button[name="add"]:before,
+.cart-drawer .cart__checkout-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.8) 50%, 
+    transparent 100%);
+  border-radius: 16px;
+  z-index: -1;
+  animation: metallic-shine 2s ease-in-out infinite;
+  pointer-events: none;
 }
-button[name="add"]::before, 
-.product-form__cart .button::before, 
-.main-cart .button[name="add"]::before, 
-.cart-drawer .cart__checkout-button::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: -100%;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(90deg,transparent 0%,rgba(255,255,255,.8) 50%,transparent 100%);
-	border-radius: 16px;
-	z-index: -1;
-	animation: metallic-shine 2s ease-in-out infinite;
-	pointer-events: none;
+
+button[name="add"]:after,
+.product-form__cart .button:after,
+.main-cart .button[name="add"]:after,
+.cart-drawer .cart__checkout-button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.4) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(0, 0, 0, 0.2) 100%);
+  border-radius: 16px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+button[name="add"]:hover,
+.product-form__cart .button:hover,
+.main-cart .button[name="add"]:hover,
+.cart-drawer .cart__checkout-button:hover {
+  background: rgba(0, 0, 0, 0.95) !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+               0 0 40px rgba(255, 255, 255, 0.8),
+               0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  transform: translateY(-4px) scale(1.02) !important;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4),
+              0 0 40px rgba(255, 255, 255, 0.6),
+              0 0 80px rgba(255, 255, 255, 0.4),
+              0 0 120px rgba(255, 255, 255, 0.2),
+              0 15px 40px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+button[name="add"]:hover:before,
+.product-form__cart .button:hover:before,
+.main-cart .button[name="add"]:hover:before,
+.cart-drawer .cart__checkout-button:hover:before {
+  animation-duration: 1s;
+}
+
+button[name="add"]:active,
+.product-form__cart .button:active,
+.main-cart .button[name="add"]:active,
+.cart-drawer .cart__checkout-button:active {
+  transform: translateY(-3px) scale(1.03) !important;
+}
+
+
+
+@keyframes metallic-shine {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 
