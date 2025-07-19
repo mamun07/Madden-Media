@@ -837,6 +837,45 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_AfJfnk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HDyaD4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Auto-Cycle",
+            "heading_size": "h1"
+          }
+        },
+        "text_arVqcU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plain Jane comes with the exclusive Image Stream premium section.</p><p>Upload your images and watch them glide across the screen in an endless aesthetic loop.</p><p>Available only in Plain Jane</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDyaD4",
+        "text_arVqcU"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_1_auto-cycle.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -887,6 +926,7 @@
     "image_with_text_yCHhwp",
     "image_with_text_YdWD98",
     "image_with_text_U6hm64",
+    "image_with_text_AfJfnk",
     "17529548762c0bafb7",
     "related-products"
   ]
