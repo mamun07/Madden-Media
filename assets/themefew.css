@@ -318,6 +318,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	transform: translateY(-2px);
 	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 12px 48px rgba(0, 0, 0, 0.2), 0 0 60px rgba(255, 255, 255, 0.1);
 }
+.quantity {
+    padding: 0 5px;
+}
 .quantity__button {
     background: #000;
     border-radius: 100%;
