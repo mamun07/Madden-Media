@@ -72,6 +72,13 @@
             "text": "✅ Free Updates and Support",
             "text_style": "body"
           }
+        },
+        "text_MYBpwh": {
+          "type": "text",
+          "settings": {
+            "text": "By purchasing you agree to our <a href=\"https://www.openspaces.design/license/agreement\" target=\"_blank\">licensing agreement</a>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -84,7 +91,8 @@
         "text_DY9Pnm",
         "text_EiEkH9",
         "text_QtE8ze",
-        "text_ARmw3t"
+        "text_ARmw3t",
+        "text_MYBpwh"
       ],
       "settings": {
         "enable_sticky_info": true,
