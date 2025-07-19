@@ -79,6 +79,10 @@
             "text": "By purchasing you agree to our <a href=\"https://www.openspaces.design/license/agreement\" target=\"_blank\">licensing agreement</a>",
             "text_style": "body"
           }
+        },
+        "description_ikCxqj": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
@@ -92,7 +96,8 @@
         "text_EiEkH9",
         "text_QtE8ze",
         "text_ARmw3t",
-        "text_MYBpwh"
+        "text_MYBpwh",
+        "description_ikCxqj"
       ],
       "settings": {
         "enable_sticky_info": true,
