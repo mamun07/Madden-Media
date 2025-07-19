@@ -253,7 +253,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
   background-color: rgb(255 255 255 / 7%) !important;
   border: var(--variant-pills-border-width) solid rgb(255 255 255 / 58%) !important;
 }
-
+.product-form__input--pill input[type=radio]+label {
+    padding: 1.4rem 2rem  !important;
+}
 
 
 
