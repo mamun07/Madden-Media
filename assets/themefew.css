@@ -303,15 +303,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 
 .accordion summary {
-	position: relative;
 	padding: 1.5rem 1.75rem 1.5rem 1.5rem !important;
-	cursor: pointer;
-	user-select: none;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	transition: all 0.3s ease;
-	z-index: 1;
 }
 
 
