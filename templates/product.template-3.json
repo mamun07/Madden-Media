@@ -28,8 +28,10 @@
             "image_1": "shopify://shop_images/1.svg",
             "heading_1": "14-Day Guarantee",
             "icon_2": "return",
+            "image_2": "shopify://shop_images/2.svg",
             "heading_2": "Free Installation",
             "icon_3": "truck",
+            "image_3": "shopify://shop_images/3.svg",
             "heading_3": "AI-Background Generator Included"
           }
         },
