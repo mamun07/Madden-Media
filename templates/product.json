@@ -170,7 +170,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+        "color_scheme": "scheme-1",
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -201,7 +201,7 @@
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+                "color_scheme": "scheme-1",
                 "url": "",
                 "alignment": "center",
                 "show_border": false
@@ -239,7 +239,7 @@
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+                "color_scheme": "scheme-1",
                 "url": "",
                 "alignment": "center",
                 "show_border": false
@@ -277,7 +277,7 @@
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+                "color_scheme": "scheme-1",
                 "url": "",
                 "alignment": "center",
                 "show_border": false
@@ -323,7 +323,7 @@
       ],
       "name": "Custom Section",
       "settings": {
-        "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+        "color_scheme": "",
         "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
@@ -403,7 +403,7 @@
         "heading_alignment": "center",
         "layout": "none",
         "container_color_scheme": "",
-        "color_scheme": "scheme-b0e6ebdd-05b4-4b0c-b680-3a520dd768cb",
+        "color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
