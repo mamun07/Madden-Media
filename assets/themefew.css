@@ -264,6 +264,16 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     border: var(--variant-pills-border-width) solid rgb(255 255 255 / 18%) !important;
 }
 
+.product__accordion summary {
+	background: transparent !important;
+	border: none !important;
+	border-radius: 16px !important;
+	padding: 1.5rem !important;
+	position: relative !important;
+	z-index: 1 !important;
+	cursor: pointer !important;
+	transition: all .3s ease !important;
+}
 
 
 
