@@ -473,6 +473,27 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
   }
 }
 
+
+.installation-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(236, 72, 153, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(236, 72, 153, 0.3);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+  animation: installIconPulse 2.5s ease-in-out infinite;
+}
+
+.installation-icon svg {
+  color: #ffffff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4));
+}
+
 .ai-icon {
   display: flex;
   align-items: center;
