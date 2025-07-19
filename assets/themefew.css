@@ -281,6 +281,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	flex: 1 !important;
 	position: relative !important;
 	z-index: 1 !important;
+    border: 1px solid #f2f2f11a !important;
 }
 
 
