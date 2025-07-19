@@ -473,3 +473,39 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
   }
 }
 
+.ai-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(64, 224, 208, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(64, 224, 208, 0.3);
+  border-radius: 12px;
+  color: #40e0d0;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+  animation: ai-pulse 2s ease-in-out infinite;
+}
+
+.ai-icon:hover {
+  background: rgba(64, 224, 208, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(64, 224, 208, 0.4);
+}
+
+.ai-icon svg {
+  filter: drop-shadow(0 0 8px rgba(64, 224, 208, 0.5));
+}
+
+@keyframes ai-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 20px rgba(64, 224, 208, 0.3);
+    transform: scale(1); 
+  }
+  50% { 
+    box-shadow: 0 0 30px rgba(64, 224, 208, 0.5);
+    transform: scale(1.02); 
+  }
+}
