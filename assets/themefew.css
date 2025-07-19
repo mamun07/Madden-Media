@@ -530,3 +530,41 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     transform: scale(1.02); 
   }
 }
+
+@keyframes installationGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes installIconPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.9);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes counterGlow {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(255, 105, 180, 1);
+  }
+}
+
+@keyframes progressGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
+  }
+}
