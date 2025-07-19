@@ -307,7 +307,12 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 
 
-
+.accordion summary:hover {
+	background: rgba(0, 0, 0, 0.25);
+	border-color: rgba(255, 255, 255, 0.2);
+	transform: translateY(-2px);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 12px 48px rgba(0, 0, 0, 0.2), 0 0 60px rgba(255, 255, 255, 0.1);
+}
 
 
 
