@@ -370,9 +370,9 @@
         "collapsible_row_8iHRpJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does your Shopify theme work?",
+            "heading": "How much do your themes cost?",
             "icon": "none",
-            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "row_content": "<p>Our installation service helps you install the Shopify theme onto your account. This is not a fully set-up store.</p>",
             "page": ""
           }
         },
