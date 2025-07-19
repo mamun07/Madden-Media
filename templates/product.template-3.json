@@ -334,6 +334,37 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_NKK76n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qm6d7W": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What's Included</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_krJmnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plain Jane Interactive Theme</p><p>License Key</p><p>AI-Background Generator Access</p><p>1 Year Tech Support (via Discord & Email)</p><p>Check out some live customer examples 👇🏾</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qm6d7W",
+        "text_krJmnm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_JkLmx6": {
       "type": "collapsible-content",
       "blocks": {
@@ -422,11 +453,74 @@
         "heading_Bek96f": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Popular Features</strong>",
+            "heading": "AI-Background Generator",
             "heading_size": "hxl"
           }
         },
         "text_4mMT3c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use our custom AI-Background Generator to help create scenes for your Interactive pages. A link to access will be included with all orders.</p><p>Check out how it works 👇🏾</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bek96f",
+        "text_4mMT3c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_yEjKei": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/5.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_zD7Kiz": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Live Customer Examples",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/dfg.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jL3rgk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CeAbNd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Popular Features</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_TPThPa": {
           "type": "text",
           "settings": {
             "text": "<p>Below are the most popular Plain Jane features</p>"
@@ -434,8 +528,8 @@
         }
       },
       "block_order": [
-        "heading_Bek96f",
-        "text_4mMT3c"
+        "heading_CeAbNd",
+        "text_TPThPa"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -914,8 +1008,12 @@
   "order": [
     "main",
     "custom_section_8WBKhR",
+    "rich_text_NKK76n",
     "collapsible_content_JkLmx6",
     "rich_text_3hFThf",
+    "video_yEjKei",
+    "video_zD7Kiz",
+    "rich_text_jL3rgk",
     "image_with_text_dRnHMF",
     "image_with_text_wbyKBQ",
     "image_with_text_ccKg4Q",
