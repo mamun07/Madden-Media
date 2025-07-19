@@ -25,6 +25,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "heart",
+            "image_1": "shopify://shop_images/1.svg",
             "heading_1": "14-Day Guarantee",
             "icon_2": "return",
             "heading_2": "Free Installation",
