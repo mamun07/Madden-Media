@@ -687,14 +687,14 @@
         "heading_CWqmgw": {
           "type": "heading",
           "settings": {
-            "heading": "Custom Backgrounds",
+            "heading": "Lookbook Pages",
             "heading_size": "h1"
           }
         },
         "text_prDpY4": {
           "type": "text",
           "settings": {
-            "text": "<p>Customize the backgrounds on all pages to your liking. Choose between: Color, Video, Slideshow, and Gradient backgrounds</p>",
+            "text": "<p>Create multiple lookbook pages with our custom lookbook page template. Click any image to open an interactive viewing mode for an immersive experience.</p>",
             "text_style": "body"
           }
         }
