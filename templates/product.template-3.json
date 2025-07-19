@@ -334,6 +334,37 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_ADELxB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JwGXc9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What's Included</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_N6djQD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plain Jane Interactive Theme</p><p>License Key</p><p>AI-Background Generator Access</p><p>1 Year Tech Support (via Discord & Email)</p><p>Check out some live customer examples 👇🏾</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JwGXc9",
+        "text_N6djQD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_JkLmx6": {
       "type": "collapsible-content",
       "blocks": {
@@ -454,6 +485,7 @@
   "order": [
     "main",
     "custom_section_8WBKhR",
+    "rich_text_ADELxB",
     "collapsible_content_JkLmx6",
     "17529548762c0bafb7",
     "related-products"
