@@ -43,7 +43,9 @@
   {%- unless heading_1_empty -%}
     <li class="icon-with-text__item">
       {% if block.settings.svg_1 != blank %}
-        {{ block.settings.svg_1 }}
+        <span class="ai-icon">
+          {{ block.settings.svg_1 }}
+        </span>
       {% else %}
         {%- if block.settings.image_1 == null -%}
           {%- render 'icon-accordion', icon: block.settings.icon_1 -%}
@@ -69,7 +71,9 @@
   {%- unless heading_2_empty -%}
     <li class="icon-with-text__item">
       {% if block.settings.svg_2 != blank %}
-        {{ block.settings.svg_2 }}
+        <span class="ai-icon">
+          {{ block.settings.svg_2 }}
+        </span>
       {% else %}
         {%- if block.settings.image_2 == null -%}
           {% render 'icon-accordion', icon: block.settings.icon_2 -%}
@@ -95,7 +99,9 @@
   {%- unless heading_3_empty -%}
     <li class="icon-with-text__item">
       {% if block.settings.svg_3 != blank %}
-        {{ block.settings.svg_3 }}
+        <span class="ai-icon">
+          {{ block.settings.svg_3 }}
+        </span>
       {% else %}
         {%- if block.settings.image_3 == null -%}
           {% render 'icon-accordion', icon: block.settings.icon_3 -%}
