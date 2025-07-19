@@ -706,7 +706,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/imgi_1_ScreenRecording2025-06-19at6.19.43PM-ezgif.com-crop.webp",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
@@ -744,8 +744,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/imgi_1_ScreenRecording2025-06-19at6.19.43PM-ezgif.com-crop.webp",
-        "height": "large",
+        "image": "shopify://shop_images/imgi_48_Screenshot_2025-06-19_at_9.36.10_PM_47e3849e-91ff-4ec2-af68-e4f6e364c5f7.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
