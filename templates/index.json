@@ -241,7 +241,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅Email Sign-Up On Password Pages</li><li>✅Store Clock</li><li>✅100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
@@ -329,7 +329,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>Minimal Layout For Easy Conversions</li><li>Email Sign-Up On Password Pages</li><li>Store Clock</li><li>100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
@@ -417,7 +417,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>Minimal Layout For Easy Conversions</li><li>Email Sign-Up On Password Pages</li><li>Store Clock</li><li>100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
