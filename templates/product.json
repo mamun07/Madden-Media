@@ -348,10 +348,60 @@
             "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_GTPTez": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does your theme work with all Shopify plans?",
+            "icon": "none",
+            "row_content": "<p>Yes, our themes work with all Shopify plans. Start your Shopify for $1 for three months here: <a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">https://shopify.pxf.io/3ej3yd</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9hgzyA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does the 1-year license mean? What happens if I don't renew?",
+            "icon": "none",
+            "row_content": "<p>A 1-year license gives you access to support and updates for one year. If you don't renew, you won't be able to customize or receive updates for your theme.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8iHRpJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does your Shopify theme work?",
+            "icon": "none",
+            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mLKGTh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does your Shopify theme work?",
+            "icon": "none",
+            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FTmCUF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does your Shopify theme work?",
+            "icon": "none",
+            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_HdrYpJ"
+        "collapsible_row_HdrYpJ",
+        "collapsible_row_GTPTez",
+        "collapsible_row_9hgzyA",
+        "collapsible_row_8iHRpJ",
+        "collapsible_row_mLKGTh",
+        "collapsible_row_FTmCUF"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
