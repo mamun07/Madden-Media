@@ -642,6 +642,45 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_cAp7gn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WcwahM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Backgrounds",
+            "heading_size": "h1"
+          }
+        },
+        "text_hULEgh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Customize the backgrounds on all pages to your liking. Choose between: Color, Video, Slideshow, and Gradient backgrounds</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WcwahM",
+        "text_hULEgh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_1_ScreenRecording2025-06-19at10.41.11PM-ezgif.com-video-to-webp-converter.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -687,6 +726,7 @@
     "image_with_text_ccKg4Q",
     "image_with_text_KRnPHH",
     "image_with_text_zyPemq",
+    "image_with_text_cAp7gn",
     "17529548762c0bafb7",
     "related-products"
   ]
