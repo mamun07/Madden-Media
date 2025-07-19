@@ -242,33 +242,33 @@
                 "text_fffca7"
               ]
             },
-            "column_Q3cXnX": {
+            "column_mMmcyb": {
               "type": "column",
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "scheme-5",
+                "color_scheme": "scheme-1",
                 "url": "",
                 "alignment": "center",
-                "show_border": true
+                "show_border": false
               },
               "blocks": {
-                "image_GJfFTH": {
+                "image_8AfAEU": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/1_1.webp",
+                    "image": "shopify://shop_images/imgi_25_buoy_icon_4d302546-a0c7-4077-9fdb-8fe56e38af9d.png",
                     "image_width": 40,
                     "padding_top": 50,
                     "padding_bottom": 10
                   },
                   "blocks": {}
                 },
-                "text_4BCj99": {
+                "text_mcMYnG": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Get Shopify For $1</h2>",
+                    "text": "<h2>Tech Support</h2><p>Via Discord, Email, and Live Chat</p>",
                     "padding_top": 10,
                     "padding_bottom": 50
                   },
@@ -276,37 +276,37 @@
                 }
               },
               "block_order": [
-                "image_GJfFTH",
-                "text_4BCj99"
+                "image_8AfAEU",
+                "text_mcMYnG"
               ]
             },
-            "column_G7gUmj": {
+            "column_xRVWce": {
               "type": "column",
               "name": "Column",
               "settings": {
                 "use_bg": true,
-                "color_scheme": "scheme-5",
+                "color_scheme": "scheme-1",
                 "url": "",
                 "alignment": "center",
-                "show_border": true
+                "show_border": false
               },
               "blocks": {
-                "image_FctwNn": {
+                "image_n4hfU3": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/1_2.png",
+                    "image": "shopify://shop_images/imgi_26_speed_icon_67261b8e-fd20-4ef2-b9f7-8b1037eff943.png",
                     "image_width": 40,
                     "padding_top": 50,
                     "padding_bottom": 10
                   },
                   "blocks": {}
                 },
-                "text_iqzeak": {
+                "text_PfYdnx": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Join Us On Discord</h2>",
+                    "text": "<h2>Free Updates</h2><p>Keeping your site up to date with best practices and new features</p>",
                     "padding_top": 10,
                     "padding_bottom": 50
                   },
@@ -314,15 +314,15 @@
                 }
               },
               "block_order": [
-                "image_FctwNn",
-                "text_iqzeak"
+                "image_n4hfU3",
+                "text_PfYdnx"
               ]
             }
           },
           "block_order": [
             "column_L9MrRk",
-            "column_Q3cXnX",
-            "column_G7gUmj"
+            "column_mMmcyb",
+            "column_xRVWce"
           ]
         }
       },
