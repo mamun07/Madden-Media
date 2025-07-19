@@ -388,9 +388,9 @@
         "collapsible_row_FTmCUF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does your Shopify theme work?",
+            "heading": "Can I transfer my theme to a different store?",
             "icon": "none",
-            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "row_content": "<p>Yes, you can transfer your license to a different Shopify store by providing your license key and the new store URL to our support team.</p>",
             "page": ""
           }
         }
