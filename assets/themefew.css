@@ -292,7 +292,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 .product__title>* {
     margin: 0;
     font-weight: 700;
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: clamp( 2rem, 3vw, calc(var(--font-heading-scale) * 4rem));
 }
 .collapsible-content .accordion {
     margin-top: 12px !important;
