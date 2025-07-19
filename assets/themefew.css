@@ -292,7 +292,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 .product__title>* {
     margin: 0;
     font-weight: 700;
-    font-size: clamp( 2rem, 3vw, calc(var(--font-heading-scale) * 4rem));
+    font-size: clamp( calc(var(--font-heading-scale) * 2rem), 3vw, calc(var(--font-heading-scale) * 4rem));
 }
 .collapsible-content .accordion {
     margin-top: 12px !important;
@@ -318,6 +318,13 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	transform: translateY(-2px);
 	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 12px 48px rgba(0, 0, 0, 0.2), 0 0 60px rgba(255, 255, 255, 0.1);
 }
-
+.quantity__button {
+    background: #000;
+    border-radius: 100%;
+    border: 1px solid #343333;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0;
+}
 
 
