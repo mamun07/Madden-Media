@@ -330,4 +330,18 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     margin: 5px 0;
 }
 
+.icon-with-text__item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #ffffff0d;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all .4s cubic-bezier(.4,0,.2,1);
+}
 
