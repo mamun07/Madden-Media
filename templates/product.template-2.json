@@ -564,6 +564,45 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_KRnPHH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pzkdaJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Password Page",
+            "heading_size": "h1"
+          }
+        },
+        "text_QgMiL3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose between two product page styles built for conversions right out of the gate. Select whichever resonates with your brand most.</p><p>1. Supreme Style</p><p>2. Showcase Style</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pzkdaJ",
+        "text_QgMiL3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/imgi_44_Artboard_2_e7f548de-5450-4e54-ab0d-24688824e02e.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "17529548762c0bafb7": {
       "type": "apps",
       "blocks": {
@@ -607,6 +646,7 @@
     "image_with_text_dRnHMF",
     "image_with_text_wbyKBQ",
     "image_with_text_ccKg4Q",
+    "image_with_text_KRnPHH",
     "17529548762c0bafb7",
     "related-products"
   ]
