@@ -255,11 +255,11 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 .product-form__input--pill input[type=radio]+label {
     padding: 1.4rem 2rem  !important;
-    font-size: 1.4rem!important;
-    font-weight: 600!important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
     letter-spacing: .05rem!important;
-    line-height: 1.2!important;
-    text-align: center!important;
+    line-height: 1.2 !important;
+    text-align: center !important;
   
 }
 
