@@ -92,6 +92,42 @@
             "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
             "page": ""
           }
+        },
+        "collapsible_tab_fxCcTa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "check_mark",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ycTPb8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "silhouette",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_xCGfdN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "star",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HxMcxj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "View Demo",
+            "icon": "star",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -107,7 +143,11 @@
         "text_ARmw3t",
         "text_MYBpwh",
         "description_ikCxqj",
-        "collapsible_tab_ibECRX"
+        "collapsible_tab_ibECRX",
+        "collapsible_tab_fxCcTa",
+        "collapsible_tab_ycTPb8",
+        "collapsible_tab_xCGfdN",
+        "collapsible_tab_HxMcxj"
       ],
       "settings": {
         "enable_sticky_info": true,
