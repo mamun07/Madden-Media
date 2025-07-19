@@ -115,7 +115,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "View Demo",
-            "icon": "star",
+            "icon": "price_tag",
             "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
             "page": ""
           }
