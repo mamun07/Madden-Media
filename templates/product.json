@@ -192,6 +192,151 @@
         "padding_bottom": 12
       }
     },
+    "custom_section_8WBKhR": {
+      "type": "custom-section",
+      "blocks": {
+        "row_nkDGry": {
+          "type": "row",
+          "name": "Row",
+          "settings": {
+            "row_desktop": "3",
+            "row_mobile": "1",
+            "all_center": true
+          },
+          "blocks": {
+            "column_L9MrRk": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-1",
+                "url": "",
+                "alignment": "center",
+                "show_border": false
+              },
+              "blocks": {
+                "image_wbyYqX": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/imgi_24_update_icon_187e01ac-5ccd-4480-875c-c15e580ee89f.png",
+                    "image_width": 40,
+                    "padding_top": 50,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_fffca7": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2>Free Updates</h2><p>Keeping your site up to date with best practices and new features</p>",
+                    "padding_top": 10,
+                    "padding_bottom": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_wbyYqX",
+                "text_fffca7"
+              ]
+            },
+            "column_Q3cXnX": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-5",
+                "url": "",
+                "alignment": "center",
+                "show_border": true
+              },
+              "blocks": {
+                "image_GJfFTH": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/1_1.webp",
+                    "image_width": 40,
+                    "padding_top": 50,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_4BCj99": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2>Get Shopify For $1</h2>",
+                    "padding_top": 10,
+                    "padding_bottom": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_GJfFTH",
+                "text_4BCj99"
+              ]
+            },
+            "column_G7gUmj": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-5",
+                "url": "",
+                "alignment": "center",
+                "show_border": true
+              },
+              "blocks": {
+                "image_FctwNn": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/1_2.png",
+                    "image_width": 40,
+                    "padding_top": 50,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_iqzeak": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2>Join Us On Discord</h2>",
+                    "padding_top": 10,
+                    "padding_bottom": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_FctwNn",
+                "text_iqzeak"
+              ]
+            }
+          },
+          "block_order": [
+            "column_L9MrRk",
+            "column_Q3cXnX",
+            "column_G7gUmj"
+          ]
+        }
+      },
+      "block_order": [
+        "row_nkDGry"
+      ],
+      "name": "Custom Section",
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -214,6 +359,7 @@
   },
   "order": [
     "main",
+    "custom_section_8WBKhR",
     "related-products"
   ]
 }
