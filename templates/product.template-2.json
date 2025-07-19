@@ -24,6 +24,24 @@
           "type": "price",
           "settings": {}
         },
+        "icon_with_text_H4p98b": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/1.svg",
+            "svg_1": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                          <path d=\"M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                          <path d=\"M12 16V22\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n                          <path d=\"M8 20H16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n                        </svg>",
+            "heading_1": "<h3>14-Day Guarantee</h3><p>Didn't see an improvement in conversions? Show us for a full refund 🤝🏾</p>",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/2.svg",
+            "svg_2": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                          <path d=\"M12 2L15.09 8.26L22 9L15.09 9.74L12 16L8.91 9.74L2 9L8.91 8.26L12 2Z\" fill=\"currentColor\"></path>\n                          <circle cx=\"12\" cy=\"19\" r=\"2\" fill=\"currentColor\"></circle>\n                        </svg>",
+            "heading_2": "<h3>Free Installation</h3><p><strong>13</strong> free installations remaining</p>",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/3.svg",
+            "svg_3": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                         <path d=\"M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z\" fill=\"currentColor\"></path>\n                         <path d=\"M8 14L12 18L16 14\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                         <circle cx=\"6\" cy=\"6\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"18\" cy=\"6\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"6\" cy=\"18\" r=\"1\" fill=\"currentColor\"></circle>\n                         <circle cx=\"18\" cy=\"18\" r=\"1\" fill=\"currentColor\"></circle>\n                       </svg>",
+            "heading_3": "<h3>AI-Background Generator Included</h3><p>Generate stunning AI backgrounds instantly with our built-in tool.</p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -155,6 +173,7 @@
         "title",
         "judge_me_reviews_preview_badge_KDjD7x",
         "price",
+        "icon_with_text_H4p98b",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
