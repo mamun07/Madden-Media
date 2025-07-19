@@ -248,10 +248,10 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 .shopify-payment-button__button--unbranded:after {
     box-shadow: none;
 }
-.product-form__input--pill input[type=radio]:checked+label {
-  color: rgb(255 255 255);
-  background-color: rgb(255 255 255 / 7%);
-  border: var(--variant-pills-border-width) solid rgb(255 255 255 / 58%);
+.product__info-wrapper .product-form__input--pill input[type=radio]:checked+label {
+  color: rgb(255 255 255) !important;
+  background-color: rgb(255 255 255 / 7%) !important;
+  border: var(--variant-pills-border-width) solid rgb(255 255 255 / 58%) !important;
 }
 
 
