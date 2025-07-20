@@ -60,6 +60,20 @@
             "show_gift_card_recipient": true
           }
         },
+        "marquee_slider_xyjYT7": {
+          "type": "marquee-slider",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "padding_top": 4,
+            "padding_bottom": 12,
+            "title": "<h3>Trusted By 5000+ Brands</h3>",
+            "image_1": "shopify://shop_images/imgi_5_65e40401f75f133236bfd387_Dreamville.png",
+            "image_2": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png",
+            "image_3": "shopify://shop_images/imgi_22_65e4058dcd127654add9c07e_star_logo_w__circle_2.png",
+            "image_4": "shopify://shop_images/imgi_1_Trapstar_Logo3.png",
+            "image_5": "shopify://shop_images/imgi_1_SUPERLINE_WHOLESALE_LOGO__copy_30c6df36-f41a-4784-8cd1-84d13c19ee3c.webp"
+          }
+        },
         "text_DY9Pnm": {
           "type": "text",
           "settings": {
@@ -177,6 +191,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "marquee_slider_xyjYT7",
         "text_DY9Pnm",
         "text_EiEkH9",
         "text_QtE8ze",
