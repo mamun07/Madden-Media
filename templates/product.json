@@ -204,10 +204,10 @@
         "padding_bottom": 12
       }
     },
-    "custom_section_8WBKhR": {
+    "custom_section_4MJCpn": {
       "type": "custom-section",
       "blocks": {
-        "row_nkDGry": {
+        "row_KzthDq": {
           "type": "row",
           "name": "Row",
           "settings": {
@@ -216,7 +216,7 @@
             "all_center": true
           },
           "blocks": {
-            "column_L9MrRk": {
+            "column_exggby": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -227,18 +227,18 @@
                 "show_border": false
               },
               "blocks": {
-                "image_wbyYqX": {
+                "image_xzDWEb": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/imgi_24_update_icon_187e01ac-5ccd-4480-875c-c15e580ee89f.png",
-                    "image_width": 40,
+                    "image": "shopify://shop_images/2_1.png",
+                    "image_width": 25,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_fffca7": {
+                "text_Rh7qff": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -250,11 +250,11 @@
                 }
               },
               "block_order": [
-                "image_wbyYqX",
-                "text_fffca7"
+                "image_xzDWEb",
+                "text_Rh7qff"
               ]
             },
-            "column_mMmcyb": {
+            "column_4kzGWz": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -265,18 +265,18 @@
                 "show_border": false
               },
               "blocks": {
-                "image_8AfAEU": {
+                "image_f9JrAy": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/imgi_25_buoy_icon_4d302546-a0c7-4077-9fdb-8fe56e38af9d.png",
-                    "image_width": 40,
+                    "image": "shopify://shop_images/3_1.png",
+                    "image_width": 28,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_mcMYnG": {
+                "text_7CDkYG": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -288,11 +288,11 @@
                 }
               },
               "block_order": [
-                "image_8AfAEU",
-                "text_mcMYnG"
+                "image_f9JrAy",
+                "text_7CDkYG"
               ]
             },
-            "column_xRVWce": {
+            "column_wzYcnz": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -303,18 +303,18 @@
                 "show_border": false
               },
               "blocks": {
-                "image_n4hfU3": {
+                "image_Ptazy8": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/imgi_26_speed_icon_67261b8e-fd20-4ef2-b9f7-8b1037eff943.png",
-                    "image_width": 40,
+                    "image": "shopify://shop_images/1_1_c407db40-ea78-4b6c-97ac-6f9878df3203.png",
+                    "image_width": 25,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_PfYdnx": {
+                "text_XayetW": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -326,20 +326,20 @@
                 }
               },
               "block_order": [
-                "image_n4hfU3",
-                "text_PfYdnx"
+                "image_Ptazy8",
+                "text_XayetW"
               ]
             }
           },
           "block_order": [
-            "column_L9MrRk",
-            "column_mMmcyb",
-            "column_xRVWce"
+            "column_exggby",
+            "column_4kzGWz",
+            "column_wzYcnz"
           ]
         }
       },
       "block_order": [
-        "row_nkDGry"
+        "row_KzthDq"
       ],
       "name": "Custom Section",
       "settings": {
@@ -468,7 +468,7 @@
   },
   "order": [
     "main",
-    "custom_section_8WBKhR",
+    "custom_section_4MJCpn",
     "collapsible_content_JkLmx6",
     "17529548762c0bafb7",
     "related-products"
