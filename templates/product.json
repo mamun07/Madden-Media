@@ -46,8 +46,8 @@
           "type": "marquee-slider",
           "settings": {
             "color_scheme": "scheme-1",
-            "padding_top": 40,
-            "padding_bottom": 40,
+            "padding_top": 4,
+            "padding_bottom": 12,
             "title": "<h3>Trusted By 5000+ Brands</h3>",
             "image_1": "shopify://shop_images/imgi_5_65e40401f75f133236bfd387_Dreamville.png",
             "image_2": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png",
