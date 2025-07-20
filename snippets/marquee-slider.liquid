@@ -43,7 +43,47 @@
       transform: translateX(-50%);
     }
   }
-
+  .marquee-container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: none;
+    letter-spacing: 0.5px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  .marquee-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 30%,
+      transparent 70%,
+      rgba(0, 0, 0, 0.1) 100%);
+    border-radius: 16px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .marquee-container {
+    max-width: 420px;
+    margin: 2rem 0 1.5rem 0;
+    padding: 1.5rem;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
+                0 4px 15px rgba(0, 0, 0, 0.1);
+  }
   
   @media screen and (min-width: 750px) {
     .marquee-{{ block.id }} {
@@ -55,6 +95,9 @@
 
 <div class="color-{{ block.settings.color_scheme }} gradient marquee-{{ block.id }}">
     <div class="marquee-container">
+      {% if block.settings.title %}
+        <h2>{{ block.settings.title }}</h2>
+      {% endif %}
       <div class="marquee-track">
         {% for i in (1..10) %} 
           {% assign img_key = "image_" | append: i %}
