@@ -42,6 +42,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "marquee_slider_KyNRJM": {
+          "type": "marquee-slider",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "title": "<h3>Trusted By 5000+ Brands</h3>",
+            "image_1": "shopify://shop_images/imgi_5_65e40401f75f133236bfd387_Dreamville.png",
+            "image_2": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png",
+            "image_3": "shopify://shop_images/imgi_22_65e4058dcd127654add9c07e_star_logo_w__circle_2.png"
+          }
+        },
         "text_DY9Pnm": {
           "type": "text",
           "settings": {
@@ -158,6 +170,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "marquee_slider_KyNRJM",
         "text_DY9Pnm",
         "text_EiEkH9",
         "text_QtE8ze",
