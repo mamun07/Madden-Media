@@ -253,7 +253,7 @@
                     "image": "shopify://shop_images/2_1.png",
                     "image_width": 25,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
@@ -291,7 +291,7 @@
                     "image": "shopify://shop_images/3_1.png",
                     "image_width": 28,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
@@ -329,7 +329,7 @@
                     "image": "shopify://shop_images/1_1_c407db40-ea78-4b6c-97ac-6f9878df3203.png",
                     "image_width": 25,
                     "padding_top": 50,
-                    "padding_bottom": 10
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
