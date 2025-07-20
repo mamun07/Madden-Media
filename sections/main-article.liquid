@@ -1,5 +1,10 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-
+<style>
+  .article-template__hero-{{ block.settings.image_height }}{
+    position: relative;
+  }
+  .article-template__hero-{{ block.settings.image_height }} .article-template__title{}
+</style>
 <article class="article-template">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
