@@ -56,20 +56,14 @@
 <div class="color-{{ block.settings.color_scheme }} gradient marquee-{{ block.id }}">
     <div class="marquee-container">
       <div class="marquee-track">
-        {% for i in (1..2) %}
-          
-            {% assign img_key = "image_" | append: i %}
-            {% assign image = block.settings[img_key] %}
-            {% if image != blank %}
-              <div class="image-box">
-                {{ image | image_url: width: 600 | image_tag  }}
-              </div>
-            {% else %}
-              <div class="image-box">
-                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-              </div>
-            {% endif %}
-          
+        {% for i in (1..2) %}          
+          {% assign img_key = "image_" | append: i %}
+          {% assign image = block.settings[img_key] %}
+          {% if image != blank %}
+            <div class="image-box">
+              {{ image | image_url: width: 600 | image_tag  }}
+            </div>
+          {% endif %}          
         {% endfor %}
       </div>
     </div>
