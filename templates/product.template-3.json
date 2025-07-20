@@ -289,7 +289,7 @@
                   "name": "Image",
                   "settings": {
                     "image": "shopify://shop_images/3_1.png",
-                    "image_width": 25,
+                    "image_width": 28,
                     "padding_top": 50,
                     "padding_bottom": 10
                   },
