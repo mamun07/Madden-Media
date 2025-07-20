@@ -37,6 +37,11 @@
                 height="{{ article.image.height }}"
                 alt="{{ article.image.alt | escape }}"
               >
+              <h1
+                class="article-template__title"
+              >
+                {{ article.title | escape }}
+              </h1>
             </div>
           </div>
         {%- endif -%}
