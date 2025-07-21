@@ -112,10 +112,14 @@
                       {% endif %}
                       class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
                     >
+                  {% else %}
+                    <button class="button button--{{ section.settings.button_style }}">                      
                   {% endif %}
                     {{ block.settings.button_label | escape }}
                   {% if block.settings.light != true%}
                     </a>
+                  {% else %}
+                    </button>
                   {% endif %}
                 {%- endif -%}
                 {%- if block.settings.button_label1 != blank -%}
