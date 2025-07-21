@@ -125,54 +125,54 @@
         "collapsible_tab_fxCcTa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Requirements",
             "icon": "check_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1<a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">here</a></p>",
             "page": ""
           }
         },
         "collapsible_tab_ycTPb8": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Install Guide",
             "icon": "silhouette",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>To self-install follow our tutorial here﻿:<br/><a href=\"https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s\" target=\"_blank\">https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s</a>If you would rather the OpenSpaces team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
             "page": ""
           }
         },
         "collapsible_tab_xCGfdN": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Refund & Terms",
             "icon": "price_tag",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Added your best content and didn't see higher conversions in 14 days? Show us for a full refund, no questions asked.</p><p>View our full refund policy <a href=\"https://www.openspaces.design/policies/refunds\" target=\"_blank\" title=\"https://www.openspaces.design/policies/refunds\">here</a></p>",
             "page": ""
           }
         },
         "collapsible_tab_HxMcxj": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Support",
             "icon": "chat_bubble",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us directly<a href=\"https://shop.openspaces.design/products/support@openspaces.design\">support@openspaces.design</a></p>",
             "page": ""
           }
         },
         "collapsible_tab_apywzV": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "About Standard License",
             "icon": "question_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Standard licenses are valid for one year after purchasing. License must be renewed after a year, and all new updates are free.<br/><br/>Each purchase comes with a license key.<br/>1 License = 1 Shopify store.<br/><br/>If you decide not to use the theme anymore after a year, you don't have to renew your license. There is no automatic subscription charges.</p>",
             "page": ""
           }
         },
         "collapsible_tab_hXQeVm": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "About Extended License",
             "icon": "question_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Lifetime licenses do not have to be renewed yearly. All lifetime licenses also have free theme updates<br/><br/>Each purchase comes with a license key.<br/>1 License = 1 Shopify store.</p>",
             "page": ""
           }
         },
