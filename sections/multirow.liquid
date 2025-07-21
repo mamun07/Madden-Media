@@ -103,28 +103,36 @@
       
               <div class="button_group_area">
                 {%- if block.settings.button_label != blank -%}
-                  <a
-                    {% if block.settings.button_link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.button_link }}"
-                    {% endif %}
-                    class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
-                  >
+                  {% if block.settings.light != true%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
+                    >
+                  {% endif %}
                     {{ block.settings.button_label | escape }}
-                  </a>
+                  {% if block.settings.light != true%}
+                    </a>
+                  {% endif %}
                 {%- endif -%}
                 {%- if block.settings.button_label1 != blank -%}
-                  <a
-                    {% if block.settings.button_link1 == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.button_link1 }}"
-                    {% endif %}
-                    class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}"
-                  >
+                  {% if block.settings.light1 != true%}
+                    <a
+                      {% if block.settings.button_link1 == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link1 }}"
+                      {% endif %}
+                      class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}"
+                    >
+                  {% endif %}
                     {{ block.settings.button_label1 | escape }}
-                  </a>
+                  {% if block.settings.light1 != true%}
+                    </a>
+                  {% endif %}
                 {%- endif -%}
               </div>
       
