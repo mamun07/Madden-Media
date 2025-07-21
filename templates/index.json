@@ -748,7 +748,7 @@
             "button_link": "#",
             "light": false,
             "button_label1": "Get A Quote",
-            "button_link1": "#",
+            "button_link1": "shopify://pages/store-setup",
             "light1": true
           }
         },
