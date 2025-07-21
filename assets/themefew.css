@@ -139,7 +139,12 @@ label#form_input_23 {
     margin: 0 auto !important;
     text-align: center !important;
 }
-
+.button_group_area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
 
 
 
