@@ -109,13 +109,16 @@ nav.header__inline-menu {
     display: none;
   }
 }
+.form_container > .form-group {
+    margin: 0 0 10px 0 !important; 
+}
 .fitText.block_label.only_label {
     font-size: 11px !important;
     margin: 0 5px !important;
     opacity: 0.7;
 }
 .form-group.label {
-    margin: -20px 0 20px 0 !important;
+    margin: 0px 0 20px 0 !important;
 }
 
 
