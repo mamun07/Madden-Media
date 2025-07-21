@@ -113,7 +113,7 @@
                       class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
                     >
                   {% else %}
-                    <button class="popup_form button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}">                      
+                    <button class="popup_form-{{ block.id }}{{ section.id }} button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label | escape }}
                   {% if block.settings.light == true%}
@@ -133,7 +133,7 @@
                       class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}"
                     >
                   {% else %}
-                    <button class="popup_form button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}">                      
+                    <button class="popup_form-{{ block.id }}{{ section.id }} button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label1 | escape }}
                   {% if block.settings.light1 == true%}
@@ -143,6 +143,11 @@
                   {% endif %}
                 {%- endif -%}
               </div>
+                      
+                      
+              <div id="popup_form_area-{{ block.id }}{{ section.id }}">      Popup      </div>
+
+
       
             </div>
           </div>
