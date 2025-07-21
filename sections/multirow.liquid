@@ -113,7 +113,7 @@
                       class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}"
                     >
                   {% else %}
-                    <button class="button button--{{ section.settings.button_style }}">                      
+                    <button class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label | escape }}
                   {% if block.settings.light != true%}
@@ -132,10 +132,14 @@
                       {% endif %}
                       class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}"
                     >
+                  {% else %}
+                    <button class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label1 | escape }}
                   {% if block.settings.light1 != true%}
                     </a>
+                  {% else %}
+                    </button>
                   {% endif %}
                 {%- endif -%}
               </div>
