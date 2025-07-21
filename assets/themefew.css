@@ -288,7 +288,9 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 	transition: all .4s cubic-bezier(.4,0,.2,1) !important;
 	box-shadow: 0 0 0 1px #ffffff0d,0 4px 15px #0000001a !important;
 }
-
+.form_description_div ol {
+    padding-left: 20px !important;
+}
 .product__title>* {
     margin: 0;
     font-weight: 700;
@@ -654,3 +656,4 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
   }
 }
+
