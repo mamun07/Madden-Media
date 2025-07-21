@@ -158,32 +158,33 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-  // Select all relevant buttons
+document.addEventListener("DOMContentLoaded", function () {
+  // Handle open popup
   document.querySelectorAll(".button_group_area button").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      // Extract block and section ID from class name
-      const popupClass = Array.from(btn.classList).find(cls => cls.startsWith("popup_form-"));
+      const classList = btn.className.split(" ");
+      const popupClass = classList.find(c => c.startsWith("popup_form-"));
       if (popupClass) {
-        const idPart = popupClass.replace("popup_form-", "");
-        const popup = document.getElementById("popup_form_area-" + idPart);
+        const id = popupClass.replace("popup_form-", "");
+        const popup = document.getElementById("popup_form_area-" + id);
         if (popup) {
-          popup.classList.add("active");
+          popup.style.display = "block";
         }
       }
     });
   });
 
-  // Handle popup close
+  // Handle close popup
   document.querySelectorAll('[id^="popup_form_area-"] .close').forEach(function (closeBtn) {
     closeBtn.addEventListener("click", function () {
       const popup = closeBtn.closest('[id^="popup_form_area-"]');
       if (popup) {
-        popup.classList.remove("active");
+        popup.style.display = "none";
       }
     });
   });
 });
+
 
 </script>
 
