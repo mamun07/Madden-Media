@@ -103,7 +103,7 @@
       
               <div class="button_group_area">
                 {%- if block.settings.button_label != blank -%}
-                  {% if block.settings.light != true%}
+                  {% if block.settings.light == true%}
                     <a
                       {% if block.settings.button_link == blank %}
                         role="link" aria-disabled="true"
@@ -116,14 +116,14 @@
                     <button class="button button--{{ section.settings.button_style }} {% if block.settings.light == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label | escape }}
-                  {% if block.settings.light != true%}
+                  {% if block.settings.light == true%}
                     </a>
                   {% else %}
                     </button>
                   {% endif %}
                 {%- endif -%}
                 {%- if block.settings.button_label1 != blank -%}
-                  {% if block.settings.light1 != true%}
+                  {% if block.settings.light1 == true%}
                     <a
                       {% if block.settings.button_link1 == blank %}
                         role="link" aria-disabled="true"
@@ -136,7 +136,7 @@
                     <button class="button button--{{ section.settings.button_style }} {% if block.settings.light1 == true%}light{% endif %}">                      
                   {% endif %}
                     {{ block.settings.button_label1 | escape }}
-                  {% if block.settings.light1 != true%}
+                  {% if block.settings.light1 == true%}
                     </a>
                   {% else %}
                     </button>
