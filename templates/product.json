@@ -107,9 +107,9 @@
         "collapsible_tab_fxCcTa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Requirements",
             "icon": "check_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1<a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">here</a></p>",
             "page": ""
           }
         },
