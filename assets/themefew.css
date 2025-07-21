@@ -129,7 +129,16 @@ nav.header__inline-menu {
     font-weight: 700 !important;
     color: #000 !important;
 }
-
+label#form_input_23 {
+    font-size: 18px !important;
+    opacity: 1;
+    text-align: center !important;
+}
+.formElement_23.form-group.fadeMe.text.clearfix.col-sm-12.label {
+    max-width: 50%;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
 
 
 
