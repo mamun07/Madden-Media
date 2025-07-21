@@ -109,7 +109,13 @@ nav.header__inline-menu {
     display: none;
   }
 }
-
+.fitText.block_label.only_label {
+    font-size: 10px !important;
+    margin: 0 !important;
+}
+.form-group.label {
+    margin: -20px 0 20px 0 !important;
+}
 
 
 
