@@ -116,45 +116,45 @@
         "collapsible_tab_ycTPb8": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Install Guide",
             "icon": "silhouette",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>To self-install follow our tutorial here﻿:<br/><a href=\"https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s\" target=\"_blank\">https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s</a>If you would rather the OpenSpaces team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
             "page": ""
           }
         },
         "collapsible_tab_xCGfdN": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Refund & Terms",
             "icon": "price_tag",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Due to this being a digital product all sales are final</p><p>View our full refund policy <a href=\"https://www.openspaces.design/policies/refunds\" target=\"_blank\" title=\"https://www.openspaces.design/policies/refunds\">here</a></p>",
             "page": ""
           }
         },
         "collapsible_tab_HxMcxj": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "Support",
             "icon": "chat_bubble",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us directly<a href=\"https://shop.openspaces.design/collections/themes/products/support@openspaces.design\">support@openspaces.design</a></p>",
             "page": ""
           }
         },
         "collapsible_tab_apywzV": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "About Standard License",
             "icon": "question_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>This product does not require any renewal. There is no 1 year license associated with this product.</p>",
             "page": ""
           }
         },
         "collapsible_tab_hXQeVm": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "View Demo",
+            "heading": "About Extended License",
             "icon": "question_mark",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "",
             "page": ""
           }
         },
