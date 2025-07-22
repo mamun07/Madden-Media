@@ -26,17 +26,10 @@
             "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
-        },
-        "text_JyiH7J": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
         }
       },
       "block_order": [
-        "heading_UVJcwf",
-        "text_JyiH7J"
+        "heading_UVJcwf"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -44,21 +37,14 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 24
       }
     },
-    "rich_text_TX6Ljc": {
+    "rich_text_nRA6nw": {
       "type": "rich-text",
       "blocks": {
-        "heading_gqfpUn": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ page.title }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_DW4eMH": {
+        "text_FaQXGq": {
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
@@ -66,23 +52,22 @@
         }
       },
       "block_order": [
-        "heading_gqfpUn",
-        "text_DW4eMH"
+        "text_FaQXGq"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
     "rich_text_eVng3X",
-    "rich_text_TX6Ljc"
+    "rich_text_nRA6nw"
   ]
 }
