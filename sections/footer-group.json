@@ -28,14 +28,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Products",
-            "menu": "main-menu"
+            "menu": "products"
           }
         },
         "link_list_x3MJWh": {
           "type": "link_list",
           "settings": {
             "heading": "Resources",
-            "menu": "main-menu"
+            "menu": "resources"
           }
         },
         "text_HRcFyf": {
