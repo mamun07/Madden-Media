@@ -152,7 +152,7 @@ label#form_input_23 {
       font-weight: 500;
   }
   .slideshow__slide .banner__box .banner__heading+* {
-      margin: 3rem 0 3rem;
+      margin: 3rem 0 1rem;
       font-size: 14px;
   }
   .slideshow__slide  h2.banner__heading.inline-richtext.hxl {
