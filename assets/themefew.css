@@ -24,19 +24,6 @@ body{
   object-position: center;
 }
 
-.multirow .button.button--primary {
-    border: 1px solid rgb(var(--color-button-text));
-}
-.multirow .button.button--primary:hover {
-  color: rgb(var(--color-button)); 
-  background: rgb(var(--color-button-text));
-}
-.multirow .button:not([disabled]):hover:after, 
-.multirow .shopify-challenge__button:hover:after, 
-.multirow .customer button:hover:after, 
-.multirow .shopify-payment-button__button--unbranded:hover:after {
-    box-shadow: none;
-}
 nav.header__inline-menu {
   text-align: right;
 }
@@ -310,6 +297,19 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     border: var(--variant-pills-border-width) solid rgb(255 255 255 / 18%) !important;
 }
 
+.multirow .button.button--primary {
+    border: 1px solid rgb(var(--color-button-text));
+}
+.multirow .button.button--primary:hover {
+  color: rgb(var(--color-button)); 
+  background: rgb(var(--color-button-text));
+}
+.multirow .button:not([disabled]):hover:after, 
+.multirow .shopify-challenge__button:hover:after, 
+.multirow .customer button:hover:after, 
+.multirow .shopify-payment-button__button--unbranded:hover:after {
+    box-shadow: none;
+}
 .product__accordion details {
 	padding: 1.5rem !important;
 }
