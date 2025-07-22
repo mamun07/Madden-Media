@@ -27,7 +27,7 @@
             "button_style_secondary": false,
             "button_label2": "Join Our Discord 👥",
             "link2": "https://discord.com/invite/Tz8dqEahH9",
-            "button_style_secondary2": false,
+            "button_style_secondary2": true,
             "show_text_box": false,
             "box_align": "bottom-left",
             "text_alignment": "left",
