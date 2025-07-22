@@ -145,11 +145,16 @@ label#form_input_23 {
     width: 100%;
     gap: 12px;
 }
-
-.banner__buttons > * {
-    max-width: 80%;
-    width: 100%;
-    font-weight: 500;
+@media(max-width: 750px){
+  .banner__buttons > * {
+      max-width: 80%;
+      width: 100%;
+      font-weight: 500;
+  }
+  .slideshow__slide .banner__box .banner__heading+* {
+      margin: 5rem 0 3rem;
+      font-size: 14px;
+  }
 }
 
 
