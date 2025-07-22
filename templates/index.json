@@ -304,7 +304,7 @@
                   "name": "Button",
                   "settings": {
                     "btn_label": "Learn More",
-                    "btn_link": "#",
+                    "btn_link": "shopify://pages/learn-more-plain-jane",
                     "color_scheme_1": "scheme-2",
                     "btn_label_1": "Buy Now",
                     "btn_link_1": "shopify://products/ghost-interactive",
