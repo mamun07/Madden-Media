@@ -23,13 +23,20 @@
         "heading_UVJcwf": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "HOW IT WORKS",
             "heading_size": "h1"
+          }
+        },
+        "text_A7K74E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Select a service below for additional details:</p>"
           }
         }
       },
       "block_order": [
-        "heading_UVJcwf"
+        "heading_UVJcwf",
+        "text_A7K74E"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -47,7 +54,7 @@
         "text_FaQXGq": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Theme Installation Service (Step By Step)<br/>1. Visit Our Store: Head to the OpenSpaces Theme Store.<br/>2. Select a Theme: Choose an OpenSpaces theme that suits your brand's aesthetic.<br/>3. Installation Option: Select the \"Install For Me ($35)\" option on the theme to have our team install the theme on your Shopify account.<br/>4. Send Us Your Details: After purchase, we'll contact you via email to gather necessary details about your Shopify account to ensure proper installation.<br/>5. Complete Installation: We take care of the theme installation, setting up the theme on your account without configuring or customizing its settings.<br/>Please note, this service only includes theme installation. If you need full theme setup and customization, please consider our Theme Setup service.<br/><br/></p>"
           }
         }
       },
