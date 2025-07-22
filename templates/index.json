@@ -31,7 +31,7 @@
             "show_text_box": false,
             "box_align": "bottom-left",
             "text_alignment": "left",
-            "text_alignment_mobile": "center",
+            "text_alignment_mobile": "left",
             "color_scheme": ""
           }
         }
