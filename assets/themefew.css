@@ -146,8 +146,11 @@ label#form_input_23 {
     gap: 12px;
 }
 
-
-
+.banner__buttons > * {
+    max-width: 80%;
+    width: 100%;
+    font-weight: 500;
+}
 
 
 
