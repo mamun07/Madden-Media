@@ -271,16 +271,7 @@ button[name="add"]:active,
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
     background: blue;
 }
-.multirow .button:after, 
-.multirow .shopify-challenge__button:after, 
-.multirow .customer button:after, 
-.multirow .button:before, 
-.multirow .shopify-challenge__button:before, 
-.multirow .customer button:before, 
-.multirow .shopify-payment-button__button--unbranded:before,
-.multirow .shopify-payment-button__button--unbranded:after {
-    box-shadow: none;
-}
+
 .product-form__input--pill input[type=radio]+label:hover,
 .product__info-wrapper .product-form__input--pill input[type=radio]:checked+label {
   color: rgb(255 255 255) !important;
