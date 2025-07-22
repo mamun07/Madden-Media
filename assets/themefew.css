@@ -266,6 +266,19 @@ button[name="add"]:active,
   }
 }
 
+.button.button--primary {
+  border: 1px solid rgb(var(--color-button-text)) !important;
+}
+.button.button--primary:hover {
+color: rgb(var(--color-button)) !important;
+background: rgb(var(--color-button-text)) !important;
+}
+.button:not([disabled]):hover:after, 
+.shopify-challenge__button:hover:after, 
+.customer button:hover:after, 
+.shopify-payment-button__button--unbranded:hover:after {
+  box-shadow: none !important;
+}
 
 
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
@@ -297,19 +310,6 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
     border: var(--variant-pills-border-width) solid rgb(255 255 255 / 18%) !important;
 }
 
- .button.button--primary {
-    border: 1px solid rgb(var(--color-button-text)) !important;
-}
- .button.button--primary:hover {
-  color: rgb(var(--color-button)) !important;
-  background: rgb(var(--color-button-text)) !important;
-}
- .button:not([disabled]):hover:after, 
- .shopify-challenge__button:hover:after, 
- .customer button:hover:after, 
- .shopify-payment-button__button--unbranded:hover:after {
-    box-shadow: none !important;
-}
 
 .product__accordion details {
 	padding: 1.5rem !important;
