@@ -298,18 +298,19 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded 
 }
 
 .multirow .button.button--primary {
-    border: 1px solid rgb(var(--color-button-text));
+    border: 1px solid rgb(var(--color-button-text)) !important;
 }
 .multirow .button.button--primary:hover {
-  color: rgb(var(--color-button)); 
-  background: rgb(var(--color-button-text));
+  color: rgb(var(--color-button)) !important;
+  background: rgb(var(--color-button-text)) !important;
 }
 .multirow .button:not([disabled]):hover:after, 
 .multirow .shopify-challenge__button:hover:after, 
 .multirow .customer button:hover:after, 
 .multirow .shopify-payment-button__button--unbranded:hover:after {
-    box-shadow: none;
+    box-shadow: none !important;
 }
+
 .product__accordion details {
 	padding: 1.5rem !important;
 }
