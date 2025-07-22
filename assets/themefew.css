@@ -146,14 +146,20 @@ label#form_input_23 {
     gap: 12px;
 }
 @media(max-width: 750px){
-  .banner__buttons > * {
+  .slideshow__slide  .banner__buttons > * {
       max-width: 80%;
       width: 100%;
       font-weight: 500;
   }
   .slideshow__slide .banner__box .banner__heading+* {
-      margin: 5rem 0 3rem;
+      margin: 3rem 0 3rem;
       font-size: 14px;
+  }
+  .slideshow__slide  h2.banner__heading.inline-richtext.hxl {
+    font-size: calc(var(--font-heading-scale) * 4rem);
+    max-width: 65%;
+    width: 100%;
+    line-height: 1;
   }
 }
 
