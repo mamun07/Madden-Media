@@ -153,21 +153,12 @@
                   {% endif %}
                 {%- endif -%}
               </div>
-                      
-              <style>
-                  .section-{{ section.id }}-padding #popup_form_area-{{ block.id }}{{ section.id }}{
-                    position: absolute;
-                    background: #ddd;
-                    width: 100%;
-                    height: 100%;
-                    left: 0;
-                    top: 0;
-                  }
-              </style>
-                      
-              <div id="popup_form_area-{{ block.id }}{{ section.id }}" style="display: none">   
-                working on Popup <span class="close">X</span>
-              </div>
+      
+              {% comment %}
+                <div id="popup_form_area-{{ block.id }}{{ section.id }}" style="display: none">   
+                  working on Popup <span class="close">X</span>
+                </div>
+              {% endcomment %}
 
 
       
