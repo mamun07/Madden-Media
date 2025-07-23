@@ -65,7 +65,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}" id="{{ section.settings.custom_id }}">
   <div class="multirow__inner page-width">
     {%- for block in section.blocks -%}
       <div
@@ -409,6 +409,11 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID"
     },
     {
       "type": "range",
