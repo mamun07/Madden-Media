@@ -173,7 +173,11 @@ label#form_input_23 {
 }
 
 
-
+.product-form__submit {
+    margin-bottom: 1rem;
+    background: #fff;
+    color: #000;
+}
 
 
 
