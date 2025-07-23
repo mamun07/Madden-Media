@@ -448,6 +448,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": false,
+        "custom_id": "#themes",
         "padding_top": 24,
         "padding_bottom": 80
       }
@@ -654,6 +655,7 @@
         "bg_image": "shopify://shop_images/imgi_72_661185added44286b6e8f837_Sites_BG.png",
         "color_scheme": "",
         "full_width": false,
+        "custom_id": "",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -1048,6 +1050,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": false,
+        "custom_id": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
