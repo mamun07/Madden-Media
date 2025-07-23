@@ -241,7 +241,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Email Sign-Up On Password Pages</h5></li><li><h5>✅ Store Clock</h5></li><li><h5>✅ 100+ Fonts</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
@@ -329,7 +329,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Countdown Timer On Password Page</h5></li><li><h5>✅ Background Video Support On All Pages</h5></li><li><h5>✅ Music Player</h5></li><li><h5>✅ Custom Fonts and Custom Cursor</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
@@ -417,7 +417,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Highlight Features</h2><ul><li>✅ Minimal Layout For Easy Conversions</li><li>✅ Email Sign-Up On Password Pages</li><li>✅ Store Clock</li><li>✅ 100+ Fonts</li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Interactive Points System for engaging shopping experiences</h5></li><li><h5>✅ Up To 7 Different Interactive Pages</h5></li><li><h5>✅ Background Video Support On All Pages</h5></li><li><h5>✅ Music Player</h5></li><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Touch Points and Page Transitions</h5></li><li><h5>✅ Custom Fonts and Custom Cursor</h5></li><li><h5>✅ 3D Model Support</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
