@@ -448,7 +448,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": false,
-        "custom_id": "#themes",
+        "custom_id": "themes",
         "padding_top": 24,
         "padding_bottom": 80
       }
