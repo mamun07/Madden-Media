@@ -164,6 +164,13 @@ label#form_input_23 {
   }
 }
 
+@media(max-width: 375px){
+  .slideshow__slide  h2.banner__heading.inline-richtext.hxl {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 
 
 
