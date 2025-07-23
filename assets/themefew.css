@@ -162,7 +162,6 @@ label#form_input_23 {
   }
   .slideshow__slide  h2.banner__heading.inline-richtext.hxl {
     font-size: calc(var(--font-heading-scale) * 4rem);
-    max-width: 65%;
     width: 100%;
     line-height: 1;
   }
