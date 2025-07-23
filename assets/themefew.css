@@ -196,7 +196,7 @@ label#form_input_23 {
 
 
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
-    background: blue;
+    /* background: blue; */
 } 
 .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button__button--unbranded:after {
     box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) rgb(255 255 255);
