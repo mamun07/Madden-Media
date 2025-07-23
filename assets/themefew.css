@@ -240,6 +240,7 @@ button[name="add"]:after,
   border-radius: 16px;
   z-index: 0;
   pointer-events: none;
+  box-shadow: none;
 }
 .slideshow .button.button--primary:hover,
 button[name="add"]:hover,
