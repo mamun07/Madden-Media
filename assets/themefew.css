@@ -145,6 +145,11 @@ label#form_input_23 {
     width: 100%;
     gap: 12px;
 }
+@media(max-width: 750px) and (min-width: 375px){
+  .slideshow__slide  h2.banner__heading.inline-richtext.hxl {
+    max-width: 65%;
+  }
+}
 @media(max-width: 750px){
   .slideshow__slide  .banner__buttons > * {
       max-width: 80%;
