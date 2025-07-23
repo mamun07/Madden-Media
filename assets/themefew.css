@@ -176,6 +176,7 @@ label#form_input_23 {
 
 
 /* Dark Metallic Buttons with Shine Effect - Only Add to Cart & Main Checkout */
+.slideshow .button.button--primary,
 button[name="add"],
 .product-form__cart .button,
 .main-cart .button[name="add"],
@@ -200,7 +201,7 @@ button[name="add"],
               0 8px 32px rgba(0, 0, 0, 0.3),
               inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
 }
-
+.slideshow .button.button--primary:before,
 button[name="add"]:before,
 .product-form__cart .button:before,
 .main-cart .button[name="add"]:before,
@@ -220,7 +221,7 @@ button[name="add"]:before,
   animation: metallic-shine 2s ease-in-out infinite;
   pointer-events: none;
 }
-
+.slideshow .button.button--primary:after,
 button[name="add"]:after,
 .product-form__cart .button:after,
 .main-cart .button[name="add"]:after,
@@ -240,7 +241,7 @@ button[name="add"]:after,
   z-index: 0;
   pointer-events: none;
 }
-
+.slideshow .button.button--primary:hover,
 button[name="add"]:hover,
 .product-form__cart .button:hover,
 .main-cart .button[name="add"]:hover,
