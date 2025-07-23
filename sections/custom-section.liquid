@@ -36,7 +36,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding" id="{{ section.settings.custom_id }}">
   <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
       {% content_for 'blocks' %}
   </div>
@@ -70,6 +70,11 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID"
     },
     {
       "type": "range",
