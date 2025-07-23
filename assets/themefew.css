@@ -6,6 +6,7 @@
 html,
 body{
   font-family: 'General Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 .countNumber, h1,h2,h3,h4,h5,h6{
   font-family: 'Satoshi', sans-serif !important;
