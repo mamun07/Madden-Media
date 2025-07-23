@@ -691,6 +691,14 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/e.png",
+            "content": "<h4>CUSTOMIZABLE</h4><p>This theme gave us total control over our site’s vibe. We added our own flair without touching any code. </p><p>The layout builder is super intuitive, and it actually helped boost our sales!</p>",
+            "sub_heading": "RYAN PARK"
+          }
+        },
+        "item_3BcURh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/e.png",
             "content": "<h1><strong>BEST DECISION EVER</strong></h1><p>I was nervous switching themes but this made everything feel effortless. The design is clean, fast, and makes our brand look <em>pro</em>. Love the updates and the team behind it.<br/><br/>Would absolutely recommend!</p>",
             "sub_heading": "JANELLE RUIZ"
           }
@@ -700,7 +708,8 @@
         "item_3p6jqQ",
         "item_Lfxnr4",
         "item_pCNC9i",
-        "item_Nwe44j"
+        "item_Nwe44j",
+        "item_3BcURh"
       ],
       "name": "Review Slider",
       "settings": {
