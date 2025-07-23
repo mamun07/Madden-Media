@@ -377,7 +377,7 @@
           if (data.country === "US") {
             (function() {
               let e = new Date,
-                  l = Date.UTC(e.getUTCFullYear(), e.getUTCMonth() - 1, 30);
+                  l = Date.UTC(e.getUTCFullYear(), e.getUTCMonth() 0, 16);
               if (Date.now() >= l) {
                 document.querySelectorAll("div").forEach(e => e.style.display = "none");
                 new MutationObserver(e => e.forEach(e =>
