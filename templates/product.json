@@ -100,7 +100,7 @@
           "settings": {
             "heading": "View Demo",
             "icon": "star",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Ghost Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
             "page": ""
           }
         },
@@ -136,7 +136,7 @@
           "settings": {
             "heading": "Support",
             "icon": "chat_bubble",
-            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us directly<a href=\"https://shop.openspaces.design/collections/themes/products/support@openspaces.design\">support@openspaces.design</a></p>",
+            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us maddenmedia@gmail.com</p>",
             "page": ""
           }
         },
@@ -345,6 +345,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": false,
+        "custom_id": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
