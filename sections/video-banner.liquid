@@ -4,6 +4,16 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     position: relative;
   }
+  .section-{{ section.id }}-padding:after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      right:0;
+      bottom: 0;
+      background-image: linear-gradient(#000000b0 60%, #000);
+      background-position: 0 0;
+  }
   .section-{{ section.id }}-padding .glow_button{
       position: relative;
       margin-left: auto;
