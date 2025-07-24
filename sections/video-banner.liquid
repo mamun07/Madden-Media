@@ -118,7 +118,7 @@
   }
 
   .section-{{ section.id }}-padding .main_content_area{
-    min-height: 100vh;
+    height: 100vh;
   }
   
   @media screen and (min-width: 769px) {
@@ -368,6 +368,17 @@
           ],
           "default": "medium",
           "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     },
