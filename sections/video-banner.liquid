@@ -14,8 +14,8 @@
 
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  <div class="page-width">
-      <div class="main_content_area">
+  <div class="{{ section.settings.section_width }}">
+      <div class="main_content_area {{ section.settings.alignment }}">
           {%- for block in section.blocks -%}
               {%- case block.type -%}
                 {%- when 'heading' -%}
@@ -91,12 +91,6 @@
   </div>
 </div>
 
-
-
-
-
-
-
 {% schema %}
 {
   "name": "Video Banner",
@@ -107,43 +101,29 @@
   },
   "settings": [
     {
-      "type": "select",
-      "id": "desktop_content_position",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
-        }
-      ],
-      "default": "center",
-      "label": "t:sections.rich-text.settings.desktop_content_position.label"
+       "type": "text_alignment",
+       "id": "alignment",
+       "label": "Text alignment",
+       "default": "center"
     },
     {
       "type": "select",
-      "id": "content_alignment",
+      "id": "section_width",
       "options": [
         {
-          "value": "left",
-          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+          "value": "page-width page-width--narrow",
+          "label": "Grid"
         },
         {
-          "value": "center",
-          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+          "value": "page-width",
+          "label": "Default"
         },
         {
-          "value": "right",
-          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+          "value": "isolate",
+          "label": "Full Width"
         }
       ],
-      "default": "center",
+      "default": "page-width",
       "label": "t:sections.rich-text.settings.content_alignment.label"
     },
     {
@@ -151,12 +131,6 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
-    },
-    {
-      "type": "checkbox",
-      "id": "full_width",
-      "default": true,
-      "label": "t:sections.rich-text.settings.full_width.label"
     },
     {
       "type": "header",
