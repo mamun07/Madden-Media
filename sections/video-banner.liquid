@@ -128,23 +128,29 @@
 
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {% if section.settings.bg_video != blank %}
+  {% if section.settings.bg_video != blank or section.settings.bg_image != blank %}
     <div class="bg_banner_area">
-      {{
-        section.settings.bg_video
-        | video_tag:
-          image_size: '1100x',
-          autoplay: true,
-          loop: true,
-          controls: false,
-          muted: true
-      }}
+      {% if section.settings.bg_image != blank %}
+        {{ section.settings.bg_image | image_url: width: 5000 | image_tag  }}
+      {% elsif section.settings.bg_video != blank %}
+        {{ section.settings.bg_video | video_tag:image_size: '1100x',autoplay: true,loop: true,controls: false,muted: true }}
+      {% else %}
+        {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
     </div>
   {% endif %}
   <div class="{{ section.settings.section_width }}">
       <div class="main_content_area {{ section.settings.alignment }}">
           {%- for block in section.blocks -%}
               {%- case block.type -%}
+                {%- when 'image' -%}
+                  <div class="image_area">
+                    {% if block.settings.image != blank %}
+                      {{ block.settings.image | image_url: width: 2000 | image_tag  }}
+                    {% else %}
+                      {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {% endif %}
+                  </div>
                 {%- when 'heading' -%}
                   <h2
                     class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
