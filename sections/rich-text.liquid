@@ -55,7 +55,8 @@
               </div>
 
             {%- when 'glow_button' -%}
-              {% render 'glow-button', link:block.settings.button_link , lable: block.settings.button_label %}
+              {% render 'glow-button', link:block.settings.button_link, lable: block.settings.button_label %}
+            
             {%- when 'button' -%}
               <div
                 class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
