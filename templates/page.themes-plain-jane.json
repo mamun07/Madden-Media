@@ -18,6 +18,12 @@
     "video_banner_7eMN8V": {
       "type": "video-banner",
       "blocks": {
+        "image_VEphAd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/okfine.png"
+          }
+        },
         "heading_zTcWmx": {
           "type": "heading",
           "settings": {
@@ -42,14 +48,12 @@
           "settings": {
             "button_label": "START BUILDING",
             "button_link": "#",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "image_VEphAd",
         "heading_zTcWmx",
         "text_HMPVU4",
         "text_n8M4rf",
