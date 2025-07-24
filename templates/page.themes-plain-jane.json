@@ -31,10 +31,16 @@
             "text": "<h2>Boost both aesthetics and sales overnight.</h2>"
           }
         },
+        "text_n8M4rf": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Trusted By 5000+ Brands</h2>"
+          }
+        },
         "button_LTtfRG": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "START BUILDING",
             "button_link": "#",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -46,6 +52,7 @@
       "block_order": [
         "heading_zTcWmx",
         "text_HMPVU4",
+        "text_n8M4rf",
         "button_LTtfRG"
       ],
       "name": "Video Banner",
