@@ -66,7 +66,13 @@
 
 
   .section-{{ section.id }}-padding .video_banner_area{
-    position: relative;
+      position: absolute;
+      width: 100%;
+      height: max-content;
+      left: 0;
+      top: 0;
+      content: '';
+      z-index: 0;
   }
   
   @media screen and (min-width: 769px) {
