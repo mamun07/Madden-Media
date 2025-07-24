@@ -1,12 +1,27 @@
-
+<style>
+  {% if section.settings.height_header == true %}
+    body#themes-plain-jane .section-header.shopify-section-group-header-group {
+      display: none;
+    }
+  {% endif %}
+</style>
 
 <div class="landing-page">
   Themes plain jane
 </div>
 
+
+
 {% schema %}
   {
     "name": "Landing page",
-    "settings": []
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "height_header",
+        "default": false,
+        "label": "Hide Header"
+      }
+    ]
   }
 {% endschema %}
