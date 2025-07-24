@@ -64,7 +64,7 @@
   }
 
   
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 769px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -74,6 +74,11 @@
 
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  {% if section.settings.bg_video != blank %}
+    <div class="video_banner_area">
+      {{ section.settings.bg_video }}
+    </div>
+  {% endif %}
   <div class="{{ section.settings.section_width }}">
       <div class="main_content_area {{ section.settings.alignment }}">
           {%- for block in section.blocks -%}
