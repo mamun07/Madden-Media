@@ -41,6 +41,29 @@
     z-index: -1;
     transition: all 0.4s ease;
   }
+  .section-{{ section.id }}-padding .glow_button:hover {
+      transform: translateY(-4px);
+      background: linear-gradient(135deg, 
+          #a8bcc8 0%,
+          #7a94a8 15%,
+          #5a7a95 30%,
+          #4a8bc2 45%,
+          #00bfff 60%,
+          #87ceeb 75%,
+          #e6e6fa 90%,
+          #dcdcdc 100%);
+      background-size: 200% 200%;
+      animation: chromeFlow 3s ease-in-out infinite;
+      border-color: rgba(135, 206, 235, 0.8);
+      color: #ffffff;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5),
+          0 0 80px rgba(0, 191, 255, 0.5),
+          0 0 120px rgba(135, 206, 235, 0.4),
+          inset 0 1px 0 rgba(255, 255, 255, 0.4),
+          inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
