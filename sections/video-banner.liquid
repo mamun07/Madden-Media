@@ -118,9 +118,16 @@
   }
 
   .section-{{ section.id }}-padding .main_content_area{
-    height: 100vh;
+    min-height: 100vh;
   }
-  
+  .section-{{ section.id }}-padding .main_content_area .image_area {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .section-{{ section.id }}-padding .main_content_area .image_area img {
+    max-width: 100%;
+    height: auto;
+  }
   @media screen and (min-width: 769px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
