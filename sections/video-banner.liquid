@@ -220,18 +220,7 @@
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
-                  {%- if block.settings.button_label != blank -%}
-                    <a
-                      {% if block.settings.button_link == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.button_link }}"
-                      {% endif %}
-                      class="glow_button"
-                    >
-                      {{- block.settings.button_label | escape -}}
-                    </a>
-                  {%- endif -%}
+                  {% render 'button', link:block.settings.button_link , lable: block.settings.button_label %}
               {%- endcase -%}
             {%- endfor -%}
       </div>
