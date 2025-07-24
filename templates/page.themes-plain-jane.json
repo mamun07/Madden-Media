@@ -21,21 +21,21 @@
         "heading_zTcWmx": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Build a Store That Stands Out—With No Code",
+            "heading_size": "hxxl"
           }
         },
         "text_HMPVU4": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<h2>Boost both aesthetics and sales overnight.</h2>"
           }
         },
         "button_LTtfRG": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "",
+            "button_link": "#",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
