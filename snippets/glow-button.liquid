@@ -1,0 +1,12 @@
+{%- if lable != blank -%}
+<a
+  {% if link == blank %}
+    role="link" aria-disabled="true"
+  {% else %}
+    href="{{ link }}"
+  {% endif %}
+  class="glow_button"
+>
+  {{- lable | escape -}}
+</a>
+{%- endif -%}
