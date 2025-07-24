@@ -52,39 +52,18 @@
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
-                  <div
-                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                    {{ block.shopify_attributes }}
-                    {% if settings.animations_reveal_on_scroll %}
-                      data-cascade
-                      style="--animation-order: {{ forloop.index }};"
-                    {% endif %}
-                  >
-                    {%- if block.settings.button_label != blank -%}
-                      <a
-                        {% if block.settings.button_link == blank %}
-                          role="link" aria-disabled="true"
-                        {% else %}
-                          href="{{ block.settings.button_link }}"
-                        {% endif %}
-                        class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                      >
-                        {{- block.settings.button_label | escape -}}
-                      </a>
-                    {%- endif -%}
-                    {%- if block.settings.button_label_2 != blank -%}
-                      <a
-                        {% if block.settings.button_link_2 == blank %}
-                          role="link" aria-disabled="true"
-                        {% else %}
-                          href="{{ block.settings.button_link_2 }}"
-                        {% endif %}
-                        class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
-                      >
-                        {{- block.settings.button_label_2 | escape -}}
-                      </a>
-                    {%- endif -%}
-                  </div>
+                  {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="glow_button"
+                    >
+                      {{- block.settings.button_label | escape -}}
+                    </a>
+                  {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
       </div>
@@ -95,7 +74,7 @@
 {
   "name": "Video Banner",
   "tag": "section",
-  "class": "section",
+  "class": "section-video-banner",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -171,7 +150,6 @@
     {
       "type": "heading",
       "name": "t:sections.rich-text.blocks.heading.name",
-      "limit": 3,
       "settings": [
         {
           "type": "inline_richtext",
@@ -212,7 +190,6 @@
     {
       "type": "caption",
       "name": "t:sections.rich-text.blocks.caption.name",
-      "limit": 3,
       "settings": [
         {
           "type": "text",
@@ -261,7 +238,6 @@
     {
       "type": "text",
       "name": "t:sections.rich-text.blocks.text.name",
-      "limit": 3,
       "settings": [
         {
           "type": "richtext",
@@ -274,7 +250,6 @@
     {
       "type": "button",
       "name": "t:sections.rich-text.blocks.buttons.name",
-      "limit": 2,
       "settings": [
         {
          "type": "header",
@@ -297,27 +272,6 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-         "type": "header",
-         "content": "t:sections.rich-text.blocks.buttons.settings.header_button2.content"
-        },          
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
     }
