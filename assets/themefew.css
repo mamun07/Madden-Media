@@ -17,6 +17,10 @@ body{
 .header-wrapper {
   box-shadow: 0 2px 15px 1px #fcb2ef33;
 }
+.page-width.medium{
+  padding-left: 5rem; 
+  padding-right: 5rem; 
+}
 .slideshow__media.banner__media.media video {
   width: 100%;
   max-width: 100%;
