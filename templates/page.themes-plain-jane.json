@@ -14,9 +14,53 @@
       "settings": {
         "height_header": true
       }
+    },
+    "video_banner_7eMN8V": {
+      "type": "video-banner",
+      "blocks": {
+        "heading_zTcWmx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_HMPVU4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_LTtfRG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zTcWmx",
+        "text_HMPVU4",
+        "button_LTtfRG"
+      ],
+      "name": "Video Banner",
+      "settings": {
+        "bg_video": "shopify://files/videos/dfg.mp4",
+        "alignment": "center",
+        "section_width": "page-width",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "video_banner_7eMN8V"
   ]
 }
