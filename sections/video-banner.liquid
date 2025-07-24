@@ -2,6 +2,7 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    position: relative;
   }
   .section-{{ section.id }}-padding .glow_button{
       position: relative;
@@ -64,7 +65,9 @@
   }
 
 
-
+  .section-{{ section.id }}-padding .video_banner_area{
+    position: relative;
+  }
   
   @media screen and (min-width: 769px) {
     .section-{{ section.id }}-padding {
