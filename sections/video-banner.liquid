@@ -99,7 +99,23 @@
   .section-{{ section.id }}-padding h2.rich-text__heading{
     margin: 30px 0;
   }
-
+  .section-{{ section.id }}-padding .rich-text__heading {
+      color: #fff;
+      text-align: center;
+      letter-spacing: 2px;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(#fff 30% 55%, #fff 59%, #5ba5c5 90%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      width: 100%;
+      max-width: none;
+      margin: 20px auto;
+      font-family: Satoshi, Arial, sans-serif;
+      font-size: 100px;
+      font-weight: 900;
+      line-height: 105px;
+      text-decoration: none;
+  }
 
   
   @media screen and (min-width: 769px) {
