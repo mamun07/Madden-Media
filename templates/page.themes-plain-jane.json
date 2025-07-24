@@ -14,50 +14,9 @@
       "settings": {
         "height_header": true
       }
-    },
-    "slideshow_WQ7dgg": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_WVNLbL": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/dfg.mp4",
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify://products/ghost-interactive",
-            "button_style_secondary": false,
-            "button_label2": "",
-            "link2": "",
-            "button_style_secondary2": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_WVNLbL"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
-    "main",
-    "slideshow_WQ7dgg"
+    "main"
   ]
 }
