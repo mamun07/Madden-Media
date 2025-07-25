@@ -105,6 +105,8 @@
       <div class="main_content_area {{ section.settings.alignment }}">
           {%- for block in section.blocks -%}
               {%- case block.type -%}
+                {%- when 'liquid_code' -%}
+                  {{ block.settings.liquid_code }}
                 {%- when 'image' -%}
                   <div class="image_area">
                     {% if block.settings.image != blank %}
@@ -327,6 +329,17 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "liquid_code",
+      "name": "Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "liquid_code",
+          "label": "Liquid Code"
         }
       ]
     },
