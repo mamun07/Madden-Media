@@ -110,7 +110,9 @@
                       {% for i in (1..5) %}
                         {% assign img_key = "image_0" | append: i %}
                         {% assign image = block.settings[img_key] %}
-                        {{ image }}
+                        {% if image != blank %}
+                          {{ image | image_url: width: 500 | image_tag }}
+                        {% endif %}
                       {% endfor %}
                     </div>
                 {%- when 'liquid_code' -%}
