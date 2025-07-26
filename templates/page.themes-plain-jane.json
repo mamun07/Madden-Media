@@ -49,6 +49,12 @@
             "text": "<h2>Trusted By 5000+ Brands</h2>"
           }
         },
+        "icons_cGPFVe": {
+          "type": "icons",
+          "settings": {
+            "image_01": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png"
+          }
+        },
         "button_LTtfRG": {
           "type": "button",
           "settings": {
@@ -64,6 +70,7 @@
         "text_HMPVU4",
         "liquid_code_qaHpDL",
         "text_n8M4rf",
+        "icons_cGPFVe",
         "button_LTtfRG"
       ],
       "name": "Video Banner",
