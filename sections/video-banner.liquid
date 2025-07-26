@@ -105,6 +105,14 @@
       <div class="main_content_area {{ section.settings.alignment }}">
           {%- for block in section.blocks -%}
               {%- case block.type -%}
+                {%- when 'icons' -%}
+                    <div class="icon_areas">
+                      {% for i in (1..5) %}
+                        {% assign img_key = "image_0" | append: i %}
+                        {% assign image = block.settings[img_key] %}
+                        {{ image }}
+                      {% endfor %}
+                    </div>
                 {%- when 'liquid_code' -%}
                   {{ block.settings.liquid_code }}
                 {%- when 'image' -%}
@@ -328,6 +336,37 @@
         {
           "type": "image_picker",
           "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "icons",
+      "name": "Icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_01",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_02",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_03",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_04",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_05",
           "label": "Image"
         }
       ]
