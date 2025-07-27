@@ -158,6 +158,185 @@
         "padding_bottom": 52
       }
     },
+    "custom_section_dFFeaK": {
+      "type": "custom-section",
+      "blocks": {
+        "row_4DMzyX": {
+          "type": "row",
+          "name": "Row",
+          "settings": {
+            "row_desktop": "3",
+            "row_mobile": "1",
+            "all_center": false
+          },
+          "blocks": {
+            "column_FhkLde": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "",
+                "alignment": "left",
+                "show_border": false
+              },
+              "blocks": {
+                "image_nwYiWr": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image_width": 100,
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "title_fYmD6U": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Talk about your brand",
+                    "heading_size": "h1",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_pzRExR": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_nwYiWr",
+                "title_fYmD6U",
+                "text_pzRExR"
+              ]
+            },
+            "column_JNpfFM": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "",
+                "alignment": "left",
+                "show_border": false
+              },
+              "blocks": {
+                "image_ExxUAT": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image_width": 100,
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "title_CXMMg9": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Talk about your brand",
+                    "heading_size": "h1",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_ddbCM3": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_ExxUAT",
+                "title_CXMMg9",
+                "text_ddbCM3"
+              ]
+            },
+            "column_zEYxdm": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "",
+                "alignment": "left",
+                "show_border": false
+              },
+              "blocks": {
+                "image_F36ekV": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image_width": 100,
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "title_Qe493x": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Talk about your brand",
+                    "heading_size": "h1",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                },
+                "text_hE8Gjp": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_F36ekV",
+                "title_Qe493x",
+                "text_hE8Gjp"
+              ]
+            }
+          },
+          "block_order": [
+            "column_FhkLde",
+            "column_JNpfFM",
+            "column_zEYxdm"
+          ]
+        }
+      },
+      "block_order": [
+        "row_4DMzyX"
+      ],
+      "name": "Custom Section",
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "custom_id": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_HFigDr": {
       "type": "rich-text",
       "blocks": {
@@ -292,6 +471,7 @@
     "video_banner_7eMN8V",
     "rich_text_kaJmKq",
     "rich_text_xHJjAh",
+    "custom_section_dFFeaK",
     "rich_text_HFigDr",
     "rich_text_ULeKT7",
     "rich_text_zfXMef",
