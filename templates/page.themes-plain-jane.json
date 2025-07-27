@@ -114,7 +114,7 @@
           "type": "glow_button",
           "settings": {
             "button_label": "BUY PLAIN JANE",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://products/ghost-interactive",
             "button_style_secondary": false
           }
         }
