@@ -188,7 +188,52 @@
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
-                  "blocks": {}
+                  "blocks": {
+                    "slider_item_JF7eJd": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "image_NmWBnh": {
+                          "type": "image",
+                          "name": "Image",
+                          "settings": {
+                            "image_width": 100,
+                            "padding_top": 10,
+                            "padding_bottom": 10
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_NmWBnh"
+                      ]
+                    },
+                    "slider_item_X6raWQ": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "image_CtjEFx": {
+                          "type": "image",
+                          "name": "Image",
+                          "settings": {
+                            "image_width": 100,
+                            "padding_top": 10,
+                            "padding_bottom": 10
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "image_CtjEFx"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "slider_item_JF7eJd",
+                    "slider_item_X6raWQ"
+                  ]
                 },
                 "title_fYmD6U": {
                   "type": "title",
