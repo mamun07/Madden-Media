@@ -840,6 +840,213 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_section_ADKQPA": {
+      "type": "custom-section",
+      "blocks": {
+        "row_XLpwtf": {
+          "type": "row",
+          "name": "Row",
+          "settings": {
+            "row_desktop": "3",
+            "row_mobile": "1",
+            "all_center": false
+          },
+          "blocks": {
+            "column_ffA6DP": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "shopify://products/ghost-interactive-2",
+                "alignment": "left",
+                "show_border": true
+              },
+              "blocks": {
+                "image_JFVkHX": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/mecha.png",
+                    "image_width": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_DTjy4g": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h6>FOR BEGINNERS</h6>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_xqViiF": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2><strong>GHOST STARTER </strong>➜</h2><p>Perfect for Shopify beginners, our Starter edition boasts a minimalist design optimized for higher conversion rates. Ideal for new stores crafting their brand identity and starting their online sales journey.<br/><br/><em>Click 'Learn More' to view all features</em></p>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "button_eQi8AB": {
+                  "type": "button",
+                  "name": "Button",
+                  "settings": {
+                    "btn_label": "Learn More",
+                    "btn_link": "shopify://products/ghost-interactive-2",
+                    "color_scheme_1": "scheme-2",
+                    "btn_label_1": "Buy Now",
+                    "btn_link_1": "shopify://products/ghost-interactive-2",
+                    "color_scheme_2": "scheme-1",
+                    "padding_top": 25,
+                    "padding_bottom": 25
+                  },
+                  "blocks": {}
+                },
+                "image_jWm3Df": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/imgi_27_661c886cce5a04ced04b1e55_PJ_Starter_Demo.png",
+                    "image_width": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_qetKq8": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Email Sign-Up On Password Pages</h5></li><li><h5>✅ Store Clock</h5></li><li><h5>✅ 100+ Fonts</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_JFVkHX",
+                "text_DTjy4g",
+                "text_xqViiF",
+                "button_eQi8AB",
+                "image_jWm3Df",
+                "text_qetKq8"
+              ]
+            },
+            "column_77JMgX": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "shopify://products/ghost-interactive",
+                "alignment": "left",
+                "show_border": true
+              },
+              "blocks": {
+                "image_ry6QgB": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/okfine.png",
+                    "image_width": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_UXcy3j": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h6>MOST POPULAR</h6>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_gDMDQh": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2><strong>GHOST </strong>➜</h2><p>Designed for both new and established stores, the Ghost theme is packed with advanced features to help your brand shine. Stand out with video backgrounds, music players, gradient overlays, and much more. Ideal for stores that boast strong brand content and a clear vision.</p><p><br/><em>Click 'Learn More' to view all features</em></p>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "button_TY4xRV": {
+                  "type": "button",
+                  "name": "Button",
+                  "settings": {
+                    "btn_label": "Learn More",
+                    "btn_link": "shopify://pages/themes-plain-jane",
+                    "color_scheme_1": "scheme-2",
+                    "btn_label_1": "Buy Now",
+                    "btn_link_1": "shopify://products/ghost-interactive",
+                    "color_scheme_2": "scheme-1",
+                    "padding_top": 25,
+                    "padding_bottom": 25
+                  },
+                  "blocks": {}
+                },
+                "image_nMUfFp": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/imgi_29_661c8c6c97149635cdd24a5e_PJ_2.0_Demo.png",
+                    "image_width": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_yWCafJ": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Countdown Timer On Password Page</h5></li><li><h5>✅ Background Video Support On All Pages</h5></li><li><h5>✅ Music Player</h5></li><li><h5>✅ Custom Fonts and Custom Cursor</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_ry6QgB",
+                "text_UXcy3j",
+                "text_gDMDQh",
+                "button_TY4xRV",
+                "image_nMUfFp",
+                "text_yWCafJ"
+              ]
+            }
+          },
+          "block_order": [
+            "column_ffA6DP",
+            "column_77JMgX"
+          ]
+        }
+      },
+      "block_order": [
+        "row_XLpwtf"
+      ],
+      "name": "Custom Section",
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "custom_id": "themes",
+        "padding_top": 24,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -852,6 +1059,7 @@
     "rich_text_HFigDr",
     "rich_text_ULeKT7",
     "rich_text_zfXMef",
-    "rich_text_bbtfrX"
+    "rich_text_bbtfrX",
+    "custom_section_ADKQPA"
   ]
 }
