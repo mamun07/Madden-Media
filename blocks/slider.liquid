@@ -32,9 +32,13 @@
     
   }
   .image_area.image_{{ section.id }}{{ block.id }} .mySwiper-{{ section.id }}{{ block.id }}{
-    aspect-ratio: 16 / 9;    
-    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(135, 206, 235, 0.08) 0%, rgba(176, 196, 222, 0.06) 100%);
+    border: 1px solid rgba(135, 206, 235, 0.15);
+    border-radius: 16px;
     overflow: hidden;
+  }
+  .image_area.image_{{ section.id }}{{ block.id }} .mySwiper-{{ section.id }}{{ block.id }}{
+    aspect-ratio: 16 / 9;
   }
   .nav_action .swiper-button-next:after, 
   .nav_action .swiper-button-prev:after {
