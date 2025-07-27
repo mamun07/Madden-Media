@@ -329,76 +329,6 @@
                 "text_CeBr8b"
               ]
             },
-            "column_aq9UcM": {
-              "type": "column",
-              "name": "Column",
-              "settings": {
-                "use_bg": true,
-                "color_scheme": "scheme-4",
-                "url": "",
-                "alignment": "center",
-                "show_border": true
-              },
-              "blocks": {
-                "slider_zKAyyW": {
-                  "type": "slider",
-                  "name": "Slider",
-                  "settings": {
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {
-                    "slider_item_RUtmWA": {
-                      "type": "slider-item",
-                      "name": "Slider Item",
-                      "settings": {},
-                      "blocks": {
-                        "media_WjDiVa": {
-                          "type": "media",
-                          "name": "Media",
-                          "settings": {
-                            "video": "shopify://files/videos/446045767bfc463cbc190abb0fe024a6.mov"
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "media_WjDiVa"
-                      ]
-                    }
-                  },
-                  "block_order": [
-                    "slider_item_RUtmWA"
-                  ]
-                },
-                "title_w6ATid": {
-                  "type": "title",
-                  "name": "Title",
-                  "settings": {
-                    "heading": "Enter/Intro Pages",
-                    "heading_size": "h2",
-                    "padding_top": 35,
-                    "padding_bottom": 0
-                  },
-                  "blocks": {}
-                },
-                "text_MBgLXB": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
-                    "padding_top": 0,
-                    "padding_bottom": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "slider_zKAyyW",
-                "title_w6ATid",
-                "text_MBgLXB"
-              ]
-            },
             "column_d4J8Ae": {
               "type": "column",
               "name": "Column",
@@ -577,6 +507,76 @@
                 "text_C7qMT9"
               ]
             },
+            "column_aq9UcM": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": true,
+                "color_scheme": "scheme-4",
+                "url": "",
+                "alignment": "center",
+                "show_border": true
+              },
+              "blocks": {
+                "slider_zKAyyW": {
+                  "type": "slider",
+                  "name": "Slider",
+                  "settings": {
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {
+                    "slider_item_RUtmWA": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "media_WjDiVa": {
+                          "type": "media",
+                          "name": "Media",
+                          "settings": {
+                            "video": "shopify://files/videos/446045767bfc463cbc190abb0fe024a6.mov"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "media_WjDiVa"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "slider_item_RUtmWA"
+                  ]
+                },
+                "title_w6ATid": {
+                  "type": "title",
+                  "name": "Title",
+                  "settings": {
+                    "heading": "Enter/Intro Pages",
+                    "heading_size": "h2",
+                    "padding_top": 35,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "text_MBgLXB": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "slider_zKAyyW",
+                "title_w6ATid",
+                "text_MBgLXB"
+              ]
+            },
             "column_mUwCAT": {
               "type": "column",
               "name": "Column",
@@ -670,9 +670,9 @@
           "block_order": [
             "column_FhkLde",
             "column_Xnghi6",
-            "column_aq9UcM",
             "column_d4J8Ae",
             "column_aB74d3",
+            "column_aq9UcM",
             "column_mUwCAT"
           ]
         }
@@ -686,7 +686,7 @@
         "full_width": false,
         "custom_id": "",
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 4
       }
     },
     "rich_text_KMJ6JD": {
