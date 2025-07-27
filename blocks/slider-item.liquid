@@ -1,24 +1,12 @@
-<div class="image_area.image_{{ section.id }}{{ block.id }}">
-  <div class="swiper">
-    <div class="mySwiper-{{ section.id }}{{ block.id }}">
-      <div class="swiper-wrapper">
-        {% content_for 'blocks' %}
-      </div>
-    </div>
-    <div class="nav_action">        
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </div>
-</div>
+<div class="swiper-slide">Slide 1</div>
 
 
 
 {% schema %}
   {
-    "name": "Slider",
+    "name": "Slider Item",
     "tag": null,
-    "blocks": [{"type": "slider-item"}],
+    "blocks": [{"type": "@theme"},{"type": "@app"}],
     "settings": [
       {
         "type": "image_picker",
@@ -31,6 +19,6 @@
         "label": "Video"
       }
     ],
-    "presets": [{"name": "Slider"}]
+    "presets": [{"name": "Slider Item"}]
   }
 {% endschema %}
