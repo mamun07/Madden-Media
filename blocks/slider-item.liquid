@@ -1,19 +1,24 @@
-<div class="media_{{ section.id }}{{ block.id }}">
-  {% if section.settings.image != blank %}
-    {{ section.settings.image | image_url: width: 5000 | image_tag  }}
-  {% elsif section.settings.video != blank %}
-    {{ section.settings.video | video_tag:image_size: '1100x', autoplay: true, loop: true, controls: false, muted: true }}
-  {% else %}
-    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-  {% endif %}
+<div class="image_area.image_{{ section.id }}{{ block.id }}">
+  <div class="swiper">
+    <div class="mySwiper-{{ section.id }}{{ block.id }}">
+      <div class="swiper-wrapper">
+        {% content_for 'blocks' %}
+      </div>
+    </div>
+    <div class="nav_action">        
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
 </div>
 
 
 
 {% schema %}
   {
-    "name": "Media",
+    "name": "Slider",
     "tag": null,
+    "blocks": [{"type": "slider-item"}],
     "settings": [
       {
         "type": "image_picker",
@@ -26,6 +31,6 @@
         "label": "Video"
       }
     ],
-    "presets": [{"name": "Media"}]
+    "presets": [{"name": "Slider"}]
   }
 {% endschema %}
