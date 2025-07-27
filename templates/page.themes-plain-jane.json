@@ -463,6 +463,37 @@
                 "title_Qe493x",
                 "text_hE8Gjp"
               ]
+            },
+            "column_iibwad": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "",
+                "alignment": "left",
+                "show_border": false
+              },
+              "blocks": {
+                "button_LRegTW": {
+                  "type": "button",
+                  "name": "Button",
+                  "settings": {
+                    "btn_label": "Button",
+                    "btn_link": "",
+                    "color_scheme_1": "",
+                    "btn_label_1": "",
+                    "btn_link_1": "",
+                    "color_scheme_2": "",
+                    "padding_top": 10,
+                    "padding_bottom": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_LRegTW"
+              ]
             }
           },
           "block_order": [
@@ -471,7 +502,8 @@
             "column_VcggdP",
             "column_e7PT63",
             "column_wnVGq7",
-            "column_zEYxdm"
+            "column_zEYxdm",
+            "column_iibwad"
           ]
         }
       },
