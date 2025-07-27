@@ -39,7 +39,9 @@
     padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  
+  .image_area.image_{{ section.id }}{{ block.id }} .swiper-slide{
+    aspect-ratio: 16 / 9;
+  }
   @media screen and (min-width: 750px) {
     .image_area.image_{{ section.id }}{{ block.id }} {
       padding-top: {{ block.settings.padding_top }}px;
