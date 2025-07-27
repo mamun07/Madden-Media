@@ -196,9 +196,9 @@
                   "name": "Title",
                   "settings": {
                     "heading": "Enter/Intro Pages",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "heading_size": "h2",
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
@@ -207,8 +207,8 @@
                   "name": "Text",
                   "settings": {
                     "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 }
@@ -219,18 +219,18 @@
                 "text_pzRExR"
               ]
             },
-            "column_CQKWKA": {
+            "column_k7hG3c": {
               "type": "column",
               "name": "Column",
               "settings": {
                 "use_bg": true,
                 "color_scheme": "scheme-4",
                 "url": "",
-                "alignment": "left",
+                "alignment": "center",
                 "show_border": true
               },
               "blocks": {
-                "image_LTqxG4": {
+                "image_xtdU8U": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
@@ -240,46 +240,46 @@
                   },
                   "blocks": {}
                 },
-                "title_npAaRR": {
+                "title_KqmWAF": {
                   "type": "title",
                   "name": "Title",
                   "settings": {
-                    "heading": "Talk about your brand",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "heading": "Enter/Intro Pages",
+                    "heading_size": "h2",
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_74FQXT": {
+                "text_9xQjJB": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "image_LTqxG4",
-                "title_npAaRR",
-                "text_74FQXT"
+                "image_xtdU8U",
+                "title_KqmWAF",
+                "text_9xQjJB"
               ]
             },
-            "column_R9tRMB": {
+            "column_9dFD6U": {
               "type": "column",
               "name": "Column",
               "settings": {
                 "use_bg": true,
                 "color_scheme": "scheme-4",
                 "url": "",
-                "alignment": "left",
+                "alignment": "center",
                 "show_border": true
               },
               "blocks": {
-                "image_Hq36aG": {
+                "image_HNbdaK": {
                   "type": "image",
                   "name": "Image",
                   "settings": {
@@ -289,189 +289,39 @@
                   },
                   "blocks": {}
                 },
-                "title_bQMaQP": {
+                "title_tnMpzQ": {
                   "type": "title",
                   "name": "Title",
                   "settings": {
-                    "heading": "Talk about your brand",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "heading": "Enter/Intro Pages",
+                    "heading_size": "h2",
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_XPnPYk": {
+                "text_Q3ynye": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
+                    "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
+                    "padding_top": 0,
+                    "padding_bottom": 0
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "image_Hq36aG",
-                "title_bQMaQP",
-                "text_XPnPYk"
-              ]
-            },
-            "column_3E48xY": {
-              "type": "column",
-              "name": "Column",
-              "settings": {
-                "use_bg": true,
-                "color_scheme": "scheme-4",
-                "url": "",
-                "alignment": "left",
-                "show_border": true
-              },
-              "blocks": {
-                "image_rDqrH7": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image_width": 100,
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "title_RxXJrX": {
-                  "type": "title",
-                  "name": "Title",
-                  "settings": {
-                    "heading": "Talk about your brand",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "text_wmhyTJ": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_rDqrH7",
-                "title_RxXJrX",
-                "text_wmhyTJ"
-              ]
-            },
-            "column_tzV7yk": {
-              "type": "column",
-              "name": "Column",
-              "settings": {
-                "use_bg": true,
-                "color_scheme": "scheme-4",
-                "url": "",
-                "alignment": "left",
-                "show_border": true
-              },
-              "blocks": {
-                "image_7xmEaC": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image_width": 100,
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "title_Vkk9cM": {
-                  "type": "title",
-                  "name": "Title",
-                  "settings": {
-                    "heading": "Talk about your brand",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "text_XWV9Hk": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_7xmEaC",
-                "title_Vkk9cM",
-                "text_XWV9Hk"
-              ]
-            },
-            "column_zxTLTX": {
-              "type": "column",
-              "name": "Column",
-              "settings": {
-                "use_bg": true,
-                "color_scheme": "scheme-4",
-                "url": "",
-                "alignment": "left",
-                "show_border": true
-              },
-              "blocks": {
-                "image_h6BmBd": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image_width": 100,
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "title_fNDBiV": {
-                  "type": "title",
-                  "name": "Title",
-                  "settings": {
-                    "heading": "Talk about your brand",
-                    "heading_size": "h1",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                },
-                "text_KybNiY": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_h6BmBd",
-                "title_fNDBiV",
-                "text_KybNiY"
+                "image_HNbdaK",
+                "title_tnMpzQ",
+                "text_Q3ynye"
               ]
             }
           },
           "block_order": [
             "column_FhkLde",
-            "column_CQKWKA",
-            "column_R9tRMB",
-            "column_3E48xY",
-            "column_tzV7yk",
-            "column_zxTLTX"
+            "column_k7hG3c",
+            "column_9dFD6U"
           ]
         }
       },
