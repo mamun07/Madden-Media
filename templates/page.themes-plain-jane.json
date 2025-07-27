@@ -104,6 +104,12 @@
             "text": "<h2>Join 5,000+ creators who ditched basic themes for something real.<br/>Perfect for hyped up drops or even selling art prints, Plain Jane gets it and can do it all.</h2>"
           }
         },
+        "media_ALQAXF": {
+          "type": "media",
+          "settings": {
+            "bg_video": "shopify://files/videos/c66b447249994b76aa5bce938e44fdd0.mp4"
+          }
+        },
         "glow_button_ap4YjC": {
           "type": "glow_button",
           "settings": {
@@ -116,6 +122,7 @@
       "block_order": [
         "heading_TpeWDV",
         "text_gRLw7j",
+        "media_ALQAXF",
         "glow_button_ap4YjC"
       ],
       "name": "t:sections.rich-text.presets.name",
