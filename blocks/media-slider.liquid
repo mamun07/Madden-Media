@@ -32,7 +32,7 @@
 
 {%- style -%}
   .image_area.image_{{ section.id }}{{ block.id }} *:empty{
-    display: flex;
+    display: flex !important;
   }
   .image_area.image_{{ section.id }}{{ block.id }} {
     padding-top: {{ block.settings.padding_top | times: 0.75 | round: 0 }}px;
