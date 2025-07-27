@@ -232,6 +232,12 @@
             "use_gray": true
           }
         },
+        "text_LDMBLq": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Get started risk-free. Our team will help install your theme for you. </h2>"
+          }
+        },
         "glow_button_CyxGwp": {
           "type": "glow_button",
           "settings": {
@@ -244,6 +250,7 @@
       "block_order": [
         "heading_AbqiXM",
         "heading_JWThfw",
+        "text_LDMBLq",
         "glow_button_CyxGwp"
       ],
       "name": "t:sections.rich-text.presets.name",
