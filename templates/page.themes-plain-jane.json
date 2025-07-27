@@ -133,11 +133,36 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_xHJjAh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_d3dXQ9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Choose Plain Jane?</strong>",
+            "heading_size": "hxxl",
+            "use_gray": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_d3dXQ9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "video_banner_7eMN8V",
-    "rich_text_kaJmKq"
+    "rich_text_kaJmKq",
+    "rich_text_xHJjAh"
   ]
 }
