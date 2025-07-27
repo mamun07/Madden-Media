@@ -268,29 +268,20 @@
         "heading_QjyXjJ": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Choose Your Theme & License</strong>",
+            "heading": "<strong>Choose Your  Theme & License</strong>",
             "heading_size": "hxxl",
             "use_gray": true
-          }
-        },
-        "glow_button_Ei7iGw": {
-          "type": "glow_button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_QjyXjJ",
-        "glow_button_Ei7iGw"
+        "heading_QjyXjJ"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
         "alignment": "center",
-        "section_width": "page-width page-width--narrow",
+        "section_width": "page-width medium",
         "padding_top": 40,
         "padding_bottom": 52
       }
