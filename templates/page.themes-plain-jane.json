@@ -177,7 +177,7 @@
                 "use_bg": true,
                 "color_scheme": "scheme-4",
                 "url": "",
-                "alignment": "left",
+                "alignment": "center",
                 "show_border": true
               },
               "blocks": {
@@ -195,7 +195,7 @@
                   "type": "title",
                   "name": "Title",
                   "settings": {
-                    "heading": "Talk about your brand",
+                    "heading": "Enter/Intro Pages",
                     "heading_size": "h1",
                     "padding_top": 10,
                     "padding_bottom": 10
@@ -206,7 +206,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "text": "<p>Welcome shoppers with a custom intro page. Pick from multiple styles and set the vibe with your own images, slideshows, or video backgrounds.</p>",
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
@@ -463,37 +463,6 @@
                 "title_fNDBiV",
                 "text_KybNiY"
               ]
-            },
-            "column_iibwad": {
-              "type": "column",
-              "name": "Column",
-              "settings": {
-                "use_bg": false,
-                "color_scheme": "",
-                "url": "",
-                "alignment": "left",
-                "show_border": false
-              },
-              "blocks": {
-                "button_LRegTW": {
-                  "type": "button",
-                  "name": "Button",
-                  "settings": {
-                    "btn_label": "Button",
-                    "btn_link": "",
-                    "color_scheme_1": "",
-                    "btn_label_1": "",
-                    "btn_link_1": "",
-                    "color_scheme_2": "",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "button_LRegTW"
-              ]
             }
           },
           "block_order": [
@@ -502,8 +471,7 @@
             "column_R9tRMB",
             "column_3E48xY",
             "column_tzV7yk",
-            "column_zxTLTX",
-            "column_iibwad"
+            "column_zxTLTX"
           ]
         }
       },
@@ -515,6 +483,33 @@
         "color_scheme": "",
         "full_width": false,
         "custom_id": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_KMJ6JD": {
+      "type": "rich-text",
+      "blocks": {
+        "button_zzE3tC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_zzE3tC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -654,6 +649,7 @@
     "rich_text_kaJmKq",
     "rich_text_xHJjAh",
     "custom_section_dFFeaK",
+    "rich_text_KMJ6JD",
     "rich_text_HFigDr",
     "rich_text_ULeKT7",
     "rich_text_zfXMef",
