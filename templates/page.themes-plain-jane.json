@@ -198,7 +198,7 @@
                           "type": "media",
                           "name": "Media",
                           "settings": {
-                            "image": "shopify://shop_images/imgi_4_66205147ba29500f262c0564_6529e6b0d18b142762529c59_Screenshot_202023-10-13_20at_205.36.07_E2_80_AFPM.png"
+                            "video": "shopify://files/videos/8479ebb752eb4a1189d9c3ae3e26b264.mov"
                           },
                           "blocks": {}
                         }
@@ -206,29 +206,10 @@
                       "block_order": [
                         "media_8B6BUG"
                       ]
-                    },
-                    "slider_item_RVBx6L": {
-                      "type": "slider-item",
-                      "name": "Slider Item",
-                      "settings": {},
-                      "blocks": {
-                        "media_NrGEjD": {
-                          "type": "media",
-                          "name": "Media",
-                          "settings": {
-                            "video": "shopify://files/videos/f.mp4"
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "media_NrGEjD"
-                      ]
                     }
                   },
                   "block_order": [
-                    "slider_item_Rgm3EH",
-                    "slider_item_RVBx6L"
+                    "slider_item_Rgm3EH"
                   ]
                 },
                 "title_fYmD6U": {
@@ -259,7 +240,7 @@
                 "text_pzRExR"
               ]
             },
-            "column_k7hG3c": {
+            "column_Xnghi6": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -270,28 +251,49 @@
                 "show_border": true
               },
               "blocks": {
-                "image_xtdU8U": {
-                  "type": "image",
-                  "name": "Image",
+                "slider_xm9mYC": {
+                  "type": "slider",
+                  "name": "Slider",
                   "settings": {
-                    "image_width": 100,
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
-                  "blocks": {}
+                  "blocks": {
+                    "slider_item_Xj46gy": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "media_L8mUfB": {
+                          "type": "media",
+                          "name": "Media",
+                          "settings": {
+                            "video": "shopify://files/videos/0a1843dce50b4ad89a86987259f1dd4a.mov"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "media_L8mUfB"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "slider_item_Xj46gy"
+                  ]
                 },
-                "title_KqmWAF": {
+                "title_KVHtPN": {
                   "type": "title",
                   "name": "Title",
                   "settings": {
                     "heading": "Enter/Intro Pages",
                     "heading_size": "h2",
-                    "padding_top": 0,
+                    "padding_top": 35,
                     "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_9xQjJB": {
+                "text_CeBr8b": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -303,12 +305,12 @@
                 }
               },
               "block_order": [
-                "image_xtdU8U",
-                "title_KqmWAF",
-                "text_9xQjJB"
+                "slider_xm9mYC",
+                "title_KVHtPN",
+                "text_CeBr8b"
               ]
             },
-            "column_9dFD6U": {
+            "column_aq9UcM": {
               "type": "column",
               "name": "Column",
               "settings": {
@@ -319,28 +321,49 @@
                 "show_border": true
               },
               "blocks": {
-                "image_HNbdaK": {
-                  "type": "image",
-                  "name": "Image",
+                "slider_zKAyyW": {
+                  "type": "slider",
+                  "name": "Slider",
                   "settings": {
-                    "image_width": 100,
                     "padding_top": 10,
                     "padding_bottom": 10
                   },
-                  "blocks": {}
+                  "blocks": {
+                    "slider_item_RUtmWA": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "media_WjDiVa": {
+                          "type": "media",
+                          "name": "Media",
+                          "settings": {
+                            "video": "shopify://files/videos/446045767bfc463cbc190abb0fe024a6.mov"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "media_WjDiVa"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "slider_item_RUtmWA"
+                  ]
                 },
-                "title_tnMpzQ": {
+                "title_w6ATid": {
                   "type": "title",
                   "name": "Title",
                   "settings": {
                     "heading": "Enter/Intro Pages",
                     "heading_size": "h2",
-                    "padding_top": 0,
+                    "padding_top": 35,
                     "padding_bottom": 0
                   },
                   "blocks": {}
                 },
-                "text_Q3ynye": {
+                "text_MBgLXB": {
                   "type": "text",
                   "name": "Text",
                   "settings": {
@@ -352,16 +375,16 @@
                 }
               },
               "block_order": [
-                "image_HNbdaK",
-                "title_tnMpzQ",
-                "text_Q3ynye"
+                "slider_zKAyyW",
+                "title_w6ATid",
+                "text_MBgLXB"
               ]
             }
           },
           "block_order": [
             "column_FhkLde",
-            "column_k7hG3c",
-            "column_9dFD6U"
+            "column_Xnghi6",
+            "column_aq9UcM"
           ]
         }
       },
