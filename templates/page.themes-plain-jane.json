@@ -164,7 +164,7 @@
         "heading_38PbpJ": {
           "type": "heading",
           "settings": {
-            "heading": "What Our Customers Say",
+            "heading": "<strong>What Our Customers Say</strong>",
             "heading_size": "hxxl",
             "use_gray": true
           }
@@ -227,8 +227,8 @@
         "heading_JWThfw": {
           "type": "heading",
           "settings": {
-            "heading": "Only 25 Spots Left This Month",
-            "heading_size": "h2",
+            "heading": "<strong>Only 25 Spots Left This Month</strong>",
+            "heading_size": "h0",
             "use_gray": true
           }
         },
