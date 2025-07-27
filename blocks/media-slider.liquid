@@ -22,11 +22,28 @@
     padding-top: {{ block.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .image_area.image_{{ section.id }}{{ block.id }} img{
-    max-width: {{block.settings.image_width}}%;
-    height: auto;
-    display: inline-block;
+
+  .slider_item {
+    min-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+    background: #eee;
+    border: 1px solid #ccc;
   }
+
+  .slide_container {
+    width: 100%;
+  }
+
+  button {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
   
   @media screen and (min-width: 750px) {
     .image_area.image_{{ section.id }}{{ block.id }} {
@@ -35,6 +52,40 @@
     }
   }
 {%- endstyle -%}
+
+<script>
+  const container = document.querySelector('.slide_container');
+  const slideRight = document.getElementById('slideRight');
+  const slideLeft = document.getElementById('slideLeft');
+
+  let currentIndex = 0;
+
+  function updateSliderPosition() {
+    const width = container.clientWidth;
+    container.style.transform = `translateX(-${currentIndex * width}px)`;
+  }
+
+  slideRight.addEventListener('click', () => {
+    const totalItems = container.children.length;
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+      updateSliderPosition();
+    }
+  });
+
+  slideLeft.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSliderPosition();
+    }
+  });
+
+  // Update slider on window resize
+  window.addEventListener('resize', updateSliderPosition);
+</script>
+
+
+
 
 {% schema %}
   {
