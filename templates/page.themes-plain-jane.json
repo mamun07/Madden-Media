@@ -692,20 +692,17 @@
     "rich_text_KMJ6JD": {
       "type": "rich-text",
       "blocks": {
-        "button_zzE3tC": {
-          "type": "button",
+        "glow_button_jrGVdt": {
+          "type": "glow_button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "And So Much More",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "button_zzE3tC"
+        "glow_button_jrGVdt"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
