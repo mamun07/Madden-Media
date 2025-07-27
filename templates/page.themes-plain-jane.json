@@ -198,7 +198,7 @@
                           "type": "media",
                           "name": "Media",
                           "settings": {
-                            "video": "shopify://files/videos/8479ebb752eb4a1189d9c3ae3e26b264.mov"
+                            "video": "shopify://files/videos/c795b8789fcd4179a5de5e76cea631b9.mov"
                           },
                           "blocks": {}
                         }
@@ -206,10 +206,29 @@
                       "block_order": [
                         "media_8B6BUG"
                       ]
+                    },
+                    "slider_item_BzHwA9": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "media_67pydE": {
+                          "type": "media",
+                          "name": "Media",
+                          "settings": {
+                            "video": "shopify://files/videos/f7b068a4bed74cd6ba8c1d8a1313c0a3.mov"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "media_67pydE"
+                      ]
                     }
                   },
                   "block_order": [
-                    "slider_item_Rgm3EH"
+                    "slider_item_Rgm3EH",
+                    "slider_item_BzHwA9"
                   ]
                 },
                 "title_fYmD6U": {
