@@ -14,6 +14,7 @@
 
   <script>
     var swiper = new Swiper(".mySwiper-{{ section.id }}{{ block.id }}", {
+      loop: true,
       navigation: {
         nextEl: ".image_{{ section.id }}{{ block.id }} .swiper-button-next",
         prevEl: ".image_{{ section.id }}{{ block.id }} .swiper-button-prev",
