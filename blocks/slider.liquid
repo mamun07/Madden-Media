@@ -30,7 +30,6 @@
   .image_area.image_{{ section.id }}{{ block.id }} {
     padding-top: {{ block.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ block.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    
   }
   .image_area.image_{{ section.id }}{{ block.id }} .mySwiper-{{ section.id }}{{ block.id }}{
     background: linear-gradient(135deg, rgba(135, 206, 235, 0.08) 0%, rgba(176, 196, 222, 0.06) 100%);
@@ -54,6 +53,12 @@
     width: 40px;
     height: 40px;
     border-radius: 30px;
+  }
+  .image_area.image_{{ section.id }}{{ block.id }} .nav_action{
+    display: none;
+  }
+  .image_area.image_{{ section.id }}{{ block.id }}:hover .nav_action{
+    display: block;
   }
   
   @media screen and (min-width: 750px) {
