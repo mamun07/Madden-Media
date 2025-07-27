@@ -5,7 +5,11 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
+  .section-{{ section.id }}-padding .media_area video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -59,7 +63,7 @@
             
             {%- when 'media' -%}
               {% if block.settings.bg_video != blank or block.settings.bg_image != blank %}
-                <div class="bg_banner_area">
+                <div class="media_area">
                   {% if block.settings.bg_image != blank %}
                     {{ block.settings.bg_image | image_url: width: 5000 | image_tag  }}
                   {% elsif block.settings.bg_video != blank %}
