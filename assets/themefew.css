@@ -114,9 +114,6 @@ body{
     max-width: none;
     margin: 20px auto;
     font-family: Satoshi, Arial, sans-serif;
-    /* font-size: 100px;
-    font-weight: 900;
-    line-height: 105px; */
     text-decoration: none;
 }
 .button.button--primary {
