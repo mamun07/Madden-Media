@@ -206,10 +206,29 @@
                       "block_order": [
                         "media_8B6BUG"
                       ]
+                    },
+                    "slider_item_RVBx6L": {
+                      "type": "slider-item",
+                      "name": "Slider Item",
+                      "settings": {},
+                      "blocks": {
+                        "media_NrGEjD": {
+                          "type": "media",
+                          "name": "Media",
+                          "settings": {
+                            "video_url": "shopify://files/videos/f.mp4"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "media_NrGEjD"
+                      ]
                     }
                   },
                   "block_order": [
-                    "slider_item_Rgm3EH"
+                    "slider_item_Rgm3EH",
+                    "slider_item_RVBx6L"
                   ]
                 },
                 "title_fYmD6U": {
