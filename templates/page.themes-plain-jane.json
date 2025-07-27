@@ -198,7 +198,7 @@
                           "type": "media",
                           "name": "Media",
                           "settings": {
-                            "video_url": "shopify://files/videos/f.mp4"
+                            "image": "shopify://shop_images/imgi_4_66205147ba29500f262c0564_6529e6b0d18b142762529c59_Screenshot_202023-10-13_20at_205.36.07_E2_80_AFPM.png"
                           },
                           "blocks": {}
                         }
@@ -216,7 +216,7 @@
                           "type": "media",
                           "name": "Media",
                           "settings": {
-                            "video_url": "shopify://files/videos/f.mp4"
+                            "video": "shopify://files/videos/f.mp4"
                           },
                           "blocks": {}
                         }
