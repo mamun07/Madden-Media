@@ -790,7 +790,7 @@
         "text_LDMBLq": {
           "type": "text",
           "settings": {
-            "text": "<h2>Get started risk-free. Our team will help install your theme for you. </h2>"
+            "text": "<h2>Get started risk-free. Our team will help install your theme for you. <br/> Secure your spot before they’re gone!</h2>"
           }
         },
         "glow_button_CyxGwp": {
@@ -813,7 +813,7 @@
         "color_scheme": "",
         "alignment": "center",
         "section_width": "page-width",
-        "padding_top": 40,
+        "padding_top": 52,
         "padding_bottom": 52
       }
     },
