@@ -1,4 +1,4 @@
-<div class="image_area.image_{{ section.id }}{{ block.id }}">
+<div class="image_area image_{{ section.id }}{{ block.id }}">
   <div class="swiper">
     <div class="mySwiper-{{ section.id }}{{ block.id }}">
       <div class="swiper-wrapper">
@@ -15,8 +15,8 @@
   <script>
     var swiper = new Swiper(".mySwiper-{{ section.id }}{{ block.id }}", {
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".image_{{ section.id }}{{ block.id }} .swiper-button-next",
+        prevEl: ".image_{{ section.id }}{{ block.id }} .swiper-button-prev",
       },
     });
   </script>
