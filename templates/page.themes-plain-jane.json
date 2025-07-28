@@ -909,36 +909,13 @@
                     "padding_bottom": 25
                   },
                   "blocks": {}
-                },
-                "image_jWm3Df": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/imgi_27_661c886cce5a04ced04b1e55_PJ_Starter_Demo.png",
-                    "image_width": 100,
-                    "padding_top": 0,
-                    "padding_bottom": 0
-                  },
-                  "blocks": {}
-                },
-                "text_qetKq8": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Email Sign-Up On Password Pages</h5></li><li><h5>✅ Store Clock</h5></li><li><h5>✅ 100+ Fonts</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "image_JFVkHX",
                 "text_DTjy4g",
                 "text_xqViiF",
-                "button_eQi8AB",
-                "image_jWm3Df",
-                "text_qetKq8"
+                "button_eQi8AB"
               ]
             },
             "column_77JMgX": {
@@ -997,36 +974,13 @@
                     "padding_bottom": 25
                   },
                   "blocks": {}
-                },
-                "image_nMUfFp": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/imgi_29_661c8c6c97149635cdd24a5e_PJ_2.0_Demo.png",
-                    "image_width": 100,
-                    "padding_top": 0,
-                    "padding_bottom": 0
-                  },
-                  "blocks": {}
-                },
-                "text_yWCafJ": {
-                  "type": "text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "<h2><strong>Highlight Features</strong></h2><ul><li><h5>✅ Minimal Layout For Easy Conversions</h5></li><li><h5>✅ Countdown Timer On Password Page</h5></li><li><h5>✅ Background Video Support On All Pages</h5></li><li><h5>✅ Music Player</h5></li><li><h5>✅ Custom Fonts and Custom Cursor</h5></li></ul><p><a href=\"#\" title=\"#\">View All Features</a></p>",
-                    "padding_top": 10,
-                    "padding_bottom": 10
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "image_ry6QgB",
                 "text_UXcy3j",
                 "text_gDMDQh",
-                "button_TY4xRV",
-                "image_nMUfFp",
-                "text_yWCafJ"
+                "button_TY4xRV"
               ]
             }
           },
