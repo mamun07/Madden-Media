@@ -58,7 +58,8 @@
           "type": "heading",
           "settings": {
             "heading": "Featured Customers",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "use_gray": false
           }
         }
       },
@@ -67,10 +68,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
         "padding_top": 80,
         "padding_bottom": 40
       }
@@ -140,7 +140,8 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Our Shopify Themes</strong>",
-            "heading_size": "hxl"
+            "heading_size": "hxl",
+            "use_gray": false
           }
         }
       },
@@ -149,10 +150,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
         "padding_top": 100,
         "padding_bottom": 40
       }
@@ -728,7 +728,8 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Our Services</strong>",
-            "heading_size": "hxxl"
+            "heading_size": "hxxl",
+            "use_gray": false
           }
         }
       },
@@ -737,10 +738,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
         "padding_top": 80,
         "padding_bottom": 52
       }
@@ -781,7 +781,7 @@
         "row_YY6jqk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/2.png",
+            "image": "shopify://shop_images/pt_2.png",
             "caption": "",
             "heading": "✦ Custom Development",
             "text": "<p>Need something unique? If our themes aren't quite right, we can build your Shopify site from scratch. Turnaround times vary depending on the project, ensuring we meet your specific needs.<br/></p>",
