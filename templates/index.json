@@ -81,37 +81,37 @@
         "image_jWjEMF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png"
+            "image": "shopify://shop_images/1_bdf98618-5bfa-4e3a-b56e-5c890d182a50.png"
           }
         },
         "image_RzVere": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_9_661f26a81e6440212a20ca3d_headache_gang_logo_new.png"
+            "image": "shopify://shop_images/222.png"
           }
         },
         "image_x3gLcw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_3_65e403ae69c02bd90f54ea5e_empire.png"
+            "image": "shopify://shop_images/logo3.png"
           }
         },
         "image_Xy76kU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_6_67cdf6ac17a019a3c5eb7ce5_SUPERLINE_WHOLESALE_LOGO__copy.webp"
+            "image": "shopify://shop_images/da_wa_d22d.png"
           }
         },
         "image_89yMrB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_5_65e40401f75f133236bfd387_Dreamville.png"
+            "image": "shopify://shop_images/dawd_wada.png"
           }
         },
         "image_4N3HLJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_82_667cada6296b9db18c6e6153_projectcaprilogo-p-1600.webp"
+            "image": "shopify://shop_images/badaw.png"
           }
         }
       },
@@ -351,7 +351,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost-interactive",
+                "url": "shopify://products/ghost",
                 "alignment": "left",
                 "show_border": true
               },
@@ -392,10 +392,10 @@
                   "name": "Button",
                   "settings": {
                     "btn_label": "Learn More",
-                    "btn_link": "shopify://products/ghost-interactive",
+                    "btn_link": "shopify://products/ghost",
                     "color_scheme_1": "scheme-2",
                     "btn_label_1": "Buy Now",
-                    "btn_link_1": "shopify://products/ghost-interactive",
+                    "btn_link_1": "shopify://products/ghost",
                     "color_scheme_2": "scheme-1",
                     "padding_top": 25,
                     "padding_bottom": 25
@@ -801,7 +801,7 @@
             "heading": "✦ 3D Products",
             "text": "<p>Enhance your product visuals with 3D images. Perfect for showcasing your items or promoting new releases on social media, we can create detailed 3D images of hoodies, tees, crewnecks, box covers, bottles, and more. <br/><br/>Expect delivery within 2-3 business days.</p>",
             "button_label": "Place An Order",
-            "button_link": "shopify://products/3d-product-image",
+            "button_link": "shopify://products/3d-product-image-gif-mp4",
             "light": true,
             "button_label1": "How It Works",
             "button_link1": "#",
@@ -816,7 +816,7 @@
             "heading": "✦ 3D Logos",
             "text": "<p>Bring your logo to life with a 3D spinning animation. Send us your design, and we'll transform it into a dynamic animated logo available in both .MP4 and .GIF formats.<br/><br/>Get your animated logo in just 1-2 business days.</p>",
             "button_label": "Place An Order",
-            "button_link": "shopify://products/3d-logo",
+            "button_link": "shopify://products/ghost-starter",
             "light": true,
             "button_label1": "How It Works",
             "button_link1": "#",
