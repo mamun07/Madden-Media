@@ -574,7 +574,7 @@
                   "name": "Number Countup",
                   "settings": {
                     "countup_number_before": "$",
-                    "countup_number": "12,000,223",
+                    "countup_number": "97,000",
                     "countup_number_after": "+",
                     "heading_size": "h0",
                     "padding_top": 0,
