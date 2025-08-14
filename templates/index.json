@@ -39,7 +39,6 @@
       "block_order": [
         "slide_ARkhcb"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -124,7 +123,6 @@
         "image_89yMrB",
         "image_4N3HLJ"
       ],
-      "disabled": true,
       "name": "Image marquee",
       "settings": {
         "desktop_content_position": "center",
@@ -446,7 +444,6 @@
       "block_order": [
         "row_WYbx7n"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "color_scheme": "",
@@ -653,7 +650,6 @@
         "row_76NAMA",
         "row_hWGqC6"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "bg_image": "shopify://shop_images/imgi_72_661185added44286b6e8f837_Sites_BG.png",
@@ -715,7 +711,6 @@
         "item_Nwe44j",
         "item_3BcURh"
       ],
-      "disabled": true,
       "name": "Review Slider",
       "settings": {
         "desktop_content_position": "center",
@@ -836,7 +831,6 @@
         "row_ce4Eyx",
         "row_pLiArx"
       ],
-      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -1062,7 +1056,6 @@
         "row_qixLBC",
         "row_wkQhcP"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "color_scheme": "",
