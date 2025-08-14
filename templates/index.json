@@ -351,7 +351,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost",
+                "url": "shopify://products/ghost-interactive",
                 "alignment": "left",
                 "show_border": true
               },
@@ -392,10 +392,10 @@
                   "name": "Button",
                   "settings": {
                     "btn_label": "Learn More",
-                    "btn_link": "shopify://products/ghost",
+                    "btn_link": "shopify://products/ghost-interactive",
                     "color_scheme_1": "scheme-2",
                     "btn_label_1": "Buy Now",
-                    "btn_link_1": "shopify://products/ghost",
+                    "btn_link_1": "shopify://products/ghost-interactive",
                     "color_scheme_2": "scheme-1",
                     "padding_top": 25,
                     "padding_bottom": 25
