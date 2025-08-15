@@ -406,7 +406,7 @@
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/imgi_31_661c8c8297f8422a79c58e0b_PJ_2.0_Interactive.png",
+                    "image": "shopify://shop_images/enter.png",
                     "image_width": 100,
                     "padding_top": 0,
                     "padding_bottom": 0
