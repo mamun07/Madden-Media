@@ -15,8 +15,7 @@
         "slide_ARkhcb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-08-14_at_2.23.09_PM.png",
-            "video": "shopify://files/videos/0814(1).mp4",
+            "video": "shopify://files/videos/mamun.mp4",
             "image_overlay_opacity": 0,
             "icon": "shopify://shop_images/sf.png",
             "heading": "<strong>Bringing Creative Freedom to Shopify</strong>",
