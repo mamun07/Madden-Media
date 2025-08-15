@@ -318,7 +318,7 @@
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/imgi_29_661c8c6c97149635cdd24a5e_PJ_2.0_Demo.png",
+                    "image": "shopify://shop_images/branded.png",
                     "image_width": 100,
                     "padding_top": 0,
                     "padding_bottom": 0
