@@ -174,7 +174,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost-interactive-2",
+                "url": "shopify://collections/ghost-starter",
                 "alignment": "left",
                 "show_border": true
               },
@@ -183,7 +183,7 @@
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/mecha.png",
+                    "image": "shopify://shop_images/WhatsApp_Image_2025-08-15_at_22.09.02_3d02919b_copy2_a62bb23f-0784-4d5b-91de-d85dbb1cf9c7.png",
                     "image_width": 100,
                     "padding_top": 0,
                     "padding_bottom": 0
@@ -262,7 +262,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost-interactive",
+                "url": "shopify://collections/ghost",
                 "alignment": "left",
                 "show_border": true
               },
@@ -271,7 +271,7 @@
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/gaga.png",
+                    "image": "shopify://shop_images/WhatsAppImage2025-08-15at22.09.02_3d02919bcopy_d7c6d727-428b-4fce-a6c8-169ca98912b7.png",
                     "image_width": 100,
                     "padding_top": 0,
                     "padding_bottom": 0
@@ -292,7 +292,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2><strong>GHOST </strong>➜</h2><p>Designed for both new and established stores, the Ghost theme is packed with advanced features to help your brand shine. Stand out with video backgrounds, music players, gradient overlays, and much more. Ideal for stores that boast strong brand content and a clear vision.</p><p><br/><em>Click 'Learn More' to view all features</em></p>",
+                    "text": "<h2><strong>GHOST CORE </strong>➜</h2><p>Designed for both new and established stores, the Ghost theme is packed with advanced features to help your brand shine. Stand out with video backgrounds, music players, gradient overlays, and much more. Ideal for stores that boast strong brand content and a clear vision.</p><p><br/><em>Click 'Learn More' to view all features</em></p>",
                     "padding_top": 0,
                     "padding_bottom": 0
                   },
@@ -350,7 +350,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost",
+                "url": "shopify://collections/ghost-interactive",
                 "alignment": "left",
                 "show_border": true
               },
@@ -359,7 +359,7 @@
                   "type": "image",
                   "name": "Image",
                   "settings": {
-                    "image": "shopify://shop_images/mm-2.png",
+                    "image": "shopify://shop_images/WhatsAppImage2025-08-15at22.09.02_3d02919bcopy22.png",
                     "image_width": 100,
                     "padding_top": 0,
                     "padding_bottom": 0
@@ -815,7 +815,7 @@
             "heading": "✦ 3D Logos",
             "text": "<p>Bring your logo to life with a 3D spinning animation. Send us your design, and we'll transform it into a dynamic animated logo available in both .MP4 and .GIF formats.<br/><br/>Get your animated logo in just 1-2 business days.</p>",
             "button_label": "Place An Order",
-            "button_link": "shopify://products/ghost-starter",
+            "button_link": "shopify://products/3d-logo-animation-gif-mp4",
             "light": true,
             "button_label1": "How It Works",
             "button_link1": "#",
