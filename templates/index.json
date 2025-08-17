@@ -174,7 +174,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections/ghost-starter",
+                "url": "shopify://products/ghost",
                 "alignment": "left",
                 "show_border": true
               },
