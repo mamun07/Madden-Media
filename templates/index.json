@@ -38,7 +38,6 @@
       "block_order": [
         "slide_ARkhcb"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -148,7 +147,6 @@
       "block_order": [
         "heading_gqXcgw"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -445,7 +443,6 @@
       "block_order": [
         "row_WYbx7n"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "color_scheme": "",
@@ -652,7 +649,6 @@
         "row_76NAMA",
         "row_hWGqC6"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "bg_image": "shopify://shop_images/bromad.png",
@@ -714,7 +710,6 @@
         "item_Nwe44j",
         "item_3BcURh"
       ],
-      "disabled": true,
       "name": "Review Slider",
       "settings": {
         "desktop_content_position": "center",
@@ -740,7 +735,6 @@
       "block_order": [
         "heading_N7VTde"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -836,7 +830,6 @@
         "row_ce4Eyx",
         "row_pLiArx"
       ],
-      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
@@ -1062,7 +1055,6 @@
         "row_qixLBC",
         "row_wkQhcP"
       ],
-      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "color_scheme": "",
