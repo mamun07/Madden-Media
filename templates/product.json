@@ -127,7 +127,7 @@
           "settings": {
             "heading": "Refund & Terms",
             "icon": "price_tag",
-            "content": "<p>Due to this being a digital product all sales are final</p><p>View our full refund policy <a href=\"https://www.openspaces.design/policies/refunds\" target=\"_blank\" title=\"https://www.openspaces.design/policies/refunds\">here</a></p>",
+            "content": "<p>Due to this being a digital product all sales are final</p><p>View our full refund policy <a href=\"#\" title=\"#\">here</a></p>",
             "page": ""
           }
         },
