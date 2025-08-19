@@ -118,7 +118,7 @@
           "settings": {
             "heading": "View Demo",
             "icon": "star",
-            "content": "<p>Plain Jane Starter Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Plain Jane Starter Demo - <a href=\"#\" title=\"#\">View Here</a></p>",
             "page": ""
           }
         },
@@ -127,7 +127,7 @@
           "settings": {
             "heading": "Requirements",
             "icon": "check_mark",
-            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1<a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">here</a></p>",
+            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1 <a href=\"#\" target=\"_blank\" title=\"#\">here</a></p>",
             "page": ""
           }
         },
@@ -136,7 +136,7 @@
           "settings": {
             "heading": "Install Guide",
             "icon": "silhouette",
-            "content": "<p>To self-install follow our tutorial here﻿:<br/><a href=\"https://youtu.be/LaPz9Y9ysfE\">https://youtu.be/LaPz9Y9ysfE</a>If you would rather the OpenSpaces team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
+            "content": "<p>To self-install follow our tutorial here﻿: If you would rather the maddenmedia team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
             "page": ""
           }
         },
@@ -145,7 +145,7 @@
           "settings": {
             "heading": "Refund & Terms",
             "icon": "price_tag",
-            "content": "<p>Added your best content and didn't see higher conversions in 14 days? Show us for a full refund, no questions asked.</p><p>View our full refund policy <a href=\"https://www.openspaces.design/policies/refunds\" target=\"_blank\" title=\"https://www.openspaces.design/policies/refunds\">here</a></p>",
+            "content": "<p>Added your best content and didn't see higher conversions in 14 days? Show us for a full refund, no questions asked.</p><p>View our full refund policy <a href=\"#\" target=\"_blank\" title=\"#\">here</a></p>",
             "page": ""
           }
         },
@@ -154,7 +154,7 @@
           "settings": {
             "heading": "Support",
             "icon": "chat_bubble",
-            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us directly<a href=\"https://shop.openspaces.design/products/support@openspaces.design\">support@openspaces.design</a></p>",
+            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us directly <a href=\"https://shop.openspaces.design/products/support@openspaces.design\">support@openspaces.design</a></p>",
             "page": ""
           }
         },
@@ -364,6 +364,7 @@
       "settings": {
         "color_scheme": "",
         "full_width": false,
+        "custom_id": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -457,7 +458,8 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Popular Features</strong>",
-            "heading_size": "hxl"
+            "heading_size": "hxl",
+            "use_gray": false
           }
         },
         "text_4mMT3c": {
@@ -473,10 +475,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "alignment": "center",
+        "section_width": "page-width page-width--narrow",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -915,7 +916,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_Giw7Ww": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
