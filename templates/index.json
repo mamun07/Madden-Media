@@ -174,7 +174,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://products/ghost",
+                "url": "https://maddenmedia.co/products/ghost-starter",
                 "alignment": "left",
                 "show_border": true
               },
@@ -262,7 +262,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections/ghost",
+                "url": "https://maddenmedia.co/products/ghost",
                 "alignment": "left",
                 "show_border": true
               },
@@ -350,7 +350,7 @@
               "settings": {
                 "use_bg": false,
                 "color_scheme": "",
-                "url": "shopify://collections/ghost-interactive",
+                "url": "https://maddenmedia.co/products/ghost-interactive-1",
                 "alignment": "left",
                 "show_border": true
               },
