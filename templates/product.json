@@ -100,7 +100,7 @@
           "settings": {
             "heading": "View Demo",
             "icon": "star",
-            "content": "<p>Ghost Demo - <a href=\"https://plain-jane-starter.myshopify.com\">View Here</a></p>",
+            "content": "<p>Ghost Demo - <a href=\"#\" title=\"#\">View Here</a></p>",
             "page": ""
           }
         },
@@ -109,7 +109,7 @@
           "settings": {
             "heading": "Requirements",
             "icon": "check_mark",
-            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1<a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">here</a></p>",
+            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1 <a href=\"#\" title=\"#\">here</a></p>",
             "page": ""
           }
         },
@@ -118,7 +118,7 @@
           "settings": {
             "heading": "Install Guide",
             "icon": "silhouette",
-            "content": "<p>To self-install follow our tutorial here﻿:<br/><a href=\"https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s\" target=\"_blank\">https://www.youtube.com/watch?v=5Oh44whVSuE&t=1s</a>If you would rather the OpenSpaces team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
+            "content": "<p>To self-install follow our tutorial here﻿: If you would rather the maddenmedia team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
             "page": ""
           }
         },
