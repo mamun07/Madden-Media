@@ -710,6 +710,7 @@
         "item_Nwe44j",
         "item_3BcURh"
       ],
+      "disabled": true,
       "name": "Review Slider",
       "settings": {
         "desktop_content_position": "center",
