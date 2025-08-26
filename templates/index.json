@@ -443,6 +443,7 @@
       "block_order": [
         "row_WYbx7n"
       ],
+      "disabled": true,
       "name": "Custom Section",
       "settings": {
         "color_scheme": "",
