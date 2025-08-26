@@ -97,6 +97,7 @@
         },
         "collapsible_tab_ibECRX": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "View Demo",
             "icon": "star",
