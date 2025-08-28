@@ -356,54 +356,54 @@
         "collapsible_row_HdrYpJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does your Shopify theme work?",
+            "heading": "How does your flat lay service work?",
             "icon": "none",
-            "row_content": "<p>A Shopify theme is a template that lets you design your own e-commerce website on Shopify. Just install it in your Shopify account and customize it to your liking.</p>",
+            "row_content": "<p>You ship us your products, and we handle everything — staging, photography, video, editing, and delivery of polished assets.</p>",
             "page": ""
           }
         },
         "collapsible_row_GTPTez": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does your theme work with all Shopify plans?",
+            "heading": "What types of products do you shoot?",
             "icon": "none",
-            "row_content": "<p>Yes, our themes work with all Shopify plans. Start your Shopify for $1 for three months here: <a href=\"https://shopify.pxf.io/3ej3yd\" target=\"_blank\">https://shopify.pxf.io/3ej3yd</a></p>",
+            "row_content": "<p>We specialize in clothing, streetwear, and fashion accessories, but we can capture almost any physical product with a clean, professional flat lay.</p>",
             "page": ""
           }
         },
         "collapsible_row_9hgzyA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What does the 1-year license mean? What happens if I don't renew?",
+            "heading": "Do you offer video as well as photos?",
             "icon": "none",
-            "row_content": "<p>A 1-year license gives you access to support and updates for one year. If you don't renew, you won't be able to customize or receive updates for your theme.</p>",
+            "row_content": "<p>Yes! We provide <strong>cinematic flat lay videos</strong> with dozens of angles, close-ups, and motion shots optimized for ads, TikTok, Instagram, and Shopify.</p>",
             "page": ""
           }
         },
         "collapsible_row_8iHRpJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much do your themes cost?",
+            "heading": "How much do your services cost?",
             "icon": "none",
-            "row_content": "<p>Our installation service helps you install the Shopify theme onto your account. This is not a fully set-up store.</p>",
+            "row_content": "<p>Pricing depends on the scope — single products, full collections, or full-scale campaigns. Reach out for a tailored quote.</p>",
             "page": ""
           }
         },
         "collapsible_row_mLKGTh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I use 1 license in multiple Shopify stores?",
+            "heading": "What’s your turnaround time?",
             "icon": "none",
-            "row_content": "<p>No, each license is valid for one Shopify store. If you want to use it in multiple stores, you need to purchase another license.</p>",
+            "row_content": "<p>Flat lay photos are typically delivered within <strong>5–10 business days</strong>, while video campaigns take <strong>7–12 business days</strong>.</p>",
             "page": ""
           }
         },
         "collapsible_row_FTmCUF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I transfer my theme to a different store?",
+            "heading": "Can I request custom campaigns?",
             "icon": "none",
-            "row_content": "<p>Yes, you can transfer your license to a different Shopify store by providing your license key and the new store URL to our support team.</p>",
+            "row_content": "<p>Absolutely. We build custom creative campaigns for product drops, seasonal launches, or branded storytelling.</p>",
             "page": ""
           }
         }
