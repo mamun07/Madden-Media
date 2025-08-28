@@ -242,7 +242,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2><strong>Fresh Content</strong><br/>Keep your brand looking sharp with updated visuals for every new drop or collection.</h2>",
+                    "text": "<h2>Fresh Content</h2><p>Keep your brand looking sharp with updated visuals for every new drop or collection.</p>",
                     "padding_top": 10,
                     "padding_bottom": 50
                   },
