@@ -21,7 +21,7 @@
             "heading": "<strong>Product Shots Built for Streetwear</strong>",
             "heading_size": "hxl",
             "subheading": "Clothing content that competes with leading lifestyle & streetwear brands. Highly customizable, easy to use, and affordable for independent brands.",
-            "button_label": "Shop Themes 🖥️",
+            "button_label": "Shop Packages 🖥️",
             "link": "shopify://collections/themes",
             "button_style_secondary": false,
             "button_label2": "Join Our Discord 👥",
@@ -138,7 +138,7 @@
         "heading_gqXcgw": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Streetwear Packages</strong>",
+            "heading": "<strong>Bundles</strong>",
             "heading_size": "hxl",
             "use_gray": false
           }
@@ -459,7 +459,7 @@
       "settings": {
         "collection": "best-selling",
         "products_to_show": 4,
-        "title": "Featured collection",
+        "title": "",
         "layout": "page-width",
         "heading_size": "h1",
         "description": "",
