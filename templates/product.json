@@ -97,11 +97,10 @@
         },
         "collapsible_tab_ibECRX": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "View Demo",
+            "heading": "What We Deliver",
             "icon": "star",
-            "content": "<p>Ghost Demo - <a href=\"#\" title=\"#\">View Here</a></p>",
+            "content": "<p>See our proven work in action. Browse past flat lay photography and video campaigns to get a sense of the quality, variety, and consistency we deliver for clothing brands and product drops.</p>",
             "page": ""
           }
         },
@@ -110,16 +109,16 @@
           "settings": {
             "heading": "Requirements",
             "icon": "check_mark",
-            "content": "<p>1. A Mac or Windows PC/Laptop<br/><br/>2. A Shopify Subscription<br/><br/>Get Shopify for $1 <a href=\"#\" title=\"#\">here</a></p>",
+            "content": "<p>All we need from you are your product samples and any brand guidelines (logos, fonts, moodboards, or inspiration). Once we have your items, our team handles everything from staging to editing.</p>",
             "page": ""
           }
         },
         "collapsible_tab_ycTPb8": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Install Guide",
-            "icon": "silhouette",
-            "content": "<p>To self-install follow our tutorial here﻿: If you would rather the maddenmedia team install your theme, select the option from the dropdown above. Our installation fee is $35</p>",
+            "heading": "Process & Workflow",
+            "icon": "stopwatch",
+            "content": "<p><strong>Ship Your Products</strong> – You send us the items you want shot.<br/><strong>Studio Shoot</strong> – We stage, light, and capture stills + video.<br/><strong>Editing</strong> – Crisp, clean, professional polish added.<br/><strong>Delivery</strong> – Final assets sent, optimized for web + social.</p>",
             "page": ""
           }
         },
