@@ -781,29 +781,29 @@
         "row_YjLU93": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/2940357333497403109.jpg",
+            "image": "shopify://shop_images/adaScreenshot_2025-08-28_at_1.02.57_PM.png",
             "caption": "",
             "heading": "Flat Lay Photography",
             "text": "<h3>✦ Product Shots</h3><p>Get studio-grade visuals that make your products stand out. From crisp flat lays to high-quality video angles, our service highlights every detail — perfect for clothing brands, e-com stores, and product drops.</p><p>We deliver scroll-stopping content ready for Shopify, Etsy, and social media in as little as 5–10 business days.</p>",
-            "button_label": "How It Works",
+            "button_label": "",
             "button_link": "#",
             "light": false,
-            "button_label1": "Get A Quote",
-            "button_link1": "shopify://pages/store-setup",
+            "button_label1": "Get Yours Now",
+            "button_link1": "shopify://products/flat-lay-clothing-photography",
             "light1": true
           }
         },
         "row_ffiNx6": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/adameme.png",
+            "image": "shopify://shop_images/flat.png",
             "caption": "",
-            "heading": "✦ Theme Installation",
-            "text": "<p>Pick an MaddenMedia theme, and we'll efficiently install it on your Shopify account, creating the perfect canvas for you to start customizing within<br/>1-2 business days.</p>",
-            "button_label": "Request An Installation",
+            "heading": "✦ Flat Lay Videos",
+            "text": "<p>Bring your products to life with cinematic flat lay videos. We capture <strong>crisp details, closeups, and dozens of angles</strong> so your customers see every stitch, texture, and fit.</p><p>Perfect for clothing brands and e-commerce drops — our video flat lays are built for Shopify, Instagram, TikTok, and paid ads.</p><p></p>",
+            "button_label": "Get your Own",
             "button_link": "shopify://pages/installation",
             "light": true,
-            "button_label1": "How It Works",
+            "button_label1": "",
             "button_link1": "#",
             "light1": false
           }
