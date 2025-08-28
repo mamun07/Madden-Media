@@ -125,9 +125,9 @@
         "collapsible_tab_xCGfdN": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Refund & Terms",
+            "heading": "Turnaround & Revisions",
             "icon": "price_tag",
-            "content": "<p>Due to this being a digital product all sales are final</p><p>View our full refund policy <a href=\"#\" title=\"#\">here</a></p>",
+            "content": "<p>Standard turnaround is <strong>5–10 business days</strong> for photo projects and <strong>7–12 business days</strong> for video campaigns. One round of light revisions is always included to make sure your assets are perfect.</p>",
             "page": ""
           }
         },
@@ -136,25 +136,25 @@
           "settings": {
             "heading": "Support",
             "icon": "chat_bubble",
-            "content": "<p>1. Join our Discord to get help from our team and community members here<br/><br/>2. Contact us maddenmedia@gmail.com</p>",
+            "content": "<p>You’ll have a direct line to our team throughout your project. We’ll provide updates at each step (products received, shoot complete, editing in progress, assets delivered) so you’re never in the dark.</p>",
             "page": ""
           }
         },
         "collapsible_tab_apywzV": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "About Standard License",
+            "heading": "Custom Campaigns",
             "icon": "question_mark",
-            "content": "<p>This product does not require any renewal. There is no 1 year license associated with this product.</p>",
+            "content": "<p>Looking for more than just a single shoot? We design <strong>custom campaigns</strong> — from collection launches to themed concepts with advanced staging, sets, and storytelling. These are tailored to your brand’s vision and scale.</p>",
             "page": ""
           }
         },
         "collapsible_tab_hXQeVm": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "About Extended License",
+            "heading": "Terms & Licensing",
             "icon": "question_mark",
-            "content": "",
+            "content": "<p>You own full rights to use the delivered assets across your website, social media, ads, and print. All we ask is credit if images are repurposed by third-party press or collaborations. Full terms are outlined in your service agreement.</p>",
             "page": ""
           }
         },
