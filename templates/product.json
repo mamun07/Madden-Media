@@ -242,7 +242,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Free Updates</h2><p>Keeping your site up to date with best practices and new features</p>",
+                    "text": "<h2><strong>Fresh Content</strong><br/>Keep your brand looking sharp with updated visuals for every new drop or collection.</h2>",
                     "padding_top": 10,
                     "padding_bottom": 50
                   },
@@ -280,7 +280,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Tech Support</h2><p>Via Discord, Email, and Live Chat</p>",
+                    "text": "<h2>Dedicated Support</h2><p>We’re here for you through every step — from product shipping to final delivery.</p>",
                     "padding_top": 10,
                     "padding_bottom": 50
                   },
