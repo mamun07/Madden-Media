@@ -476,7 +476,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -509,7 +509,7 @@
                   "type": "title",
                   "name": "Title",
                   "settings": {
-                    "heading": "<strong>Trusted By 1000+</strong>",
+                    "heading": "<strong>Trusted By 300+</strong>",
                     "heading_size": "hxxl",
                     "padding_top": 0,
                     "padding_bottom": 0
@@ -685,8 +685,8 @@
         "color_scheme": "",
         "full_width": false,
         "custom_id": "",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "review_slider_PUChrA": {
@@ -758,7 +758,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Our Services</strong>",
-            "heading_size": "hxxl",
+            "heading_size": "hxl",
             "use_gray": false
           }
         }
@@ -771,8 +771,8 @@
         "color_scheme": "",
         "alignment": "center",
         "section_width": "page-width page-width--narrow",
-        "padding_top": 80,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multirow_CUBMeJ": {
@@ -781,10 +781,10 @@
         "row_YjLU93": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/sktc.png",
+            "image": "shopify://shop_images/2940357333497403109.jpg",
             "caption": "",
-            "heading": "✦ Theme Setup",
-            "text": "<p>Get your Shopify store up and running fast with our Theme Setup service. Perfect for any new business, from clothing brands to dropshipping sites. We'll have your store ready in 5-10 business days. <br/>‍<br/>Ask for a quote today and we'll respond in less than 24 hours.</p>",
+            "heading": "Flat Lay Photography",
+            "text": "<h3>✦ Product Shots</h3><p>Get studio-grade visuals that make your products stand out. From crisp flat lays to high-quality video angles, our service highlights every detail — perfect for clothing brands, e-com stores, and product drops.</p><p>We deliver scroll-stopping content ready for Shopify, Etsy, and social media in as little as 5–10 business days.</p>",
             "button_label": "How It Works",
             "button_link": "#",
             "light": false,
