@@ -153,7 +153,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Terms & Licensing",
-            "icon": "question_mark",
+            "icon": "return",
             "content": "<p>You own full rights to use the delivered assets across your website, social media, ads, and print. All we ask is credit if images are repurposed by third-party press or collaborations. Full terms are outlined in your service agreement.</p>",
             "page": ""
           }
