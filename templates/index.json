@@ -808,6 +808,21 @@
             "light1": false
           }
         },
+        "row_GYd4MQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-28_at_1.14.31_PM.png",
+            "caption": "",
+            "heading": "✦ Professional Editing",
+            "text": "<p>Bring your products to life with cinematic flat lay videos. We capture <strong>crisp details, closeups, and dozens of angles</strong> so your customers see every stitch, texture, and fit.</p><p>Perfect for clothing brands and e-commerce drops — our video flat lays are built for Shopify, Instagram, TikTok, and paid ads.</p><p></p>",
+            "button_label": "Get your Own",
+            "button_link": "shopify://products/flat-lay-clothing-video-package",
+            "light": true,
+            "button_label1": "",
+            "button_link1": "#",
+            "light1": false
+          }
+        },
         "row_YY6jqk": {
           "type": "row",
           "settings": {
@@ -857,6 +872,7 @@
       "block_order": [
         "row_YjLU93",
         "row_ffiNx6",
+        "row_GYd4MQ",
         "row_YY6jqk",
         "row_ce4Eyx",
         "row_pLiArx"
