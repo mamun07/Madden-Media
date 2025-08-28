@@ -828,8 +828,8 @@
           "settings": {
             "image": "shopify://shop_images/pt_2.png",
             "caption": "",
-            "heading": "✦ Custom Development",
-            "text": "<p>Need something unique? If our themes aren't quite right, we can build your Shopify site from scratch. Turnaround times vary depending on the project, ensuring we meet your specific needs.<br/></p>",
+            "heading": "✦ Custom Campaigns",
+            "text": "<p>Need something bigger than a standard shoot? We design <strong>custom photography and video campaigns</strong> tailored to your brand. From multi-product drops to themed creative concepts, we’ll build visuals that tell your story and move your audience.</p><p>Turnaround times vary depending on scope, ensuring every campaign hits the quality and impact your brand deserves.</p>",
             "button_label": "Hire Us",
             "button_link": "shopify://pages/hire-us",
             "light": true,
