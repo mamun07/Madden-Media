@@ -157,12 +157,6 @@
             "content": "<p>You own full rights to use the delivered assets across your website, social media, ads, and print. All we ask is credit if images are repurposed by third-party press or collaborations. Full terms are outlined in your service agreement.</p>",
             "page": ""
           }
-        },
-        "share_zgxBDQ": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -185,8 +179,7 @@
         "collapsible_tab_xCGfdN",
         "collapsible_tab_HxMcxj",
         "collapsible_tab_apywzV",
-        "collapsible_tab_hXQeVm",
-        "share_zgxBDQ"
+        "collapsible_tab_hXQeVm"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -203,6 +196,37 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
+    },
+    "17566054990cf735c7": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_523fbf1_YBtXt7": {
+          "type": "ai_gen_block_523fbf1",
+          "settings": {
+            "video_height": 600,
+            "video_gap": 8,
+            "section_padding": 48,
+            "border_radius": 2,
+            "background_color": "#000000",
+            "title_size": 18,
+            "description_size": 14,
+            "video_1": "https://cdn.shopify.com/videos/c/o/v/06d07fe0e3d14a4fa4425386a9a72ab0.mov",
+            "video_1_title": "",
+            "video_1_description": "",
+            "video_2": "https://cdn.shopify.com/videos/c/o/v/0a24891df2084489ac23147f295e5227.mov",
+            "video_2_title": "",
+            "video_2_description": "",
+            "video_3": "https://cdn.shopify.com/videos/c/o/v/647625f1c93442649c0c347ec72a7067.mov",
+            "video_3_title": "",
+            "video_3_description": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_523fbf1_YBtXt7"
+      ],
+      "settings": {}
     },
     "custom_section_4MJCpn": {
       "type": "custom-section",
@@ -329,12 +353,25 @@
                 "image_Ptazy8",
                 "text_XayetW"
               ]
+            },
+            "column_rXXT6e": {
+              "type": "column",
+              "name": "Column",
+              "settings": {
+                "use_bg": false,
+                "color_scheme": "",
+                "url": "",
+                "alignment": "left",
+                "show_border": false
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "column_exggby",
             "column_4kzGWz",
-            "column_wzYcnz"
+            "column_wzYcnz",
+            "column_rXXT6e"
           ]
         }
       },
@@ -473,6 +510,7 @@
   },
   "order": [
     "main",
+    "17566054990cf735c7",
     "custom_section_4MJCpn",
     "collapsible_content_JkLmx6",
     "17529548762c0bafb7",
